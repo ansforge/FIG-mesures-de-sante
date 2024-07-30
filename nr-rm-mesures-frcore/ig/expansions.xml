@@ -1,0 +1,1159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="b69a534e-4fd6-4e5e-b742-3f0402c237cd"/>
+  <meta>
+    <lastUpdated value="2024-07-30T08:11:30.740+00:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="https://interop.esante.gouv.fr/ig/fhir/mesures/ValueSet/mes-vs-height-body-position"/>
+    <resource>
+      <ValueSet>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id">
+              <b>Generated Narrative: ValueSet </b>
+            </p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 01-Feb 2024</p>
+            <p>This value set expansion contains 58 concepts.</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-10904000"> </a>  
+                  <a href="http://snomed.info/id/10904000">10904000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Orthostatic body position</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-262175005"> </a>  
+                  <a href="http://snomed.info/id/262175005">262175005</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Standing/tilting</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-272526000"> </a>  
+                  <a href="http://snomed.info/id/272526000">272526000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Close-standing</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-272527009"> </a>  
+                  <a href="http://snomed.info/id/272527009">272527009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Toe-standing</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-272528004"> </a>  
+                  <a href="http://snomed.info/id/272528004">272528004</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Stride-standing</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-272529007"> </a>  
+                  <a href="http://snomed.info/id/272529007">272529007</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Walk-standing</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-272530002"> </a>  
+                  <a href="http://snomed.info/id/272530002">272530002</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Step-standing</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-272531003"> </a>  
+                  <a href="http://snomed.info/id/272531003">272531003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Wide-standing</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-272532005"> </a>  
+                  <a href="http://snomed.info/id/272532005">272532005</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Cross-standing</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-272533000"> </a>  
+                  <a href="http://snomed.info/id/272533000">272533000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Stride long-standing</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-272534006"> </a>  
+                  <a href="http://snomed.info/id/272534006">272534006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Standing in water</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-272535007"> </a>  
+                  <a href="http://snomed.info/id/272535007">272535007</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Freestanding in water</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-272536008"> </a>  
+                  <a href="http://snomed.info/id/272536008">272536008</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Standing in water holding rail</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-272537004"> </a>  
+                  <a href="http://snomed.info/id/272537004">272537004</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Standing in water facing side</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-272538009"> </a>  
+                  <a href="http://snomed.info/id/272538009">272538009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Standing in water side towards</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-272539001"> </a>  
+                  <a href="http://snomed.info/id/272539001">272539001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Inclined standing in water towards rail</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-272540004"> </a>  
+                  <a href="http://snomed.info/id/272540004">272540004</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Inclined standing in water away from rail</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-404927005"> </a>  
+                  <a href="http://snomed.info/id/404927005">404927005</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Unsupported standing position (finding)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-102538003"> </a>  
+                  <a href="http://snomed.info/id/102538003">102538003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Recumbent body position</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-1240000"> </a>  
+                  <a href="http://snomed.info/id/1240000">1240000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Prone body position</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-14205002"> </a>  
+                  <a href="http://snomed.info/id/14205002">14205002</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Lithotomy position</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-17535004"> </a>  
+                  <a href="http://snomed.info/id/17535004">17535004</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Lying in bed</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-26527006"> </a>  
+                  <a href="http://snomed.info/id/26527006">26527006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Inverse Trendelenburg position</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-30212006"> </a>  
+                  <a href="http://snomed.info/id/30212006">30212006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Fowler's position</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-32185000"> </a>  
+                  <a href="http://snomed.info/id/32185000">32185000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Lateral decubitus position</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-34026001"> </a>  
+                  <a href="http://snomed.info/id/34026001">34026001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Semiprone position</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-34106002"> </a>  
+                  <a href="http://snomed.info/id/34106002">34106002</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Trendelenburg position</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-40199007"> </a>  
+                  <a href="http://snomed.info/id/40199007">40199007</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Supine body position</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-102535000"> </a>  
+                  <a href="http://snomed.info/id/102535000">102535000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Right lateral decubitus position</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-102536004"> </a>  
+                  <a href="http://snomed.info/id/102536004">102536004</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Left lateral decubitus position</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-272559002"> </a>  
+                  <a href="http://snomed.info/id/272559002">272559002</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Supine and quarter turn to right - foot bed raised 14 inches</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-272560007"> </a>  
+                  <a href="http://snomed.info/id/272560007">272560007</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Supine and quarter turn to left - bed tipped 14 inches</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-272561006"> </a>  
+                  <a href="http://snomed.info/id/272561006">272561006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Supine - foot bed raised 18 inches</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-272562004"> </a>  
+                  <a href="http://snomed.info/id/272562004">272562004</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Prone with pillow under hips</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-272563009"> </a>  
+                  <a href="http://snomed.info/id/272563009">272563009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Prone with pillow under hips - foot bed raised 18 inches</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-272564003"> </a>  
+                  <a href="http://snomed.info/id/272564003">272564003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Prone on a horse</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-272565002"> </a>  
+                  <a href="http://snomed.info/id/272565002">272565002</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Crook-lying</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-272566001"> </a>  
+                  <a href="http://snomed.info/id/272566001">272566001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Crook side-lying</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-272567005"> </a>  
+                  <a href="http://snomed.info/id/272567005">272567005</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Half-crook side-lying</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-272568000"> </a>  
+                  <a href="http://snomed.info/id/272568000">272568000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Bridging position</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-272569008"> </a>  
+                  <a href="http://snomed.info/id/272569008">272569008</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Lateral position with broken table</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-272570009"> </a>  
+                  <a href="http://snomed.info/id/272570009">272570009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Right side-lying with 45 degree turn onto face and pillows under shoulders</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-272571008"> </a>  
+                  <a href="http://snomed.info/id/272571008">272571008</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Left side-lying with 45 degree turn onto face</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-272572001"> </a>  
+                  <a href="http://snomed.info/id/272572001">272572001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Side-lying - foot bed raised 18 inches</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-272573006"> </a>  
+                  <a href="http://snomed.info/id/272573006">272573006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Thoracotomy position</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-272580008"> </a>  
+                  <a href="http://snomed.info/id/272580008">272580008</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Semi-recumbent position</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-272587006"> </a>  
+                  <a href="http://snomed.info/id/272587006">272587006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Position with tilt</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-272595005"> </a>  
+                  <a href="http://snomed.info/id/272595005">272595005</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Lying sideways on a horse</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-312995000"> </a>  
+                  <a href="http://snomed.info/id/312995000">312995000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Prone on a Relton Hall frame</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-397888006"> </a>  
+                  <a href="http://snomed.info/id/397888006">397888006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Patient in supine position with hip support (finding)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-414585002"> </a>  
+                  <a href="http://snomed.info/id/414585002">414585002</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Left lateral tilt (finding)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-415346000"> </a>  
+                  <a href="http://snomed.info/id/415346000">415346000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Right lateral tilt (finding)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-416971003"> </a>  
+                  <a href="http://snomed.info/id/416971003">416971003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Modified lithotomy position - Lloyd Davis (finding)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-426408003"> </a>  
+                  <a href="http://snomed.info/id/426408003">426408003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Semi-Fowler's position (finding)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-429628009"> </a>  
+                  <a href="http://snomed.info/id/429628009">429628009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>In modified Fowler's position (finding)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-447756006"> </a>  
+                  <a href="http://snomed.info/id/447756006">447756006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Jackknife surgical position (finding)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-1172960007"> </a>  
+                  <a href="http://snomed.info/id/1172960007">1172960007</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Prone body position for enteral nutrition administration</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-1172962004"> </a>  
+                  <a href="http://snomed.info/id/1172962004">1172962004</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Supine body position for enteral nutrition administration</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://interop.esante.gouv.fr/ig/fhir/mesures/ValueSet/mes-vs-height-body-position"/>
+        <version value="3.1.0-ballot"/>
+        <name value="MesValueSetHeightBodyPosition"/>
+        <title value="Mes ValueSet BodyPosition"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2024-07-30T08:11:30+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="FR"/>
+            <display value="FRANCE"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
+            <valueBoolean value="true"/>
+          </extension>
+          <identifier value="urn:uuid:e74259e8-08c4-4a25-a175-5686e0a2c96c"/>
+          <timestamp value="2024-07-30T08:12:26+00:00"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240201"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240201"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="10904000"/>
+            <display value="Orthostatic body position"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="262175005"/>
+            <display value="Standing/tilting"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="272526000"/>
+            <display value="Close-standing"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="272527009"/>
+            <display value="Toe-standing"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="272528004"/>
+            <display value="Stride-standing"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="272529007"/>
+            <display value="Walk-standing"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="272530002"/>
+            <display value="Step-standing"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="272531003"/>
+            <display value="Wide-standing"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="272532005"/>
+            <display value="Cross-standing"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="272533000"/>
+            <display value="Stride long-standing"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="272534006"/>
+            <display value="Standing in water"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="272535007"/>
+            <display value="Freestanding in water"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="272536008"/>
+            <display value="Standing in water holding rail"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="272537004"/>
+            <display value="Standing in water facing side"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="272538009"/>
+            <display value="Standing in water side towards"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="272539001"/>
+            <display value="Inclined standing in water towards rail"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="272540004"/>
+            <display value="Inclined standing in water away from rail"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="404927005"/>
+            <display value="Unsupported standing position (finding)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="102538003"/>
+            <display value="Recumbent body position"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="1240000"/>
+            <display value="Prone body position"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="14205002"/>
+            <display value="Lithotomy position"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="17535004"/>
+            <display value="Lying in bed"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="26527006"/>
+            <display value="Inverse Trendelenburg position"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="30212006"/>
+            <display value="Fowler's position"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="32185000"/>
+            <display value="Lateral decubitus position"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="34026001"/>
+            <display value="Semiprone position"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="34106002"/>
+            <display value="Trendelenburg position"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="40199007"/>
+            <display value="Supine body position"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="102535000"/>
+            <display value="Right lateral decubitus position"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="102536004"/>
+            <display value="Left lateral decubitus position"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="272559002"/>
+            <display value="Supine and quarter turn to right - foot bed raised 14 inches"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="272560007"/>
+            <display value="Supine and quarter turn to left - bed tipped 14 inches"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="272561006"/>
+            <display value="Supine - foot bed raised 18 inches"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="272562004"/>
+            <display value="Prone with pillow under hips"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="272563009"/>
+            <display value="Prone with pillow under hips - foot bed raised 18 inches"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="272564003"/>
+            <display value="Prone on a horse"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="272565002"/>
+            <display value="Crook-lying"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="272566001"/>
+            <display value="Crook side-lying"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="272567005"/>
+            <display value="Half-crook side-lying"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="272568000"/>
+            <display value="Bridging position"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="272569008"/>
+            <display value="Lateral position with broken table"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="272570009"/>
+            <display value="Right side-lying with 45 degree turn onto face and pillows under shoulders"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="272571008"/>
+            <display value="Left side-lying with 45 degree turn onto face"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="272572001"/>
+            <display value="Side-lying - foot bed raised 18 inches"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="272573006"/>
+            <display value="Thoracotomy position"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="272580008"/>
+            <display value="Semi-recumbent position"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="272587006"/>
+            <display value="Position with tilt"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="272595005"/>
+            <display value="Lying sideways on a horse"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="312995000"/>
+            <display value="Prone on a Relton Hall frame"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="397888006"/>
+            <display value="Patient in supine position with hip support (finding)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="414585002"/>
+            <display value="Left lateral tilt (finding)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="415346000"/>
+            <display value="Right lateral tilt (finding)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="416971003"/>
+            <display value="Modified lithotomy position - Lloyd Davis (finding)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="426408003"/>
+            <display value="Semi-Fowler's position (finding)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="429628009"/>
+            <display value="In modified Fowler's position (finding)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="447756006"/>
+            <display value="Jackknife surgical position (finding)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="1172960007"/>
+            <display value="Prone body position for enteral nutrition administration"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="1172962004"/>
+            <display value="Supine body position for enteral nutrition administration"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://interop.esante.gouv.fr/ig/fhir/mesures/ValueSet/method-glucose-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id">
+              <b>Generated Narrative: ValueSet </b>
+            </p>
+            <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
+              <p>Expansion based on:</p>
+              <ul>
+                <li>
+                  <a href="https://interop.esante.gouv.fr/ig/nos/1.2.0/CodeSystem-TRE-R307-NCIT.html">codesystem TRE_R307-NCIT v1.2.0 (CodeSystem)</a>
+                </li>
+                <li>
+                  <a href="https://interop.esante.gouv.fr/ig/nos/1.2.0/CodeSystem-TRE-R312-LPP.html">codesystem TRE_R312-LPP v1.2.0 (CodeSystem)</a>
+                </li>
+              </ul>
+            </div>
+            <p>This value set contains 18 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://mos.esante.gouv.fr/NOS/TRE_R312-LPP/FHIR/TRE-R312-LPP-1101720"> </a>  
+                  <a href="https://interop.esante.gouv.fr/ig/nos/1.2.0/CodeSystem-TRE-R312-LPP.html#TRE-R312-LPP-1101720">1101720</a>
+                </td>
+                <td>https://mos.esante.gouv.fr/NOS/TRE_R312-LPP/FHIR/TRE-R312-LPP</td>
+                <td>Lecteur de glycémie</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT-C81261"> </a>  
+                  <a href="https://interop.esante.gouv.fr/ig/nos/1.2.0/CodeSystem-TRE-R307-NCIT.html#TRE-R307-NCIT-C81261">C81261</a>
+                </td>
+                <td>https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT</td>
+                <td>ruban à mesurer</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT-C138178"> </a>  
+                  <a href="https://interop.esante.gouv.fr/ig/nos/1.2.0/CodeSystem-TRE-R307-NCIT.html#TRE-R307-NCIT-C138178">C138178</a>
+                </td>
+                <td>https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT</td>
+                <td>toise</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT-C49676"> </a>  
+                  <a href="https://interop.esante.gouv.fr/ig/nos/1.2.0/CodeSystem-TRE-R307-NCIT.html#TRE-R307-NCIT-C49676">C49676</a>
+                </td>
+                <td>https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT</td>
+                <td>fréquence du pouls</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT-C153216"> </a>  
+                  <a href="https://interop.esante.gouv.fr/ig/nos/1.2.0/CodeSystem-TRE-R307-NCIT.html#TRE-R307-NCIT-C153216">C153216</a>
+                </td>
+                <td>https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT</td>
+                <td>objet connecté</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT-C69319"> </a>  
+                  <a href="https://interop.esante.gouv.fr/ig/nos/1.2.0/CodeSystem-TRE-R307-NCIT.html#TRE-R307-NCIT-C69319">C69319</a>
+                </td>
+                <td>https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT</td>
+                <td>moniteur de pression sanguine oscillométrique (tensiomètre automatique)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT-C69318"> </a>  
+                  <a href="https://interop.esante.gouv.fr/ig/nos/1.2.0/CodeSystem-TRE-R307-NCIT.html#TRE-R307-NCIT-C69318">C69318</a>
+                </td>
+                <td>https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT</td>
+                <td>moniteur de pression sanguine auscultatoire (tensiomètre manuel)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT-C17610"> </a>  
+                  <a href="https://interop.esante.gouv.fr/ig/nos/1.2.0/CodeSystem-TRE-R307-NCIT.html#TRE-R307-NCIT-C17610">C17610</a>
+                </td>
+                <td>https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT</td>
+                <td>prélèvement de sang</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT-C159776"> </a>  
+                  <a href="https://interop.esante.gouv.fr/ig/nos/1.2.0/CodeSystem-TRE-R307-NCIT.html#TRE-R307-NCIT-C159776">C159776</a>
+                </td>
+                <td>https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT</td>
+                <td>système de surveillance continue du glucose</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT-C88165"> </a>  
+                  <a href="https://interop.esante.gouv.fr/ig/nos/1.2.0/CodeSystem-TRE-R307-NCIT.html#TRE-R307-NCIT-C88165">C88165</a>
+                </td>
+                <td>https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT</td>
+                <td>podomètre</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT-C156877"> </a>  
+                  <a href="https://interop.esante.gouv.fr/ig/nos/1.2.0/CodeSystem-TRE-R307-NCIT.html#TRE-R307-NCIT-C156877">C156877</a>
+                </td>
+                <td>https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT</td>
+                <td>application pour smartphone</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT-C21082"> </a>  
+                  <a href="https://interop.esante.gouv.fr/ig/nos/1.2.0/CodeSystem-TRE-R307-NCIT.html#TRE-R307-NCIT-C21082">C21082</a>
+                </td>
+                <td>https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT</td>
+                <td>échelle numérique de la douleur</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT-C121547"> </a>  
+                  <a href="https://interop.esante.gouv.fr/ig/nos/1.2.0/CodeSystem-TRE-R307-NCIT.html#TRE-R307-NCIT-C121547">C121547</a>
+                </td>
+                <td>https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT</td>
+                <td>échelle visuelle analogique</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT-C21133"> </a>  
+                  <a href="https://interop.esante.gouv.fr/ig/nos/1.2.0/CodeSystem-TRE-R307-NCIT.html#TRE-R307-NCIT-C21133">C21133</a>
+                </td>
+                <td>https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT</td>
+                <td>échelle d'évaluation verbale</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT-C25228"> </a>  
+                  <a href="https://interop.esante.gouv.fr/ig/nos/1.2.0/CodeSystem-TRE-R307-NCIT.html#TRE-R307-NCIT-C25228">C25228</a>
+                </td>
+                <td>https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT</td>
+                <td>Droit</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT-C25229"> </a>  
+                  <a href="https://interop.esante.gouv.fr/ig/nos/1.2.0/CodeSystem-TRE-R307-NCIT.html#TRE-R307-NCIT-C25229">C25229</a>
+                </td>
+                <td>https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT</td>
+                <td>Gauche</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT-C13332"> </a>  
+                  <a href="https://interop.esante.gouv.fr/ig/nos/1.2.0/CodeSystem-TRE-R307-NCIT.html#TRE-R307-NCIT-C13332">C13332</a>
+                </td>
+                <td>https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT</td>
+                <td>Bilatéral</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT-MED-969"> </a>  
+                  <a href="https://interop.esante.gouv.fr/ig/nos/1.2.0/CodeSystem-TRE-R307-NCIT.html#TRE-R307-NCIT-MED-969">MED-969</a>
+                </td>
+                <td>https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT</td>
+                <td>Glucose interstitiel</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://interop.esante.gouv.fr/ig/fhir/mesures/ValueSet/method-glucose-vs"/>
+        <version value="3.1.0-ballot"/>
+        <name value="MethodeGlucoseVS"/>
+        <title value="Méthode de mesures de glycémie sanguine ou interstitielle"/>
+        <status value="active"/>
+        <date value="2024-07-30T08:11:30+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="FR"/>
+            <display value="FRANCE"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:742dc716-fcaa-4572-a75e-e5170193b6b6"/>
+          <timestamp value="2024-07-30T08:12:26+00:00"/>
+          <total value="18"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://mos.esante.gouv.fr/NOS/TRE_R312-LPP/FHIR/TRE-R312-LPP|1.2.0"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT|1.2.0"/>
+          </parameter>
+          <contains>
+            <system value="https://mos.esante.gouv.fr/NOS/TRE_R312-LPP/FHIR/TRE-R312-LPP"/>
+            <code value="1101720"/>
+            <display value="Lecteur de glycémie"/>
+          </contains>
+          <contains>
+            <system value="https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT"/>
+            <code value="C81261"/>
+            <display value="ruban à mesurer"/>
+          </contains>
+          <contains>
+            <system value="https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT"/>
+            <code value="C138178"/>
+            <display value="toise"/>
+          </contains>
+          <contains>
+            <system value="https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT"/>
+            <code value="C49676"/>
+            <display value="fréquence du pouls"/>
+          </contains>
+          <contains>
+            <system value="https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT"/>
+            <code value="C153216"/>
+            <display value="objet connecté"/>
+          </contains>
+          <contains>
+            <system value="https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT"/>
+            <code value="C69319"/>
+            <display value="moniteur de pression sanguine oscillométrique (tensiomètre automatique)"/>
+          </contains>
+          <contains>
+            <system value="https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT"/>
+            <code value="C69318"/>
+            <display value="moniteur de pression sanguine auscultatoire (tensiomètre manuel)"/>
+          </contains>
+          <contains>
+            <system value="https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT"/>
+            <code value="C17610"/>
+            <display value="prélèvement de sang"/>
+          </contains>
+          <contains>
+            <system value="https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT"/>
+            <code value="C159776"/>
+            <display value="système de surveillance continue du glucose"/>
+          </contains>
+          <contains>
+            <system value="https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT"/>
+            <code value="C88165"/>
+            <display value="podomètre"/>
+          </contains>
+          <contains>
+            <system value="https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT"/>
+            <code value="C156877"/>
+            <display value="application pour smartphone"/>
+          </contains>
+          <contains>
+            <system value="https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT"/>
+            <code value="C21082"/>
+            <display value="échelle numérique de la douleur"/>
+          </contains>
+          <contains>
+            <system value="https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT"/>
+            <code value="C121547"/>
+            <display value="échelle visuelle analogique"/>
+          </contains>
+          <contains>
+            <system value="https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT"/>
+            <code value="C21133"/>
+            <display value="échelle d'évaluation verbale"/>
+          </contains>
+          <contains>
+            <system value="https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT"/>
+            <code value="C25228"/>
+            <display value="Droit"/>
+          </contains>
+          <contains>
+            <system value="https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT"/>
+            <code value="C25229"/>
+            <display value="Gauche"/>
+          </contains>
+          <contains>
+            <system value="https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT"/>
+            <code value="C13332"/>
+            <display value="Bilatéral"/>
+          </contains>
+          <contains>
+            <system value="https://mos.esante.gouv.fr/NOS/TRE_R307-NCIT/FHIR/TRE-R307-NCIT"/>
+            <code value="MED-969"/>
+            <display value="Glucose interstitiel"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

@@ -1,0 +1,52 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "mes-vs-height-body-position",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet mes-vs-height-body-position</b></p><a name=\"mes-vs-height-body-position\"> </a><a name=\"hcmes-vs-height-body-position\"> </a><a name=\"mes-vs-height-body-position-fr-FR\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include codes from<a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a 10904000 (Orthostatic body position)</li><li>Include codes from<a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a 102538003 (Recumbent body position)</li></ul></div>"
+  },
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/mesures/ValueSet/mes-vs-height-body-position",
+  "version" : "3.1.0-ballot",
+  "name" : "MesValueSetHeightBodyPosition",
+  "title" : "Mes ValueSet BodyPosition",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2024-07-30T08:11:30+00:00",
+  "publisher" : "ANS",
+  "contact" : [{
+    "name" : "ANS",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    }]
+  }],
+  "description" : "ValueSet Body Position",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "FRANCE"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "10904000"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "102538003"
+      }]
+    }]
+  }
+}
