@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="b69a534e-4fd6-4e5e-b742-3f0402c237cd"/>
+  <id value="61bdb0ec-3964-48d7-a338-55466c35ac7e"/>
   <meta>
-    <lastUpdated value="2024-07-30T08:11:30.740+00:00"/>
+    <lastUpdated value="2024-07-30T08:17:16.034+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -506,7 +506,7 @@
         <title value="Mes ValueSet BodyPosition"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2024-07-30T08:11:30+00:00"/>
+        <date value="2024-07-30T08:17:16+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -518,8 +518,8 @@
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
             <valueBoolean value="true"/>
           </extension>
-          <identifier value="urn:uuid:e74259e8-08c4-4a25-a175-5686e0a2c96c"/>
-          <timestamp value="2024-07-30T08:12:26+00:00"/>
+          <identifier value="urn:uuid:6c93360e-e5fc-4265-84e6-d81a53f60330"/>
+          <timestamp value="2024-07-30T08:18:12+00:00"/>
           <offset value="0"/>
           <parameter>
             <name value="count"/>
@@ -1029,7 +1029,7 @@
         <name value="MethodeGlucoseVS"/>
         <title value="Méthode de mesures de glycémie sanguine ou interstitielle"/>
         <status value="active"/>
-        <date value="2024-07-30T08:11:30+00:00"/>
+        <date value="2024-07-30T08:17:16+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1038,8 +1038,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:742dc716-fcaa-4572-a75e-e5170193b6b6"/>
-          <timestamp value="2024-07-30T08:12:26+00:00"/>
+          <identifier value="urn:uuid:f5311318-ef68-452a-bd1b-b800c8b3e847"/>
+          <timestamp value="2024-07-30T08:18:13+00:00"/>
           <total value="18"/>
           <offset value="0"/>
           <parameter>

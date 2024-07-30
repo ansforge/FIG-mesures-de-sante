@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "b69a534e-4fd6-4e5e-b742-3f0402c237cd",
+  "id" : "61bdb0ec-3964-48d7-a338-55466c35ac7e",
   "meta" : {
-    "lastUpdated" : "2024-07-30T08:11:30.740+00:00"
+    "lastUpdated" : "2024-07-30T08:17:16.034+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -22,7 +22,7 @@
       "title" : "Mes ValueSet BodyPosition",
       "status" : "active",
       "experimental" : false,
-      "date" : "2024-07-30T08:11:30+00:00",
+      "date" : "2024-07-30T08:17:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -35,8 +35,8 @@
           "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
           "valueBoolean" : true
         }],
-        "identifier" : "urn:uuid:e74259e8-08c4-4a25-a175-5686e0a2c96c",
-        "timestamp" : "2024-07-30T08:12:26+00:00",
+        "identifier" : "urn:uuid:6c93360e-e5fc-4265-84e6-d81a53f60330",
+        "timestamp" : "2024-07-30T08:18:12+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "count",
@@ -372,7 +372,7 @@
       "name" : "MethodeGlucoseVS",
       "title" : "Méthode de mesures de glycémie sanguine ou interstitielle",
       "status" : "active",
-      "date" : "2024-07-30T08:11:30+00:00",
+      "date" : "2024-07-30T08:17:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -381,8 +381,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:742dc716-fcaa-4572-a75e-e5170193b6b6",
-        "timestamp" : "2024-07-30T08:12:26+00:00",
+        "identifier" : "urn:uuid:f5311318-ef68-452a-bd1b-b800c8b3e847",
+        "timestamp" : "2024-07-30T08:18:13+00:00",
         "total" : 18,
         "offset" : 0,
         "parameter" : [{
