@@ -10,7 +10,7 @@
   <name value="Mesures"/>
   <title value="Guide d'implémentation FHIR - Mesures de santé"/>
   <status value="active"/>
-  <date value="2024-09-18T13:01:37+00:00"/>
+  <date value="2024-09-18T13:56:13+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -485,7 +485,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/mesures-bundle-flux-alimentationLipid"/>
+        <reference value="StructureDefinition/mesures-bundle-flux-alimentation-lipid"/>
       </reference>
       <name value="Bundle d'alimentation"/>
       <description value="Profil de la ressource Bundle du flux d'alimentation à envoyer au serveur"/>
@@ -517,10 +517,10 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/mesures-fr-observation-cholesterol-total"/>
+        <reference value="StructureDefinition/mesures-fr-cholesterol-total"/>
       </reference>
       <name value="Cholestérol total"/>
-      <description value="Profil de la ressource Observation pour définir le cholestérol total"/>
+      <description value="Profil de la ressource Observation pour échanger la mesure de cholestérol total"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -711,10 +711,10 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/mesures-fr-observation-hdl"/>
+        <reference value="StructureDefinition/mesures-fr-cholesterol-hdl"/>
       </reference>
       <name value="HDL Cholesterol"/>
-      <description value="Profil de la ressource Observation pour définir le cholestérol HDL"/>
+      <description value="Profil de la ressource Observation pour échanger la mesure de cholestérol HDL"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -733,10 +733,10 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/mesures-fr-observation-ldl"/>
+        <reference value="StructureDefinition/mesures-fr-cholesterol-ldl"/>
       </reference>
       <name value="LDL Cholesterol"/>
-      <description value="Profil de la ressource Observation pour définir le cholestérol LDL"/>
+      <description value="Profil de la ressource Observation pour échanger la mesure de cholestérol LDL"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -897,10 +897,10 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/mesures-fr-observation-triglycerides"/>
+        <reference value="StructureDefinition/mesures-fr-cholesterol-triglycerides"/>
       </reference>
       <name value="Triglycerides"/>
-      <description value="Profil de la ressource Observation pour définir les triglycerides"/>
+      <description value="Profil de la ressource Observation pour échanger la mesure de triglycérides"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -951,6 +951,14 @@
         </extension>
         <nameUrl value="Le-profil-FHIR-des-objets-connectes.html"/>
         <title value="Le profil FHIR des objets connectés"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="profils-cholesterol.html"/>
+        </extension>
+        <nameUrl value="profils-cholesterol.html"/>
+        <title value="Les profils cholestérol"/>
         <generation value="markdown"/>
       </page>
       <page>

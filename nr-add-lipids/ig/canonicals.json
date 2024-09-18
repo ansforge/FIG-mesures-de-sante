@@ -14,9 +14,9 @@
     "name" : "MesBundleFluxAlimentation"
   },
   {
-    "id" : "mesures-bundle-flux-alimentationLipid",
+    "id" : "mesures-bundle-flux-alimentation-lipid",
     "type" : "StructureDefinition",
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-bundle-flux-alimentationLipid",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-bundle-flux-alimentation-lipid",
     "version" : "3.1.0-ballot",
     "name" : "MesBundleFluxAlimentationLipid"
   },
@@ -26,6 +26,34 @@
     "url" : "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-diabetis-type",
     "version" : "3.1.0-ballot",
     "name" : "MesDiabetisType"
+  },
+  {
+    "id" : "mesures-fr-cholesterol-hdl",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-cholesterol-hdl",
+    "version" : "3.1.0-ballot",
+    "name" : "MesFrObservationHDL"
+  },
+  {
+    "id" : "mesures-fr-cholesterol-ldl",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-cholesterol-ldl",
+    "version" : "3.1.0-ballot",
+    "name" : "MesFrObservationLDL"
+  },
+  {
+    "id" : "mesures-fr-cholesterol-total",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-cholesterol-total",
+    "version" : "3.1.0-ballot",
+    "name" : "MesFrObservationCholesterolTotal"
+  },
+  {
+    "id" : "mesures-fr-cholesterol-triglycerides",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-cholesterol-triglycerides",
+    "version" : "3.1.0-ballot",
+    "name" : "MesFrObservationTriglycerides"
   },
   {
     "id" : "mesures-fr-observation-bmi",
@@ -63,32 +91,11 @@
     "name" : "MesFrObservationBp"
   },
   {
-    "id" : "mesures-fr-observation-cholesterol-total",
-    "type" : "StructureDefinition",
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-cholesterol-total",
-    "version" : "3.1.0-ballot",
-    "name" : "MesFrObservationCholesterolTotal"
-  },
-  {
-    "id" : "mesures-fr-observation-hdl",
-    "type" : "StructureDefinition",
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-hdl",
-    "version" : "3.1.0-ballot",
-    "name" : "MesFrObservationHDL"
-  },
-  {
     "id" : "mesures-fr-observation-heartrate",
     "type" : "StructureDefinition",
     "url" : "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-heartrate",
     "version" : "3.1.0-ballot",
     "name" : "MesFrObservationHeartrate"
-  },
-  {
-    "id" : "mesures-fr-observation-ldl",
-    "type" : "StructureDefinition",
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-ldl",
-    "version" : "3.1.0-ballot",
-    "name" : "MesFrObservationLDL"
   },
   {
     "id" : "mesures-fr-observation-oxygen-sat",
@@ -103,13 +110,6 @@
     "url" : "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-resp-rate",
     "version" : "3.1.0-ballot",
     "name" : "MesFrObservationRespiratoryRate"
-  },
-  {
-    "id" : "mesures-fr-observation-triglycerides",
-    "type" : "StructureDefinition",
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-triglycerides",
-    "version" : "3.1.0-ballot",
-    "name" : "MesFrObservationTriglycerides"
   },
   {
     "id" : "mesures-moment-of-measurement",

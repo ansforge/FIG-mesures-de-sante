@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "Mesures"] ; # 
   fhir:title [ fhir:v "Guide d'implémentation FHIR - Mesures de santé"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2024-09-18T13:01:37+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-09-18T13:56:13+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -564,8 +564,8 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-bundle-flux-alimentationLipid> ;
-         fhir:reference [ fhir:v "StructureDefinition/mesures-bundle-flux-alimentationLipid" ]
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-bundle-flux-alimentation-lipid> ;
+         fhir:reference [ fhir:v "StructureDefinition/mesures-bundle-flux-alimentation-lipid" ]
        ] ;
        fhir:name [ fhir:v "Bundle d'alimentation" ] ;
        fhir:description [ fhir:v "Profil de la ressource Bundle du flux d'alimentation à envoyer au serveur" ] ;
@@ -602,11 +602,11 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-cholesterol-total> ;
-         fhir:reference [ fhir:v "StructureDefinition/mesures-fr-observation-cholesterol-total" ]
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-cholesterol-total> ;
+         fhir:reference [ fhir:v "StructureDefinition/mesures-fr-cholesterol-total" ]
        ] ;
        fhir:name [ fhir:v "Cholestérol total" ] ;
-       fhir:description [ fhir:v "Profil de la ressource Observation pour définir le cholestérol total" ] ;
+       fhir:description [ fhir:v "Profil de la ressource Observation pour échanger la mesure de cholestérol total" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -854,11 +854,11 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-hdl> ;
-         fhir:reference [ fhir:v "StructureDefinition/mesures-fr-observation-hdl" ]
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-cholesterol-hdl> ;
+         fhir:reference [ fhir:v "StructureDefinition/mesures-fr-cholesterol-hdl" ]
        ] ;
        fhir:name [ fhir:v "HDL Cholesterol" ] ;
-       fhir:description [ fhir:v "Profil de la ressource Observation pour définir le cholestérol HDL" ] ;
+       fhir:description [ fhir:v "Profil de la ressource Observation pour échanger la mesure de cholestérol HDL" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -878,11 +878,11 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-ldl> ;
-         fhir:reference [ fhir:v "StructureDefinition/mesures-fr-observation-ldl" ]
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-cholesterol-ldl> ;
+         fhir:reference [ fhir:v "StructureDefinition/mesures-fr-cholesterol-ldl" ]
        ] ;
        fhir:name [ fhir:v "LDL Cholesterol" ] ;
-       fhir:description [ fhir:v "Profil de la ressource Observation pour définir le cholestérol LDL" ] ;
+       fhir:description [ fhir:v "Profil de la ressource Observation pour échanger la mesure de cholestérol LDL" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -1057,11 +1057,11 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-triglycerides> ;
-         fhir:reference [ fhir:v "StructureDefinition/mesures-fr-observation-triglycerides" ]
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-cholesterol-triglycerides> ;
+         fhir:reference [ fhir:v "StructureDefinition/mesures-fr-cholesterol-triglycerides" ]
        ] ;
        fhir:name [ fhir:v "Triglycerides" ] ;
-       fhir:description [ fhir:v "Profil de la ressource Observation pour définir les triglycerides" ] ;
+       fhir:description [ fhir:v "Profil de la ressource Observation pour échanger la mesure de triglycérides" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -1115,6 +1115,14 @@
          ] ) ;
          fhir:name [ fhir:v "Le-profil-FHIR-des-objets-connectes.html"^^xsd:anyURI ] ;
          fhir:title [ fhir:v "Le profil FHIR des objets connectés" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "profils-cholesterol.html"^^xsd:anyURI ]
+         ] ) ;
+         fhir:name [ fhir:v "profils-cholesterol.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Les profils cholestérol" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:extension ( [

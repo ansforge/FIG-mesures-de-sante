@@ -1,18 +1,6 @@
 {
   "codeSystems" : [
     {
-      "url" : "http://loinc.org",
-      "version" : "3.1.0",
-      "status" : "active",
-      "name" : "LOINC",
-      "title" : "Logical Observation Identifiers, Names and Codes (LOINC)",
-      "description" : "LOINC provides a set of universal names and ID codes for identifying laboratory and clinical test results.1,2 LOINC facilitates the exchange and pooling of results, such as blood hemoglobin, serum potassium, or vital signs, for clinical care, outcomes management, and research. LOINC's universal identifiers (names and codes) can be used in the context of order and observation exchanges between information systems that use syntax standards such as HL73, CEN TC251, ISO TC215, ASTM4, and DICOM. Specifically, the identifier can be used as the coded value for an observation in any other standard that uses the observation/observation value paradigm, whether messages, documents, application programming interface (API), etc. For example, LOINC codes are used widely in the OBX segment Observation Identifier field (OBX-3) of an ORU HL7 (HL7 version 2.x or ASTM 1238-9410) message that may be sent between a Clinical Laboratory Information Management Systems (LIMS) and Electronic Health Record Systems (EHR).5, 6 In this way, LOINC codes provide universal identifiers that allow the exchange of clinical data between heterogeneous computing environments.",
-      "oids" : ["2.16.840.1.113883.6.1"],
-      "uses" : {
-      },
-      "http://hl7.org/fhir/R4/valueset-ldlcholesterol-codes.html" : "L d l codes"
-    },
-    {
       "url" : "http://snomed.info/sct",
       "version" : null,
       "status" : "active",
@@ -22,9 +10,9 @@
       "oids" : ["2.16.840.1.113883.6.96"],
       "uses" : {
       },
-      "https://interop.esante.gouv.fr/ig/nos/1.2.0/ValueSet-JDV-J149-BodySiteBP-ENS.html" : "JDV_J149-BodySiteBP-ENS",
+      "https://interop.esante.gouv.fr/ig/nos/1.2.0/ValueSet-JDV-J147-MethodHeartrate-ENS.html" : "JDV_J147-MethodHeartrate-ENS",
       "https://interop.esante.gouv.fr/ig/nos/1.2.0/ValueSet-JDV-J148-ReferenceRangeAppliesTo-CISIS.html" : "JDV_J148-ReferenceRangeAppliesTo-CISIS",
-      "https://interop.esante.gouv.fr/ig/nos/1.2.0/ValueSet-JDV-J147-MethodHeartrate-ENS.html" : "JDV_J147-MethodHeartrate-ENS"
+      "https://interop.esante.gouv.fr/ig/nos/1.2.0/ValueSet-JDV-J149-BodySiteBP-ENS.html" : "JDV_J149-BodySiteBP-ENS"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
@@ -48,8 +36,8 @@
       "oids" : ["2.16.840.1.113883.6.1"],
       "uses" : {
       },
-      "https://interop.esante.gouv.fr/ig/nos/1.2.0/ValueSet-JDV-J157-MomentGlucose-ENS.html" : "JDV_J157-MomentGlucose-ENS",
-      "https://interop.esante.gouv.fr/ig/nos/1.2.0/ValueSet-JDV-J154-TypeGlucose-ENS.html" : "JDV_J154-TypeGlucose-ENS"
+      "https://interop.esante.gouv.fr/ig/nos/1.2.0/ValueSet-JDV-J154-TypeGlucose-ENS.html" : "JDV_J154-TypeGlucose-ENS",
+      "https://interop.esante.gouv.fr/ig/nos/1.2.0/ValueSet-JDV-J157-MomentGlucose-ENS.html" : "JDV_J157-MomentGlucose-ENS"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R247-UcumUniteMesure/FHIR/TRE-R247-UcumUniteMesure",
@@ -85,9 +73,9 @@
       "oids" : ["2.16.840.1.113883.3.26.1.1"],
       "uses" : {
       },
+      "ValueSet-method-glucose-vs.html" : "Méthode de mesures de glycémie sanguine ou interstitielle",
       "https://interop.esante.gouv.fr/ig/nos/1.2.0/ValueSet-JDV-J159-MethodPainSeverity-ENS.html" : "JDV_J159-MethodPainSeverity-ENS",
-      "https://interop.esante.gouv.fr/ig/nos/1.2.0/ValueSet-JDV-J146-MethodBodyHeight-ENS.html" : "JDV_J146-MethodBodyHeight-ENS",
-      "ValueSet-method-glucose-vs.html" : "Méthode de mesures de glycémie sanguine ou interstitielle"
+      "https://interop.esante.gouv.fr/ig/nos/1.2.0/ValueSet-JDV-J146-MethodBodyHeight-ENS.html" : "JDV_J146-MethodBodyHeight-ENS"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R308-TAASIP/FHIR/TRE-R308-TAASIP",
@@ -99,10 +87,10 @@
       "oids" : ["1.2.250.1.213.1.1.4.322"],
       "uses" : {
       },
-      "https://interop.esante.gouv.fr/ig/nos/1.2.0/ValueSet-JDV-J164-GlucoseNumberOfDays-ENS.html" : "JDV_J164-GlucoseNumberOfDays-ENS",
+      "https://interop.esante.gouv.fr/ig/nos/1.2.0/ValueSet-JDV-J154-TypeGlucose-ENS.html" : "JDV_J154-TypeGlucose-ENS",
       "https://interop.esante.gouv.fr/ig/nos/1.2.0/ValueSet-JDV-J153-TypeDiabete-ENS.html" : "JDV_J153-TypeDiabete-ENS",
-      "https://interop.esante.gouv.fr/ig/nos/1.2.0/ValueSet-JDV-J157-MomentGlucose-ENS.html" : "JDV_J157-MomentGlucose-ENS",
-      "https://interop.esante.gouv.fr/ig/nos/1.2.0/ValueSet-JDV-J154-TypeGlucose-ENS.html" : "JDV_J154-TypeGlucose-ENS"
+      "https://interop.esante.gouv.fr/ig/nos/1.2.0/ValueSet-JDV-J164-GlucoseNumberOfDays-ENS.html" : "JDV_J164-GlucoseNumberOfDays-ENS",
+      "https://interop.esante.gouv.fr/ig/nos/1.2.0/ValueSet-JDV-J157-MomentGlucose-ENS.html" : "JDV_J157-MomentGlucose-ENS"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R310-CIM10ATIH/FHIR/TRE-R310-CIM10ATIH",

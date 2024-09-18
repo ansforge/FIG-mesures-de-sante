@@ -51,11 +51,27 @@
         "title": "Bundle d\u0027alimentation"
       },
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-bundle-flux-alimentationLipid",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-bundle-flux-alimentation-lipid",
         "title": "Bundle d\u0027alimentation"
       }
     ],
     "Observation": [
+      {
+        "url": "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-cholesterol-hdl",
+        "title": "HDL Cholesterol"
+      },
+      {
+        "url": "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-cholesterol-ldl",
+        "title": "LDL Cholesterol"
+      },
+      {
+        "url": "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-cholesterol-total",
+        "title": "Cholestérol total"
+      },
+      {
+        "url": "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-cholesterol-triglycerides",
+        "title": "Triglycerides"
+      },
       {
         "url": "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-bmi",
         "title": "Indice de Masse Corporelle"
@@ -77,20 +93,8 @@
         "title": "Pression Artérielle"
       },
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-cholesterol-total",
-        "title": "Cholestérol total"
-      },
-      {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-hdl",
-        "title": "HDL Cholesterol"
-      },
-      {
         "url": "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-heartrate",
         "title": "Fréquence Cardiaque"
-      },
-      {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-ldl",
-        "title": "LDL Cholesterol"
       },
       {
         "url": "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-oxygen-sat",
@@ -99,10 +103,6 @@
       {
         "url": "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-resp-rate",
         "title": "Fréquence respiratoire"
-      },
-      {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-triglycerides",
-        "title": "Triglycerides"
       },
       {
         "url": "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-observation-glucose",
