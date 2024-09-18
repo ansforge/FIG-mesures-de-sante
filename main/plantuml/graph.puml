@@ -70,6 +70,7 @@ package IG #DDDDDD{
 
              Observation.meta.source => [None..None]
              Observation.extension:bodyposition => <&plus>[None..None]
+             Observation.extension:MesReasonForMeasurement => <&plus>[0..1]
              Observation.value[x] => [None..None]
              Observation.value[x]:valueQuantity => [None..None]
              Observation.dataAbsentReason.coding.system => [1..None]
@@ -248,6 +249,7 @@ package IG #DDDDDD{
 
      MesFrObservationBodyTemperature -[#black,dashed,thickness=2]-> MesReasonForMeasurement
      MesFrObservationBodyWeight -[#black,dashed,thickness=2]-> MesReasonForMeasurement
+     MesFrObservationBodyHeight -[#black,dashed,thickness=2]-> MesReasonForMeasurement
      MesFrObservationBp -[#black,dashed,thickness=2]-> MesReasonForMeasurement
      MesFrObservationBp -[#black,dashed,thickness=2]-> MesMomentOfMeasurement
      MesFrObservationHeartrate -[#black,dashed,thickness=2]-> MesMomentOfMeasurement
