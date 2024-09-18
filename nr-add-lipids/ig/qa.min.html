@@ -36,7 +36,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for Mesures</h1>
- <p>Generated Wed Sep 18 14:03:54 UTC 2024, FHIR version 4.0.1 for ans.fhir.fr.mesures#3.1.0-ballot (canonical = <a href="https://interop.esante.gouv.fr/ig/fhir/mesures">https://interop.esante.gouv.fr/ig/fhir/mesures</a> (<a href="https://interop.esante.gouv.fr/ig/fhir/mesures/history.html">history</a>)). See <a href="qa.html">Full QA Report</a></p>
+ <p>Generated Wed Sep 18 14:12:31 UTC 2024, FHIR version 4.0.1 for ans.fhir.fr.mesures#3.1.0-ballot (canonical = <a href="https://interop.esante.gouv.fr/ig/fhir/mesures">https://interop.esante.gouv.fr/ig/fhir/mesures</a> (<a href="https://interop.esante.gouv.fr/ig/fhir/mesures/history.html">history</a>)). See <a href="qa.html">Full QA Report</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
  <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.6.25</span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = ans.fhir.fr.mesures, Canonical = https://interop.esante.gouv.fr/ig/fhir/mesures</td></tr>
@@ -75,9 +75,9 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
  (17 uses),     <a href="http://hl7.org/fhir/R4/medicationrequest.html">MedicationRequest</a>
  (17 uses),     <a href="http://hl7.org/fhir/R4/nutritionorder.html">NutritionOrder</a>
  (17 uses),     <a href="http://hl7.org/fhir/R4/servicerequest.html">ServiceRequest</a>
- (17 uses),     <a href="http://hl7.org/fhir/R4/episodeofcare.html">EpisodeOfCare</a>
- (90 uses),     <a href="http://hl7.org/fhir/R4/medicationadministration.html">MedicationAdministration</a>
- (16 uses),     <a href="http://hl7.org/fhir/R4/medicationdispense.html">MedicationDispense</a>
+ (17 uses),     <a href="http://hl7.org/fhir/R4/careteam.html">CareTeam</a>
+ (111 uses),     <a href="http://hl7.org/fhir/R4/medicationadministration.html">MedicationAdministration</a>
+ (52 uses),     <a href="http://hl7.org/fhir/R4/medicationdispense.html">MedicationDispense</a>
  (16 uses),     <a href="http://hl7.org/fhir/R4/medicationstatement.html">MedicationStatement</a>
  (16 uses),     <a href="http://hl7.org/fhir/R4/procedure.html">Procedure</a>
  (16 uses),     <a href="http://hl7.org/fhir/R4/immunization.html">Immunization</a>
@@ -91,14 +91,12 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
  (6 uses),     <a href="http://hl7.org/fhir/R4/practitioner.html">Practitioner</a>
  (5 uses),     <a href="http://hl7.org/fhir/R4/practitionerrole.html">PractitionerRole</a>
  (21 uses),     <a href="http://hl7.org/fhir/R4/organization.html">Organization</a>
- (5 uses),     <a href="http://hl7.org/fhir/R4/careteam.html">CareTeam</a>
- (21 uses),     <a href="http://hl7.org/fhir/R4/relatedperson.html">RelatedPerson</a>
+ (5 uses),     <a href="http://hl7.org/fhir/R4/relatedperson.html">RelatedPerson</a>
  (18 uses),     <a href="http://hl7.org/fhir/R4/valueset-body-site.html">SNOMEDCTBodyStructures</a>
  (13 uses),     <a href="http://hl7.org/fhir/R4/valueset-observation-methods.html">ObservationMethods</a>
  (7 uses),     <a href="http://hl7.org/fhir/R4/specimen.html">Specimen</a>
  (17 uses),     <a href="http://hl7.org/fhir/R4/devicemetric.html">DeviceMetric</a>
- (6 uses),     <a href="http://hl7.org/fhir/R4/medicationknowledge.html">MedicationKnowledge</a>
- (36 uses),     <a href="http://hl7.org/fhir/R4/valueset-referencerange-meaning.html">ObservationReferenceRangeMeaningCodes</a>
+ (6 uses),     <a href="http://hl7.org/fhir/R4/valueset-referencerange-meaning.html">ObservationReferenceRangeMeaningCodes</a>
  (17 uses),     <a href="http://hl7.org/fhir/R4/valueset-referencerange-appliesto.html">ObservationReferenceRangeAppliesToCodes</a>
  (13 uses),     <a href="http://hl7.org/fhir/R4/questionnaireresponse.html">QuestionnaireResponse</a>
  (34 uses),     <a href="http://hl7.org/fhir/R4/molecularsequence.html">MolecularSequence</a>
@@ -724,10 +722,10 @@ hl7.fhir.uv.tools#0.2.0:     <a href="http://hl7.org/fhir/tools/0.2.0/StructureD
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition&#8203;.snapshot&#8203;.element[14]&#8203;.pattern&#8203;.ofType(CodeableConcept)&#8203;.coding[0]&#8203;.display (l1&#8203;/c63871)</b></td><td><b>error</b></td><td><b>Wrong Display Name 'HDL Cholesterol' for http://loinc.org#2085-9. Valid display is 'Cholesterol in HDL [Mass/volume] in Serum or Plasma' (en-US) (for the language(s) 'en')</b> (from <a href="qa-txservers.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</ta>)</td>
+     <td><b>StructureDefinition&#8203;.snapshot&#8203;.element[14]&#8203;.pattern&#8203;.ofType(CodeableConcept)&#8203;.coding[0]&#8203;.display (l1&#8203;/c63861)</b></td><td><b>error</b></td><td><b>Wrong Display Name 'HDL Cholesterol' for http://loinc.org#2085-9. Valid display is 'Cholesterol in HDL [Mass/volume] in Serum or Plasma' (en-US) (for the language(s) 'en')</b> (from <a href="qa-txservers.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</ta>)</td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition&#8203;.differential&#8203;.element[0]&#8203;.pattern&#8203;.ofType(CodeableConcept)&#8203;.coding[0]&#8203;.display (l1&#8203;/c130429)</b></td><td><b>error</b></td><td><b>Wrong Display Name 'HDL Cholesterol' for http://loinc.org#2085-9. Valid display is 'Cholesterol in HDL [Mass/volume] in Serum or Plasma' (en-US) (for the language(s) 'en')</b> (from <a href="qa-txservers.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</ta>)</td>
+     <td><b>StructureDefinition&#8203;.differential&#8203;.element[0]&#8203;.pattern&#8203;.ofType(CodeableConcept)&#8203;.coding[0]&#8203;.display (l1&#8203;/c130399)</b></td><td><b>error</b></td><td><b>Wrong Display Name 'HDL Cholesterol' for http://loinc.org#2085-9. Valid display is 'Cholesterol in HDL [Mass/volume] in Serum or Plasma' (en-US) (for the language(s) 'en')</b> (from <a href="qa-txservers.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</ta>)</td>
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>StructureDefinition&#8203;.snapshot&#8203;.element[4]&#8203;.binding</b></td><td><b>warning</b></td><td title=""><b><img style="vertical-align: text-bottom" src="new.png" height="16px" width="36px" alt="New Rule: "> The definition for the element 'Observation.language' binds to the value set 'http://hl7.org/fhir/ValueSet/languages' which is experimental, but this structure is not labeled as experimental</b></td>
@@ -762,10 +760,10 @@ hl7.fhir.uv.tools#0.2.0:     <a href="http://hl7.org/fhir/tools/0.2.0/StructureD
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition&#8203;.snapshot&#8203;.element[14]&#8203;.pattern&#8203;.ofType(CodeableConcept)&#8203;.coding[0]&#8203;.display (l1&#8203;/c72237)</b></td><td><b>error</b></td><td><b>Wrong Display Name 'Cholesterol [Moles/​volume] in Serum or Plasma' for http://loinc.org#35200-5. Valid display is 'Cholesterol [Mass or Moles/volume] in Serum or Plasma' (en-US) (for the language(s) 'en')</b> (from <a href="qa-txservers.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</ta>)</td>
+     <td><b>StructureDefinition&#8203;.snapshot&#8203;.element[14]&#8203;.pattern&#8203;.ofType(CodeableConcept)&#8203;.coding[0]&#8203;.display (l1&#8203;/c72227)</b></td><td><b>error</b></td><td><b>Wrong Display Name 'Cholesterol [Moles/​volume] in Serum or Plasma' for http://loinc.org#35200-5. Valid display is 'Cholesterol [Mass or Moles/volume] in Serum or Plasma' (en-US) (for the language(s) 'en')</b> (from <a href="qa-txservers.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</ta>)</td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition&#8203;.differential&#8203;.element[0]&#8203;.pattern&#8203;.ofType(CodeableConcept)&#8203;.coding[0]&#8203;.display (l1&#8203;/c147390)</b></td><td><b>error</b></td><td><b>Wrong Display Name 'Cholesterol [Moles/​volume] in Serum or Plasma' for http://loinc.org#35200-5. Valid display is 'Cholesterol [Mass or Moles/volume] in Serum or Plasma' (en-US) (for the language(s) 'en')</b> (from <a href="qa-txservers.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</ta>)</td>
+     <td><b>StructureDefinition&#8203;.differential&#8203;.element[0]&#8203;.pattern&#8203;.ofType(CodeableConcept)&#8203;.coding[0]&#8203;.display (l1&#8203;/c147360)</b></td><td><b>error</b></td><td><b>Wrong Display Name 'Cholesterol [Moles/​volume] in Serum or Plasma' for http://loinc.org#35200-5. Valid display is 'Cholesterol [Mass or Moles/volume] in Serum or Plasma' (en-US) (for the language(s) 'en')</b> (from <a href="qa-txservers.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</ta>)</td>
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>StructureDefinition&#8203;.snapshot&#8203;.element[4]&#8203;.binding</b></td><td><b>warning</b></td><td title=""><b><img style="vertical-align: text-bottom" src="new.png" height="16px" width="36px" alt="New Rule: "> The definition for the element 'Observation.language' binds to the value set 'http://hl7.org/fhir/ValueSet/languages' which is experimental, but this structure is not labeled as experimental</b></td>
@@ -784,10 +782,10 @@ hl7.fhir.uv.tools#0.2.0:     <a href="http://hl7.org/fhir/tools/0.2.0/StructureD
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition&#8203;.snapshot&#8203;.element[14]&#8203;.pattern&#8203;.ofType(CodeableConcept)&#8203;.coding[0]&#8203;.display (l1&#8203;/c62232)</b></td><td><b>error</b></td><td><b>Wrong Display Name 'Triglyceride [Moles/​volume] in Serum or Plasma' for http://loinc.org#35217-9. Valid display is 'Triglyceride [Mass or Moles/volume] in Serum or Plasma' (en-US) (for the language(s) 'en')</b> (from <a href="qa-txservers.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</ta>)</td>
+     <td><b>StructureDefinition&#8203;.snapshot&#8203;.element[14]&#8203;.pattern&#8203;.ofType(CodeableConcept)&#8203;.coding[0]&#8203;.display (l1&#8203;/c62222)</b></td><td><b>error</b></td><td><b>Wrong Display Name 'Triglyceride [Moles/​volume] in Serum or Plasma' for http://loinc.org#35217-9. Valid display is 'Triglyceride [Mass or Moles/volume] in Serum or Plasma' (en-US) (for the language(s) 'en')</b> (from <a href="qa-txservers.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</ta>)</td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition&#8203;.differential&#8203;.element[0]&#8203;.pattern&#8203;.ofType(CodeableConcept)&#8203;.coding[0]&#8203;.display (l1&#8203;/c128825)</b></td><td><b>error</b></td><td><b>Wrong Display Name 'Triglyceride [Moles/​volume] in Serum or Plasma' for http://loinc.org#35217-9. Valid display is 'Triglyceride [Mass or Moles/volume] in Serum or Plasma' (en-US) (for the language(s) 'en')</b> (from <a href="qa-txservers.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</ta>)</td>
+     <td><b>StructureDefinition&#8203;.differential&#8203;.element[0]&#8203;.pattern&#8203;.ofType(CodeableConcept)&#8203;.coding[0]&#8203;.display (l1&#8203;/c128795)</b></td><td><b>error</b></td><td><b>Wrong Display Name 'Triglyceride [Moles/​volume] in Serum or Plasma' for http://loinc.org#35217-9. Valid display is 'Triglyceride [Mass or Moles/volume] in Serum or Plasma' (en-US) (for the language(s) 'en')</b> (from <a href="qa-txservers.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</ta>)</td>
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>StructureDefinition&#8203;.snapshot&#8203;.element[4]&#8203;.binding</b></td><td><b>warning</b></td><td title=""><b><img style="vertical-align: text-bottom" src="new.png" height="16px" width="36px" alt="New Rule: "> The definition for the element 'Observation.language' binds to the value set 'http://hl7.org/fhir/ValueSet/languages' which is experimental, but this structure is not labeled as experimental</b></td>

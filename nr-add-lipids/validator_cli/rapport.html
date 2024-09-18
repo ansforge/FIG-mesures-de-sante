@@ -1,70 +1,95 @@
 
 ----------------------------------------------------------------------------------
-./fsh-generated/resources/StructureDefinition-mesures-fr-cholesterol-triglycerides.json 02:04:00
+./fsh-generated/resources/Observation-ExampleMesObservationHeadCircumference001.json 02:12:35
+[1, 2] Observation: Information - Validate Observation against the Head circumference profile (http://hl7.org/fhir/StructureDefinition/headcircum) which is required by the FHIR specification because the LOINC code 8287-5 was found
+[1, 2] Observation: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1
+[1, 2] Observation: Information - Validate resource against profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-observation-head-circumference (per meta)
+[1, 2] Observation: Warning - Best Practice Recommendation: In general, all observations should have a performer
+[1, 2] Observation: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
+[9, 4] Observation.code: Error - HeadCircumCode: magic LOINC code 9843-4 required, but not found (from http://hl7.org/fhir/StructureDefinition/headcircum|4.0.1). Note that other Observation codes are allowed in addition to this required magic code
+[9, 4] Observation.code: Information - Observation.code.coding:headCircumCode: Found 0 matches, but unable to check minimum required (Observation.code.coding) due to lack of slicing validation (from https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-observation-head-circumference)
+[9, 4] Observation.code: Warning - None of the codings provided are in the value set 'Vital Signs' (http://hl7.org/fhir/ValueSet/observation-vitalsignresult|4.0.1), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = http://loinc.org#8287-5)
+[11, 8] Observation.code.coding[0]: Error - Slicing cannot be evaluated: Could not match any discriminators ([code, system]) for slice Observation.code.coding:headCircumCode in profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-observation-head-circumference - None of the 2 discriminators [code, system] have fixed value, binding or existence assertions
+[30, 17] Observation.value.ofType(Quantity).code: Warning - Resolved system http://unitsofmeasure.org, but the definition is not complete, so assuming value set include is correct
+[34, 4] Observation.subject: Error - The type 'Patient' is not a valid Target for this element (must be one of [CanonicalType[https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-patient]])
+[34, 4] Observation.subject: Error - Unable to resolve the profile reference 'https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-patient'
+
+
+----------------------------------------------------------------------------------
+./fsh-generated/resources/StructureDefinition-mesures-fr-observation-bodyheight.json 02:12:35
+[1, 2] StructureDefinition: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition|4.0.1
+[1, 2] StructureDefinition: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
+
+
+----------------------------------------------------------------------------------
+./fsh-generated/resources/StructureDefinition-mesures-bundle-flux-alimentation-lipid.json 02:12:35
+[1, 2] StructureDefinition: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition|4.0.1
+[1, 2] StructureDefinition: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
+
+
+----------------------------------------------------------------------------------
+./fsh-generated/resources/StructureDefinition-mesures-observation-glucose.json 02:12:35
+[1, 2] StructureDefinition: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition|4.0.1
+[1, 2] StructureDefinition: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
+
+
+----------------------------------------------------------------------------------
+./fsh-generated/resources/Observation-ExampleMesFrRespRate.json 02:12:35
+[1, 2] Observation: Information - Validate Observation against the Respiratory Rate profile (http://hl7.org/fhir/StructureDefinition/resprate) which is required by the FHIR specification because the LOINC code 9279-1 was found
+[1, 2] Observation: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1
+[1, 2] Observation: Information - Validate resource against profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-resp-rate (per meta)
+[1, 2] Observation: Warning - Best Practice Recommendation: In general, all observations should have a performer
+[1, 2] Observation: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
+[6, 108] Observation.meta.profile[0]: Information - This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-resp-rate (this may not be a problem, but you should check that it's not intended to match a slice)
+
+
+----------------------------------------------------------------------------------
+./fsh-generated/resources/Practitioner-ExampleFrPractitionner001.json 02:12:35
+[1, 2] Practitioner: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner|4.0.1
+[1, 2] Practitioner: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
+
+
+----------------------------------------------------------------------------------
+./fsh-generated/resources/Observation-ExampleMesFrObservationBodyTemperature001.json 02:12:35
+[1, 2] Observation: Information - Validate Observation against the Body temperature profile (http://hl7.org/fhir/StructureDefinition/bodytemp) which is required by the FHIR specification because the LOINC code 8310-5 was found
+[1, 2] Observation: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1
+[1, 2] Observation: Information - Validate resource against profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-body-temperature (per meta)
+[1, 2] Observation: Warning - Best Practice Recommendation: In general, all observations should have a performer
+[1, 2] Observation: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
+[6, 115] Observation.meta.profile[0]: Information - This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-body-temperature (this may not be a problem, but you should check that it's not intended to match a slice)
+[29, 18] Observation.value.ofType(Quantity).code: Warning - Resolved system http://unitsofmeasure.org, but the definition is not complete, so assuming value set include is correct
+
+
+----------------------------------------------------------------------------------
+./fsh-generated/resources/ImplementationGuide-ans.fhir.fr.mesures.json 02:12:35
+[1, 2] ImplementationGuide: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide|4.0.1
+[1, 2] ImplementationGuide: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
+[414, 32] ImplementationGuide.definition.parameter[0].code: Error - The value provided ('copyrightyear') was not found in the value set 'GuideParameterCode' (http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1), and a code is required from this value set  (error message = The System URI could not be determined for the code 'copyrightyear' in the ValueSet 'http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1'; None of the provided codes ['#copyrightyear'] are in the value set 'http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1')
+[418, 31] ImplementationGuide.definition.parameter[1].code: Error - The value provided ('releaselabel') was not found in the value set 'GuideParameterCode' (http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1), and a code is required from this value set  (error message = The System URI could not be determined for the code 'releaselabel' in the ValueSet 'http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1'; None of the provided codes ['#releaselabel'] are in the value set 'http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1')
+[422, 26] ImplementationGuide.definition.parameter[2].code: Error - The value provided ('shownav') was not found in the value set 'GuideParameterCode' (http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1), and a code is required from this value set  (error message = The System URI could not be determined for the code 'shownav' in the ValueSet 'http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1'; None of the provided codes ['#shownav'] are in the value set 'http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1')
+
+
+----------------------------------------------------------------------------------
+./fsh-generated/resources/StructureDefinition-mesures-fr-cholesterol-triglycerides.json 02:12:35
 [1, 2] StructureDefinition: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition|4.0.1
 [1, 2] StructureDefinition: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
 [22, 10] StructureDefinition.differential.element[0].pattern.ofType(CodeableConcept).coding[0].display: Warning - Wrong Display Name 'Triglyceride [Moles/​volume] in Serum or Plasma' for http://loinc.org#35217-9. Valid display is one of 0 choices: 'Triglyceride [Mass or Moles/volume] in Serum or Plasma' (en-US), 'Triglyceride [Mass or Moles/volume] in Serum or Plasma' (en-US), 'Trigl SerPl-msCnc' (en-US), 'Triglyceride, Blood' (en-US), 'Triglicéridos: Suero o Plasma : Punto temporal: Concentración de masa o sustancia: Cuantitativo:' (es-MX), 'triglicérido:concentración de masa:punto en el tiempo:suero/plasma:cuantitativo:' (es-AR), 'Trigl SerPl-msCnc' (pt-BR) or 'Triglyceride [massa of stof/volume] in serum of plasma' (nl-NL) (for the language(s) 'english')
 
 
 ----------------------------------------------------------------------------------
-./fsh-generated/resources/Observation-ExampleMesFrObservationBP001.json 02:04:00
-[1, 2] Observation: Error - StructureDefinition https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-bp has no snapshot - validation is against the snapshot, so it must be provided
-[1, 2] Observation: Information - Validate Observation against the Blood pressure systolic and diastolic profile (http://hl7.org/fhir/StructureDefinition/bp) which is required by the FHIR specification because the LOINC code 85354-9 was found
-[1, 2] Observation: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1
-[1, 2] Observation: Information - Validate resource against profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-bp (per meta)
-[1, 2] Observation: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
-[29, 8] Observation.component[0].value.ofType(Quantity): Warning - Resolved system http://unitsofmeasure.org, but the definition is not complete, so assuming value set include is correct
-[35, 8] Observation.component[0].code.coding[0].display: Warning - Wrong Display Name 'Systolic blood pressure' for http://loinc.org#8480-6. Valid display is one of 0 choices: 'Systolic blood pressure' (en-US), 'Systolic blood pressure' (en-US), 'BP sys' (en-US), 'Sistólica intravascular:Sistema arterial :Punto temporal:Pres:Cuantitativo:' (es-MX), 'sistólico intravascular:presión:punto en el tiempo:sistema arterial:cuantitativo:' (es-AR), 'BP sys' (pt-BR), 'Systolischer Blutdruck' (de-DE), 'Intravasculaire systolische bloeddruk [druk] in arterieel vaatstelsel' (nl-NL) or 'Blutdruck systolisch' (de-AT) (for the language(s) 'english')
-[58, 8] Observation.component[1].value.ofType(Quantity): Warning - Resolved system http://unitsofmeasure.org, but the definition is not complete, so assuming value set include is correct
-[64, 8] Observation.component[1].code.coding[0].display: Warning - Wrong Display Name 'Diastolic blood pressure' for http://loinc.org#8462-4. Valid display is one of 0 choices: 'Diastolic blood pressure' (en-US), 'Diastolic blood pressure' (en-US), 'BP dias' (en-US), 'Diastólica intravascular:Sistema arterial :Punto temporal:Pres:Cuantitativo:' (es-MX), 'diastólico intravascular:presión:punto en el tiempo:sistema arterial:cuantitativo:' (es-AR), 'BP dias' (pt-BR), 'Diastolischer Blutdruck' (de-DE), 'Intravasculaire diastolische bloeddruk [druk] in arterieel vaatstelsel' (nl-NL) or 'Blutdruck diastolisch' (de-AT) (for the language(s) 'english')
-
-
-----------------------------------------------------------------------------------
-./fsh-generated/resources/Observation-ExampleMesFrObservationBodyWeight001.json 02:04:00
-[1, 2] Observation: Error - StructureDefinition https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-body-weight has no snapshot - validation is against the snapshot, so it must be provided
-[1, 2] Observation: Information - Validate Observation against the Body weight profile (http://hl7.org/fhir/StructureDefinition/bodyweight) which is required by the FHIR specification because the LOINC code 29463-7 was found
-[1, 2] Observation: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1
-[1, 2] Observation: Information - Validate resource against profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-body-weight (per meta)
-[1, 2] Observation: Warning - Best Practice Recommendation: In general, all observations should have a performer
-[1, 2] Observation: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
-[35, 17] Observation.value.ofType(Quantity).code: Warning - Resolved system http://unitsofmeasure.org, but the definition is not complete, so assuming value set include is correct
-
-
-----------------------------------------------------------------------------------
-./fsh-generated/resources/StructureDefinition-mesures-observation-waist-circumference.json 02:04:00
+./fsh-generated/resources/StructureDefinition-mesures-fr-observation-bmi.json 02:12:35
 [1, 2] StructureDefinition: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition|4.0.1
 [1, 2] StructureDefinition: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
 
 
 ----------------------------------------------------------------------------------
-./fsh-generated/resources/StructureDefinition-mesures-fr-observation-heartrate.json 02:04:00
+./fsh-generated/resources/StructureDefinition-mesures-observation-head-circumference.json 02:12:35
 [1, 2] StructureDefinition: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition|4.0.1
 [1, 2] StructureDefinition: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
 
 
 ----------------------------------------------------------------------------------
-./fsh-generated/resources/Observation-ExampleMesFrObservationBodyHeight001.json 02:04:00
-[1, 2] Observation: Information - Validate Observation against the Body height profile (http://hl7.org/fhir/StructureDefinition/bodyheight) which is required by the FHIR specification because the LOINC code 8302-2 was found
-[1, 2] Observation: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1
-[1, 2] Observation: Information - Validate resource against profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-bodyheight (per meta)
-[1, 2] Observation: Warning - Best Practice Recommendation: In general, all observations should have a performer
-[1, 2] Observation: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
-[6, 109] Observation.meta.profile[0]: Information - This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-bodyheight (this may not be a problem, but you should check that it's not intended to match a slice)
-[29, 17] Observation.value.ofType(Quantity).code: Warning - Resolved system http://unitsofmeasure.org, but the definition is not complete, so assuming value set include is correct
-
-
-----------------------------------------------------------------------------------
-./fsh-generated/resources/Observation-ExampleMesFrObservationBmi001.json 02:04:00
-[1, 2] Observation: Information - Validate Observation against the Body mass index profile (http://hl7.org/fhir/StructureDefinition/bmi) which is required by the FHIR specification because the LOINC code 39156-5 was found
-[1, 2] Observation: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1
-[1, 2] Observation: Information - Validate resource against profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-bmi (per meta)
-[1, 2] Observation: Warning - Best Practice Recommendation: In general, all observations should have a performer
-[1, 2] Observation: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
-[6, 102] Observation.meta.profile[0]: Information - This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-bmi (this may not be a problem, but you should check that it's not intended to match a slice)
-
-
-----------------------------------------------------------------------------------
-./fsh-generated/resources/Observation-ExampleMesObservationPainSeverity001.json 02:04:00
+./fsh-generated/resources/Observation-ExampleMesObservationPainSeverity001.json 02:12:35
 [1, 2] Observation: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1
 [1, 2] Observation: Information - Validate resource against profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-observation-pain-severity (per meta)
 [1, 2] Observation: Warning - Best Practice Recommendation: In general, all observations should have a performer
@@ -75,37 +100,7 @@
 
 
 ----------------------------------------------------------------------------------
-./fsh-generated/resources/StructureDefinition-mesures-observation-glucose.json 02:04:00
-[1, 2] StructureDefinition: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition|4.0.1
-[1, 2] StructureDefinition: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
-
-
-----------------------------------------------------------------------------------
-./fsh-generated/resources/StructureDefinition-mesures-fr-observation-body-temperature.json 02:04:00
-[1, 2] StructureDefinition: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition|4.0.1
-[1, 2] StructureDefinition: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
-
-
-----------------------------------------------------------------------------------
-./fsh-generated/resources/ValueSet-method-glucose-vs.json 02:04:00
-[1, 2] ValueSet: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet|4.0.1
-[1, 2] ValueSet: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
-
-
-----------------------------------------------------------------------------------
-./fsh-generated/resources/StructureDefinition-mesures-bundle-flux-alimentation.json 02:04:00
-[1, 2] StructureDefinition: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition|4.0.1
-[1, 2] StructureDefinition: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
-
-
-----------------------------------------------------------------------------------
-./fsh-generated/resources/StructureDefinition-mesures-fr-observation-body-weight.json 02:04:00
-[1, 2] StructureDefinition: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition|4.0.1
-[1, 2] StructureDefinition: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
-
-
-----------------------------------------------------------------------------------
-./fsh-generated/resources/Observation-ExampleMesFrObservationHeartrate001.json 02:04:00
+./fsh-generated/resources/Observation-ExampleMesFrObservationHeartrate001.json 02:12:35
 [1, 2] Observation: Information - Validate Observation against the Heart rate profile (http://hl7.org/fhir/StructureDefinition/heartrate) which is required by the FHIR specification because the LOINC code 8867-4 was found
 [1, 2] Observation: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1
 [1, 2] Observation: Information - Validate resource against profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-heartrate (per meta)
@@ -115,72 +110,25 @@
 
 
 ----------------------------------------------------------------------------------
-./fsh-generated/resources/StructureDefinition-mesures-number-of-days.json 02:04:00
+./fsh-generated/resources/StructureDefinition-mesures-diabetis-type.json 02:12:35
 [1, 2] StructureDefinition: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition|4.0.1
 [1, 2] StructureDefinition: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
 
 
 ----------------------------------------------------------------------------------
-./fsh-generated/resources/StructureDefinition-mesures-reason-for-measurement.json 02:04:00
+./fsh-generated/resources/StructureDefinition-mesures-observation-steps-by-day.json 02:12:35
 [1, 2] StructureDefinition: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition|4.0.1
 [1, 2] StructureDefinition: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
 
 
 ----------------------------------------------------------------------------------
-./fsh-generated/resources/Observation-ExampleMesObservationGlucose001.json 02:04:00
-[1, 2] Observation: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1
-[1, 2] Observation: Information - Validate resource against profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-observation-glucose (per meta)
-[1, 2] Observation: Warning - Best Practice Recommendation: In general, all observations should have a performer
-[1, 2] Observation: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
-[56, 8] Observation.extension[3].value.ofType(CodeableConcept).coding[0].system: Warning - A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R311-CIM10Atih/FHIR/TRE-R311-CIM10Atih' could not be found, so the code cannot be validated
-[56, 8] Observation.extension[3].value.ofType(CodeableConcept).coding[0]: Warning - A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R311-CIM10Atih/FHIR/TRE-R311-CIM10Atih' could not be found, so the code cannot be validated
-[56, 8] Observation.extension[3].value.ofType(CodeableConcept): Error - None of the codings provided are in the value set 'JDV_J153-TypeDiabete-ENS' (https://mos.esante.gouv.fr/NOS/JDV_J153-TypeDiabete-ENS/FHIR/JDV-J153-TypeDiabete-ENS|20230630120000), and a coding from this value set is required) (codes = https://mos.esante.gouv.fr/NOS/TRE_R311-CIM10Atih/FHIR/TRE-R311-CIM10Atih#E11.x0)
-
-
-----------------------------------------------------------------------------------
-./fsh-generated/resources/StructureDefinition-mesures-observation-head-circumference.json 02:04:00
+./fsh-generated/resources/StructureDefinition-mesures-fr-observation-heartrate.json 02:12:35
 [1, 2] StructureDefinition: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition|4.0.1
 [1, 2] StructureDefinition: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
 
 
 ----------------------------------------------------------------------------------
-./fsh-generated/resources/ImplementationGuide-ans.fhir.fr.mesures.json 02:04:00
-[1, 2] ImplementationGuide: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide|4.0.1
-[1, 2] ImplementationGuide: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
-[414, 32] ImplementationGuide.definition.parameter[0].code: Error - The value provided ('copyrightyear') was not found in the value set 'GuideParameterCode' (http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1), and a code is required from this value set  (error message = The System URI could not be determined for the code 'copyrightyear' in the ValueSet 'http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1'; None of the provided codes ['#copyrightyear'] are in the value set 'http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1')
-[418, 31] ImplementationGuide.definition.parameter[1].code: Error - The value provided ('releaselabel') was not found in the value set 'GuideParameterCode' (http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1), and a code is required from this value set  (error message = The System URI could not be determined for the code 'releaselabel' in the ValueSet 'http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1'; None of the provided codes ['#releaselabel'] are in the value set 'http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1')
-[422, 26] ImplementationGuide.definition.parameter[2].code: Error - The value provided ('shownav') was not found in the value set 'GuideParameterCode' (http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1), and a code is required from this value set  (error message = The System URI could not be determined for the code 'shownav' in the ValueSet 'http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1'; None of the provided codes ['#shownav'] are in the value set 'http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1')
-
-
-----------------------------------------------------------------------------------
-./fsh-generated/resources/Practitioner-ExampleFrPractitionner001.json 02:04:00
-[1, 2] Practitioner: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner|4.0.1
-[1, 2] Practitioner: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
-
-
-----------------------------------------------------------------------------------
-./fsh-generated/resources/Patient-ExamplefrPatient001.json 02:04:00
-[1, 2] Patient: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/Patient|4.0.1
-[1, 2] Patient: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
-
-
-----------------------------------------------------------------------------------
-./fsh-generated/resources/Device-phd-74E8FFFEFF051C00.json 02:04:00
-[1, 2] Device: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/Device|4.0.1
-[1, 2] Device: Information - Validate resource against profile http://hl7.org/fhir/uv/phd/StructureDefinition/PhdDevice|2.0.0-ballot (per meta)
-[1, 2] Device: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
-[12, 8] Device.identifier[0].type: Warning - None of the codings provided are in the value set 'IdentifierType' (http://hl7.org/fhir/ValueSet/identifier-type|4.0.1), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = http://hl7.org/fhir/uv/phd/CodeSystem/ContinuaDeviceIdentifiers#SYSID)
-[23, 8] Device.identifier[1].type: Warning - None of the codings provided are in the value set 'IdentifierType' (http://hl7.org/fhir/ValueSet/identifier-type|4.0.1), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = http://hl7.org/fhir/uv/phd/CodeSystem/ContinuaDeviceIdentifiers#BTMAC)
-
-
-----------------------------------------------------------------------------------
-./fsh-generated/resources/StructureDefinition-mesures-moment-of-measurement.json 02:04:00
-[1, 2] StructureDefinition: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition|4.0.1
-[1, 2] StructureDefinition: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
-
-
-----------------------------------------------------------------------------------
-./fsh-generated/resources/Bundle-bundle-example.json 02:04:00
+./fsh-generated/resources/Bundle-bundle-example.json 02:12:35
 [1, 2] Bundle: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/Bundle|4.0.1
 [1, 2] Bundle: Information - Validate resource against profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-bundle-flux-alimentation (per meta)
 [16, 8] Bundle.entry[0].resource/*Observation/5138af77-df7e-4b9d-ba17-07ba3ebb950a*/: Information - Validate Observation against the Body weight profile (http://hl7.org/fhir/StructureDefinition/bodyweight) which is required by the FHIR specification because the LOINC code 29463-7 was found
@@ -201,67 +149,102 @@
 
 
 ----------------------------------------------------------------------------------
-./fsh-generated/resources/Observation-ExampleMesFrObservationBodyTemperature001.json 02:04:00
-[1, 2] Observation: Information - Validate Observation against the Body temperature profile (http://hl7.org/fhir/StructureDefinition/bodytemp) which is required by the FHIR specification because the LOINC code 8310-5 was found
+./fsh-generated/resources/StructureDefinition-mesures-moment-of-measurement.json 02:12:35
+[1, 2] StructureDefinition: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition|4.0.1
+[1, 2] StructureDefinition: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
+
+
+----------------------------------------------------------------------------------
+./fsh-generated/resources/Observation-ExampleMesObservationGlucose001.json 02:12:35
 [1, 2] Observation: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1
-[1, 2] Observation: Information - Validate resource against profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-body-temperature (per meta)
+[1, 2] Observation: Information - Validate resource against profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-observation-glucose (per meta)
 [1, 2] Observation: Warning - Best Practice Recommendation: In general, all observations should have a performer
 [1, 2] Observation: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
-[6, 115] Observation.meta.profile[0]: Information - This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-body-temperature (this may not be a problem, but you should check that it's not intended to match a slice)
-[29, 18] Observation.value.ofType(Quantity).code: Warning - Resolved system http://unitsofmeasure.org, but the definition is not complete, so assuming value set include is correct
+[56, 8] Observation.extension[3].value.ofType(CodeableConcept).coding[0].system: Warning - A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R311-CIM10Atih/FHIR/TRE-R311-CIM10Atih' could not be found, so the code cannot be validated
+[56, 8] Observation.extension[3].value.ofType(CodeableConcept).coding[0]: Warning - A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R311-CIM10Atih/FHIR/TRE-R311-CIM10Atih' could not be found, so the code cannot be validated
+[56, 8] Observation.extension[3].value.ofType(CodeableConcept): Error - None of the codings provided are in the value set 'JDV_J153-TypeDiabete-ENS' (https://mos.esante.gouv.fr/NOS/JDV_J153-TypeDiabete-ENS/FHIR/JDV-J153-TypeDiabete-ENS|20230630120000), and a coding from this value set is required) (codes = https://mos.esante.gouv.fr/NOS/TRE_R311-CIM10Atih/FHIR/TRE-R311-CIM10Atih#E11.x0)
 
 
 ----------------------------------------------------------------------------------
-./fsh-generated/resources/StructureDefinition-mesures-observation-steps-by-day.json 02:04:00
-[1, 2] StructureDefinition: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition|4.0.1
-[1, 2] StructureDefinition: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
-
-
-----------------------------------------------------------------------------------
-./fsh-generated/resources/StructureDefinition-mesures-diabetis-type.json 02:04:00
-[1, 2] StructureDefinition: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition|4.0.1
-[1, 2] StructureDefinition: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
-
-
-----------------------------------------------------------------------------------
-./fsh-generated/resources/Observation-ExampleMesFrOxygenSat.json 02:04:00
-[1, 2] Observation: Information - Validate Observation against the Oxygen saturation profile (http://hl7.org/fhir/StructureDefinition/oxygensat) which is required by the FHIR specification because the LOINC code 2708-6 was found
+./fsh-generated/resources/Observation-ExampleMesFrObservationBodyHeight001.json 02:12:35
+[1, 2] Observation: Information - Validate Observation against the Body height profile (http://hl7.org/fhir/StructureDefinition/bodyheight) which is required by the FHIR specification because the LOINC code 8302-2 was found
 [1, 2] Observation: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1
-[1, 2] Observation: Information - Validate resource against profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-oxygen-sat (per meta)
+[1, 2] Observation: Information - Validate resource against profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-bodyheight (per meta)
 [1, 2] Observation: Warning - Best Practice Recommendation: In general, all observations should have a performer
 [1, 2] Observation: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
-[6, 109] Observation.meta.profile[0]: Information - This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-oxygen-sat (this may not be a problem, but you should check that it's not intended to match a slice)
-[19, 4] Observation.code.coding[0].display: Warning - Wrong Display Name 'Oxygen saturation in Arterial blood' for http://loinc.org#2708-6. Valid display is one of 0 choices: 'Oxygen saturation in Arterial blood' (en-US), 'Oxygen saturation in Arterial blood' (en-US), 'SaO2 % BldA' (en-US), 'SaO2%, Blood' (en-US), 'Saturación de oxígeno: Sangre arterial : Punto temporal: Fracción de masa: Cuantitativo:' (es-MX), 'saturación de oxígeno:fracción de sustancia:punto en el tiempo:sangre arterial:cuantitativo:' (es-AR), 'SgA O2 % MFr' (pt-BR), 'Sauerstoffsättigung in arteriellem Blut' (de-DE), 'Zuurstofverzadiging [massafractie] in arterieel bloed' (nl-NL) or 'O2-Sättigung arteriell' (de-AT) (for the language(s) 'english')
+[6, 109] Observation.meta.profile[0]: Information - This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-bodyheight (this may not be a problem, but you should check that it's not intended to match a slice)
+[29, 17] Observation.value.ofType(Quantity).code: Warning - Resolved system http://unitsofmeasure.org, but the definition is not complete, so assuming value set include is correct
 
 
 ----------------------------------------------------------------------------------
-./fsh-generated/resources/StructureDefinition-mesures-fr-cholesterol-hdl.json 02:04:00
-[1, 2] StructureDefinition: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition|4.0.1
-[1, 2] StructureDefinition: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
-[22, 10] StructureDefinition.differential.element[0].pattern.ofType(CodeableConcept).coding[0].display: Warning - Wrong Display Name 'HDL Cholesterol' for http://loinc.org#2085-9. Valid display is one of 0 choices: 'Cholesterol in HDL [Mass/volume] in Serum or Plasma' (en-US), 'Cholesterol in HDL [Mass/volume] in Serum or Plasma' (en-US), 'HDLc SerPl-mCnc' (en-US), 'HDL cholesterol, Blood' (en-US), 'Colesterol en HDL: Suero o Plasma : Punto temporal: Concentración de masa: Cuantitativo:' (es-MX), 'colesterol.en HDL:concentración de masa:punto en el tiempo:suero/plasma:cuantitativo:' (es-AR), 'HDLc SerPl-mCnc' (pt-BR), 'Cholesterol in HDL [Masse/Volumen] in Serum oder Plasma' (de-DE), 'Cholesterol.in HDL [massa/volume] in serum of plasma' (nl-NL), 'HDL-Cholesterin' (de-AT), 'Холестерин в ЛПВЩ [Маса/об'єм] у Сироватці чи Плазмі' (uk-UA), 'хЛПВЩ СвткПлаз-МасКнц' (uk-UA) or 'Холестерин в ЛПВЩ [Маса/об'єм]' (uk-UA) (for the language(s) 'english')
-
-
-----------------------------------------------------------------------------------
-./fsh-generated/resources/StructureDefinition-mesures-bundle-flux-alimentation-lipid.json 02:04:00
+./fsh-generated/resources/StructureDefinition-mesures-fr-observation-oxygen-sat.json 02:12:35
 [1, 2] StructureDefinition: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition|4.0.1
 [1, 2] StructureDefinition: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
 
 
 ----------------------------------------------------------------------------------
-./fsh-generated/resources/StructureDefinition-mesures-fr-observation-bodyheight.json 02:04:00
+./fsh-generated/resources/Observation-ExampleMesFrObservationBodyWeight001.json 02:12:35
+[1, 2] Observation: Information - Validate Observation against the Body weight profile (http://hl7.org/fhir/StructureDefinition/bodyweight) which is required by the FHIR specification because the LOINC code 29463-7 was found
+[1, 2] Observation: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1
+[1, 2] Observation: Information - Validate resource against profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-body-weight (per meta)
+[1, 2] Observation: Warning - Best Practice Recommendation: In general, all observations should have a performer
+[1, 2] Observation: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
+[6, 110] Observation.meta.profile[0]: Information - This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-body-weight (this may not be a problem, but you should check that it's not intended to match a slice)
+[35, 17] Observation.value.ofType(Quantity).code: Warning - Resolved system http://unitsofmeasure.org, but the definition is not complete, so assuming value set include is correct
+[46, 4] Observation.method: Warning - None of the codings provided are in the value set 'JDV_J145-MethodBodyWeight-ENS' (https://mos.esante.gouv.fr/NOS/JDV_J145-MethodBodyWeight-ENS/FHIR/JDV-J145-MethodBodyWeight-ENS|20240726120000), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = https://mos.esante.gouv.fr/NOS/TRE_R306-CLADIMED/FHIR/TRE-R306-CLADIMED#K50BI02)
+
+
+----------------------------------------------------------------------------------
+./fsh-generated/resources/Observation-ExampleMesFrObservationBmi001.json 02:12:35
+[1, 2] Observation: Information - Validate Observation against the Body mass index profile (http://hl7.org/fhir/StructureDefinition/bmi) which is required by the FHIR specification because the LOINC code 39156-5 was found
+[1, 2] Observation: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1
+[1, 2] Observation: Information - Validate resource against profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-bmi (per meta)
+[1, 2] Observation: Warning - Best Practice Recommendation: In general, all observations should have a performer
+[1, 2] Observation: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
+[6, 102] Observation.meta.profile[0]: Information - This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-bmi (this may not be a problem, but you should check that it's not intended to match a slice)
+
+
+----------------------------------------------------------------------------------
+./fsh-generated/resources/StructureDefinition-mesures-fr-observation-resp-rate.json 02:12:35
 [1, 2] StructureDefinition: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition|4.0.1
 [1, 2] StructureDefinition: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
 
 
 ----------------------------------------------------------------------------------
-./fsh-generated/resources/StructureDefinition-mesures-fr-cholesterol-total.json 02:04:00
-[1, 2] StructureDefinition: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition|4.0.1
-[1, 2] StructureDefinition: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
-[22, 10] StructureDefinition.differential.element[0].pattern.ofType(CodeableConcept).coding[0].display: Warning - Wrong Display Name 'Cholesterol [Moles/​volume] in Serum or Plasma' for http://loinc.org#35200-5. Valid display is one of 0 choices: 'Cholesterol [Mass or Moles/volume] in Serum or Plasma' (en-US), 'Cholesterol [Mass or Moles/volume] in Serum or Plasma' (en-US), 'Cholest SerPl-msCnc' (en-US), 'Cholesterol, Blood' (en-US), 'Colesterol: Suero o Plasma : Punto temporal: Concentración de masa o sustancia: Cuantitativo:' (es-MX), 'colesterol:concentración de masa:punto en el tiempo:suero/plasma:cuantitativo:' (es-AR), 'Colest SerPl-msCnc' (pt-BR) or 'Cholesterol [massa of stof/volume] in serum of plasma' (nl-NL) (for the language(s) 'english')
+./fsh-generated/resources/Device-phd-74E8FFFEFF051C00.json 02:12:35
+[1, 2] Device: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/Device|4.0.1
+[1, 2] Device: Information - Validate resource against profile http://hl7.org/fhir/uv/phd/StructureDefinition/PhdDevice|2.0.0-ballot (per meta)
+[1, 2] Device: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
+[12, 8] Device.identifier[0].type: Warning - None of the codings provided are in the value set 'IdentifierType' (http://hl7.org/fhir/ValueSet/identifier-type|4.0.1), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = http://hl7.org/fhir/uv/phd/CodeSystem/ContinuaDeviceIdentifiers#SYSID)
+[23, 8] Device.identifier[1].type: Warning - None of the codings provided are in the value set 'IdentifierType' (http://hl7.org/fhir/ValueSet/identifier-type|4.0.1), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = http://hl7.org/fhir/uv/phd/CodeSystem/ContinuaDeviceIdentifiers#BTMAC)
 
 
 ----------------------------------------------------------------------------------
-./fsh-generated/resources/Observation-ExampleObservationWaistCircumference001.json 02:04:00
+./fsh-generated/resources/Patient-ExamplefrPatient001.json 02:12:35
+[1, 2] Patient: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/Patient|4.0.1
+[1, 2] Patient: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
+
+
+----------------------------------------------------------------------------------
+./fsh-generated/resources/ValueSet-method-glucose-vs.json 02:12:35
+[1, 2] ValueSet: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet|4.0.1
+[1, 2] ValueSet: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
+
+
+----------------------------------------------------------------------------------
+./fsh-generated/resources/StructureDefinition-mesures-fr-observation-body-weight.json 02:12:35
+[1, 2] StructureDefinition: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition|4.0.1
+[1, 2] StructureDefinition: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
+
+
+----------------------------------------------------------------------------------
+./fsh-generated/resources/StructureDefinition-mesures-fr-observation-body-temperature.json 02:12:35
+[1, 2] StructureDefinition: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition|4.0.1
+[1, 2] StructureDefinition: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
+
+
+----------------------------------------------------------------------------------
+./fsh-generated/resources/Observation-ExampleObservationWaistCircumference001.json 02:12:35
 [1, 2] Observation: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1
 [1, 2] Observation: Information - Validate resource against profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-observation-waist-circumference (per meta)
 [1, 2] Observation: Warning - Best Practice Recommendation: In general, all observations should have a performer
@@ -272,7 +255,89 @@
 
 
 ----------------------------------------------------------------------------------
-./fsh-generated/resources/Observation-ExampleMesObservationStepsByDay001.json 02:04:00
+./fsh-generated/resources/StructureDefinition-mesures-reason-for-measurement.json 02:12:35
+[1, 2] StructureDefinition: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition|4.0.1
+[1, 2] StructureDefinition: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
+
+
+----------------------------------------------------------------------------------
+./fsh-generated/resources/StructureDefinition-mesures-observation-waist-circumference.json 02:12:35
+[1, 2] StructureDefinition: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition|4.0.1
+[1, 2] StructureDefinition: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
+
+
+----------------------------------------------------------------------------------
+./fsh-generated/resources/StructureDefinition-mesures-number-of-days.json 02:12:35
+[1, 2] StructureDefinition: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition|4.0.1
+[1, 2] StructureDefinition: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
+
+
+----------------------------------------------------------------------------------
+./fsh-generated/resources/StructureDefinition-mesures-fr-observation-bp.json 02:12:35
+[1, 2] StructureDefinition: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition|4.0.1
+[1, 2] StructureDefinition: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
+
+
+----------------------------------------------------------------------------------
+./fsh-generated/resources/Observation-ExampleMesFrOxygenSat.json 02:12:35
+[1, 2] Observation: Information - Validate Observation against the Oxygen saturation profile (http://hl7.org/fhir/StructureDefinition/oxygensat) which is required by the FHIR specification because the LOINC code 2708-6 was found
+[1, 2] Observation: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1
+[1, 2] Observation: Information - Validate resource against profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-oxygen-sat (per meta)
+[1, 2] Observation: Warning - Best Practice Recommendation: In general, all observations should have a performer
+[1, 2] Observation: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
+[6, 109] Observation.meta.profile[0]: Information - This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-oxygen-sat (this may not be a problem, but you should check that it's not intended to match a slice)
+[19, 4] Observation.code.coding[0].display: Warning - Wrong Display Name 'Oxygen saturation in Arterial blood' for http://loinc.org#2708-6. Valid display is one of 0 choices: 'Oxygen saturation in Arterial blood' (en-US), 'Oxygen saturation in Arterial blood' (en-US), 'SaO2 % BldA' (en-US), 'SaO2%, Blood' (en-US), 'Saturación de oxígeno: Sangre arterial : Punto temporal: Fracción de masa: Cuantitativo:' (es-MX), 'saturación de oxígeno:fracción de sustancia:punto en el tiempo:sangre arterial:cuantitativo:' (es-AR), 'SgA O2 % MFr' (pt-BR), 'Sauerstoffsättigung in arteriellem Blut' (de-DE), 'Zuurstofverzadiging [massafractie] in arterieel bloed' (nl-NL) or 'O2-Sättigung arteriell' (de-AT) (for the language(s) 'english')
+
+
+----------------------------------------------------------------------------------
+./fsh-generated/resources/StructureDefinition-mesures-bundle-flux-alimentation.json 02:12:35
+[1, 2] StructureDefinition: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition|4.0.1
+[1, 2] StructureDefinition: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
+
+
+----------------------------------------------------------------------------------
+./fsh-generated/resources/StructureDefinition-mesures-fr-cholesterol-hdl.json 02:12:35
+[1, 2] StructureDefinition: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition|4.0.1
+[1, 2] StructureDefinition: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
+[22, 10] StructureDefinition.differential.element[0].pattern.ofType(CodeableConcept).coding[0].display: Warning - Wrong Display Name 'HDL Cholesterol' for http://loinc.org#2085-9. Valid display is one of 0 choices: 'Cholesterol in HDL [Mass/volume] in Serum or Plasma' (en-US), 'Cholesterol in HDL [Mass/volume] in Serum or Plasma' (en-US), 'HDLc SerPl-mCnc' (en-US), 'HDL cholesterol, Blood' (en-US), 'Colesterol en HDL: Suero o Plasma : Punto temporal: Concentración de masa: Cuantitativo:' (es-MX), 'colesterol.en HDL:concentración de masa:punto en el tiempo:suero/plasma:cuantitativo:' (es-AR), 'HDLc SerPl-mCnc' (pt-BR), 'Cholesterol in HDL [Masse/Volumen] in Serum oder Plasma' (de-DE), 'Cholesterol.in HDL [massa/volume] in serum of plasma' (nl-NL), 'HDL-Cholesterin' (de-AT), 'Холестерин в ЛПВЩ [Маса/об'єм] у Сироватці чи Плазмі' (uk-UA), 'хЛПВЩ СвткПлаз-МасКнц' (uk-UA) or 'Холестерин в ЛПВЩ [Маса/об'єм]' (uk-UA) (for the language(s) 'english')
+
+
+----------------------------------------------------------------------------------
+./fsh-generated/resources/StructureDefinition-mesures-fr-cholesterol-total.json 02:12:35
+[1, 2] StructureDefinition: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition|4.0.1
+[1, 2] StructureDefinition: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
+[22, 10] StructureDefinition.differential.element[0].pattern.ofType(CodeableConcept).coding[0].display: Warning - Wrong Display Name 'Cholesterol [Moles/​volume] in Serum or Plasma' for http://loinc.org#35200-5. Valid display is one of 0 choices: 'Cholesterol [Mass or Moles/volume] in Serum or Plasma' (en-US), 'Cholesterol [Mass or Moles/volume] in Serum or Plasma' (en-US), 'Cholest SerPl-msCnc' (en-US), 'Cholesterol, Blood' (en-US), 'Colesterol: Suero o Plasma : Punto temporal: Concentración de masa o sustancia: Cuantitativo:' (es-MX), 'colesterol:concentración de masa:punto en el tiempo:suero/plasma:cuantitativo:' (es-AR), 'Colest SerPl-msCnc' (pt-BR) or 'Cholesterol [massa of stof/volume] in serum of plasma' (nl-NL) (for the language(s) 'english')
+
+
+----------------------------------------------------------------------------------
+./fsh-generated/resources/StructureDefinition-mesures-fr-cholesterol-ldl.json 02:12:35
+[1, 2] StructureDefinition: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition|4.0.1
+[1, 2] StructureDefinition: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
+[22, 10] StructureDefinition.differential.element[0].pattern.ofType(CodeableConcept).coding[0].display: Warning - Wrong Display Name 'Cholesterol in LDL [Mass/volume] in Serum or Plasma by calculation' for http://loinc.org#13457-7. Valid display is one of 0 choices: 'Cholesterol in LDL [Mass/volume] in Serum or Plasma by calculation' (en-US), 'Cholesterol in LDL [Mass/volume] in Serum or Plasma by calculation' (en-US), 'LDLc SerPl Calc-mCnc' (en-US), 'LDL cholesterol, Blood' (en-US), 'Colesterol en LDL: Suero o Plasma : Punto temporal: Concentración de masa: Cuantitativo: Calculado' (es-MX), 'colesterol.en LDL:concentración de masa:punto en el tiempo:suero/plasma:cuantitativo:calculado' (es-AR), 'LDLc SerPl Calc-mCnc' (pt-BR), 'Cholesterol in LDL [Masse/Volumen] in Serum oder Plasma mittels Berechnung' (de-DE), 'Cholesterol.in LDL [massa/volume] in serum of plasma d.m.v. berekend' (nl-NL), 'LDL-Cholesterin berechnet' (de-AT), 'Холестерин у ЛПНЩ [Маса/об'єм] у сироватці чи плазмі розрахунковим методом' (uk-UA), 'Холестерин ЛПНЩ Розр-МасКнц' (uk-UA) or 'Холестерин у ЛПНЩ Розр [Маса/об'єм]' (uk-UA) (for the language(s) 'english')
+
+
+----------------------------------------------------------------------------------
+./fsh-generated/resources/Observation-ExampleMesFrObservationBP001.json 02:12:35
+[1, 2] Observation: Information - Validate Observation against the Blood pressure systolic and diastolic profile (http://hl7.org/fhir/StructureDefinition/bp) which is required by the FHIR specification because the LOINC code 85354-9 was found
+[1, 2] Observation: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1
+[1, 2] Observation: Information - Validate resource against profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-bp (per meta)
+[1, 2] Observation: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
+[6, 101] Observation.meta.profile[0]: Information - This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-bp (this may not be a problem, but you should check that it's not intended to match a slice)
+[29, 8] Observation.component[0].value.ofType(Quantity): Warning - Resolved system http://unitsofmeasure.org, but the definition is not complete, so assuming value set include is correct
+[35, 8] Observation.component[0].code.coding[0].display: Warning - Wrong Display Name 'Systolic blood pressure' for http://loinc.org#8480-6. Valid display is one of 0 choices: 'Systolic blood pressure' (en-US), 'Systolic blood pressure' (en-US), 'BP sys' (en-US), 'Sistólica intravascular:Sistema arterial :Punto temporal:Pres:Cuantitativo:' (es-MX), 'sistólico intravascular:presión:punto en el tiempo:sistema arterial:cuantitativo:' (es-AR), 'BP sys' (pt-BR), 'Systolischer Blutdruck' (de-DE), 'Intravasculaire systolische bloeddruk [druk] in arterieel vaatstelsel' (nl-NL) or 'Blutdruck systolisch' (de-AT) (for the language(s) 'english')
+[58, 8] Observation.component[1].value.ofType(Quantity): Warning - Resolved system http://unitsofmeasure.org, but the definition is not complete, so assuming value set include is correct
+[64, 8] Observation.component[1].code.coding[0].display: Warning - Wrong Display Name 'Diastolic blood pressure' for http://loinc.org#8462-4. Valid display is one of 0 choices: 'Diastolic blood pressure' (en-US), 'Diastolic blood pressure' (en-US), 'BP dias' (en-US), 'Diastólica intravascular:Sistema arterial :Punto temporal:Pres:Cuantitativo:' (es-MX), 'diastólico intravascular:presión:punto en el tiempo:sistema arterial:cuantitativo:' (es-AR), 'BP dias' (pt-BR), 'Diastolischer Blutdruck' (de-DE), 'Intravasculaire diastolische bloeddruk [druk] in arterieel vaatstelsel' (nl-NL) or 'Blutdruck diastolisch' (de-AT) (for the language(s) 'english')
+[112, 4] Observation.bodySite: Error - None of the codings provided are in the value set 'JDV_J149-BodySiteBP-ENS' (https://mos.esante.gouv.fr/NOS/JDV_J149-BodySiteBP-ENS/FHIR/JDV-J149-BodySiteBP-ENS|20230922120000), and a coding from this value set is required) (codes = https://mos.esante.gouv.fr/NOS/TRE_R309-FMA/FHIR/TRE-R309-FMA#24890)
+
+
+----------------------------------------------------------------------------------
+./fsh-generated/resources/StructureDefinition-mesures-observation-pain-severity.json 02:12:35
+[1, 2] StructureDefinition: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition|4.0.1
+[1, 2] StructureDefinition: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
+
+
+----------------------------------------------------------------------------------
+./fsh-generated/resources/Observation-ExampleMesObservationStepsByDay001.json 02:12:35
 [1, 2] Observation: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1
 [1, 2] Observation: Information - Validate resource against profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-observation-steps-by-day (per meta)
 [1, 2] Observation: Warning - Best Practice Recommendation: In general, all observations should have a performer
@@ -280,65 +345,4 @@
 [9, 4] Observation.code: Information - Observation.code.coding:stepsBDCode: Found 0 matches, but unable to check minimum required (Observation.code.coding) due to lack of slicing validation (from https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-observation-steps-by-day)
 [9, 4] Observation.code: Warning - None of the codings provided are in the value set 'Vital Signs' (http://hl7.org/fhir/ValueSet/observation-vitalsignresult|4.0.1), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = http://loinc.org#41950-7)
 [11, 8] Observation.code.coding[0]: Error - Slicing cannot be evaluated: Could not match any discriminators ([code, system]) for slice Observation.code.coding:stepsBDCode in profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-observation-steps-by-day - None of the 2 discriminators [code, system] have fixed value, binding or existence assertions
-
-
-----------------------------------------------------------------------------------
-./fsh-generated/resources/StructureDefinition-mesures-fr-observation-bmi.json 02:04:00
-[1, 2] StructureDefinition: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition|4.0.1
-[1, 2] StructureDefinition: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
-
-
-----------------------------------------------------------------------------------
-./fsh-generated/resources/StructureDefinition-mesures-fr-observation-resp-rate.json 02:04:00
-[1, 2] StructureDefinition: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition|4.0.1
-[1, 2] StructureDefinition: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
-
-
-----------------------------------------------------------------------------------
-./fsh-generated/resources/Observation-ExampleMesFrRespRate.json 02:04:00
-[1, 2] Observation: Information - Validate Observation against the Respiratory Rate profile (http://hl7.org/fhir/StructureDefinition/resprate) which is required by the FHIR specification because the LOINC code 9279-1 was found
-[1, 2] Observation: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1
-[1, 2] Observation: Information - Validate resource against profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-resp-rate (per meta)
-[1, 2] Observation: Warning - Best Practice Recommendation: In general, all observations should have a performer
-[1, 2] Observation: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
-[6, 108] Observation.meta.profile[0]: Information - This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-resp-rate (this may not be a problem, but you should check that it's not intended to match a slice)
-
-
-----------------------------------------------------------------------------------
-./fsh-generated/resources/StructureDefinition-mesures-fr-observation-oxygen-sat.json 02:04:00
-[1, 2] StructureDefinition: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition|4.0.1
-[1, 2] StructureDefinition: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
-
-
-----------------------------------------------------------------------------------
-./fsh-generated/resources/StructureDefinition-mesures-fr-observation-bp.json 02:04:00
-[1, 2] StructureDefinition: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition|4.0.1
-[1, 2] StructureDefinition: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
-
-
-----------------------------------------------------------------------------------
-./fsh-generated/resources/Observation-ExampleMesObservationHeadCircumference001.json 02:04:00
-[1, 2] Observation: Information - Validate Observation against the Head circumference profile (http://hl7.org/fhir/StructureDefinition/headcircum) which is required by the FHIR specification because the LOINC code 8287-5 was found
-[1, 2] Observation: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1
-[1, 2] Observation: Information - Validate resource against profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-observation-head-circumference (per meta)
-[1, 2] Observation: Warning - Best Practice Recommendation: In general, all observations should have a performer
-[1, 2] Observation: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
-[9, 4] Observation.code: Error - HeadCircumCode: magic LOINC code 9843-4 required, but not found (from http://hl7.org/fhir/StructureDefinition/headcircum|4.0.1). Note that other Observation codes are allowed in addition to this required magic code
-[9, 4] Observation.code: Information - Observation.code.coding:headCircumCode: Found 0 matches, but unable to check minimum required (Observation.code.coding) due to lack of slicing validation (from https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-observation-head-circumference)
-[9, 4] Observation.code: Warning - None of the codings provided are in the value set 'Vital Signs' (http://hl7.org/fhir/ValueSet/observation-vitalsignresult|4.0.1), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = http://loinc.org#8287-5)
-[11, 8] Observation.code.coding[0]: Error - Slicing cannot be evaluated: Could not match any discriminators ([code, system]) for slice Observation.code.coding:headCircumCode in profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-observation-head-circumference - None of the 2 discriminators [code, system] have fixed value, binding or existence assertions
-[30, 17] Observation.value.ofType(Quantity).code: Warning - Resolved system http://unitsofmeasure.org, but the definition is not complete, so assuming value set include is correct
-
-
-----------------------------------------------------------------------------------
-./fsh-generated/resources/StructureDefinition-mesures-fr-cholesterol-ldl.json 02:04:00
-[1, 2] StructureDefinition: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition|4.0.1
-[1, 2] StructureDefinition: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
-[22, 10] StructureDefinition.differential.element[0].pattern.ofType(CodeableConcept).coding[0].display: Warning - Wrong Display Name 'Cholesterol in LDL [Mass/volume] in Serum or Plasma by calculation' for http://loinc.org#13457-7. Valid display is one of 0 choices: 'Cholesterol in LDL [Mass/volume] in Serum or Plasma by calculation' (en-US), 'Cholesterol in LDL [Mass/volume] in Serum or Plasma by calculation' (en-US), 'LDLc SerPl Calc-mCnc' (en-US), 'LDL cholesterol, Blood' (en-US), 'Colesterol en LDL: Suero o Plasma : Punto temporal: Concentración de masa: Cuantitativo: Calculado' (es-MX), 'colesterol.en LDL:concentración de masa:punto en el tiempo:suero/plasma:cuantitativo:calculado' (es-AR), 'LDLc SerPl Calc-mCnc' (pt-BR), 'Cholesterol in LDL [Masse/Volumen] in Serum oder Plasma mittels Berechnung' (de-DE), 'Cholesterol.in LDL [massa/volume] in serum of plasma d.m.v. berekend' (nl-NL), 'LDL-Cholesterin berechnet' (de-AT), 'Холестерин у ЛПНЩ [Маса/об'єм] у сироватці чи плазмі розрахунковим методом' (uk-UA), 'Холестерин ЛПНЩ Розр-МасКнц' (uk-UA) or 'Холестерин у ЛПНЩ Розр [Маса/об'єм]' (uk-UA) (for the language(s) 'english')
-
-
-----------------------------------------------------------------------------------
-./fsh-generated/resources/StructureDefinition-mesures-observation-pain-severity.json 02:04:00
-[1, 2] StructureDefinition: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition|4.0.1
-[1, 2] StructureDefinition: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
 

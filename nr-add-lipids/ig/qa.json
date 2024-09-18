@@ -6,8 +6,8 @@
   "status" : "active",
   "package-id" : "ans.fhir.fr.mesures",
   "ig-ver" : "3.1.0-ballot",
-  "date" : "Wed, 18 Sep, 2024 14:01:59 +0000",
-  "dateISO8601" : "2024-09-18T14:01:59+00:00",
+  "date" : "Wed, 18 Sep, 2024 14:11:02 +0000",
+  "dateISO8601" : "2024-09-18T14:11:02+00:00",
   "errs" : 16,
   "warnings" : 67,
   "hints" : 32,
@@ -15,5 +15,5 @@
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 3615693872
+  "maxMemory" : 4541447784
 }
