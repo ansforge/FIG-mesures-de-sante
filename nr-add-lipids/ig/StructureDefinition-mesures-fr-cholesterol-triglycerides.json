@@ -10,7 +10,7 @@
   "name" : "MesFrObservationTriglycerides",
   "title" : "Triglycerides",
   "status" : "active",
-  "date" : "2024-09-18T13:56:13+00:00",
+  "date" : "2024-09-18T14:01:59+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -589,7 +589,7 @@
         "human" : "SHALL have a contained resource if a local reference is provided",
         "expression" : "reference.startsWith('#').not() or (reference.substring(1).trace('url') in %rootResource.contained.id.trace('ids'))",
         "xpath" : "not(starts-with(f:reference/@value, '#')) or exists(ancestor::*[self::f:entry or self::f:parameter]/f:resource/f:*/f:contained/f:*[f:id/@value=substring-after(current()/f:reference/@value, '#')]|/*/f:contained/f:*[f:id/@value=substring-after(current()/f:reference/@value, '#')])",
-        "source" : "http://hl7.org/fhir/StructureDefinition/CareTeam"
+        "source" : "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare"
       }],
       "isSummary" : true,
       "mapping" : [{
@@ -651,7 +651,7 @@
         "human" : "SHALL have a contained resource if a local reference is provided",
         "expression" : "reference.startsWith('#').not() or (reference.substring(1).trace('url') in %rootResource.contained.id.trace('ids'))",
         "xpath" : "not(starts-with(f:reference/@value, '#')) or exists(ancestor::*[self::f:entry or self::f:parameter]/f:resource/f:*/f:contained/f:*[f:id/@value=substring-after(current()/f:reference/@value, '#')]|/*/f:contained/f:*[f:id/@value=substring-after(current()/f:reference/@value, '#')])",
-        "source" : "http://hl7.org/fhir/StructureDefinition/CareTeam"
+        "source" : "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare"
       }],
       "isSummary" : true,
       "mapping" : [{
@@ -924,7 +924,7 @@
         "human" : "SHALL have a contained resource if a local reference is provided",
         "expression" : "reference.startsWith('#').not() or (reference.substring(1).trace('url') in %rootResource.contained.id.trace('ids'))",
         "xpath" : "not(starts-with(f:reference/@value, '#')) or exists(ancestor::*[self::f:entry or self::f:parameter]/f:resource/f:*/f:contained/f:*[f:id/@value=substring-after(current()/f:reference/@value, '#')]|/*/f:contained/f:*[f:id/@value=substring-after(current()/f:reference/@value, '#')])",
-        "source" : "http://hl7.org/fhir/StructureDefinition/CareTeam"
+        "source" : "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare"
       }],
       "isSummary" : true,
       "mapping" : [{
@@ -988,7 +988,7 @@
         "human" : "SHALL have a contained resource if a local reference is provided",
         "expression" : "reference.startsWith('#').not() or (reference.substring(1).trace('url') in %rootResource.contained.id.trace('ids'))",
         "xpath" : "not(starts-with(f:reference/@value, '#')) or exists(ancestor::*[self::f:entry or self::f:parameter]/f:resource/f:*/f:contained/f:*[f:id/@value=substring-after(current()/f:reference/@value, '#')]|/*/f:contained/f:*[f:id/@value=substring-after(current()/f:reference/@value, '#')])",
-        "source" : "http://hl7.org/fhir/StructureDefinition/CareTeam"
+        "source" : "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare"
       }],
       "isSummary" : true,
       "mapping" : [{
@@ -1050,7 +1050,7 @@
         "human" : "SHALL have a contained resource if a local reference is provided",
         "expression" : "reference.startsWith('#').not() or (reference.substring(1).trace('url') in %rootResource.contained.id.trace('ids'))",
         "xpath" : "not(starts-with(f:reference/@value, '#')) or exists(ancestor::*[self::f:entry or self::f:parameter]/f:resource/f:*/f:contained/f:*[f:id/@value=substring-after(current()/f:reference/@value, '#')]|/*/f:contained/f:*[f:id/@value=substring-after(current()/f:reference/@value, '#')])",
-        "source" : "http://hl7.org/fhir/StructureDefinition/CareTeam"
+        "source" : "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare"
       }],
       "isSummary" : true,
       "mapping" : [{
@@ -1217,7 +1217,7 @@
         "human" : "SHALL have a contained resource if a local reference is provided",
         "expression" : "reference.startsWith('#').not() or (reference.substring(1).trace('url') in %rootResource.contained.id.trace('ids'))",
         "xpath" : "not(starts-with(f:reference/@value, '#')) or exists(ancestor::*[self::f:entry or self::f:parameter]/f:resource/f:*/f:contained/f:*[f:id/@value=substring-after(current()/f:reference/@value, '#')]|/*/f:contained/f:*[f:id/@value=substring-after(current()/f:reference/@value, '#')])",
-        "source" : "http://hl7.org/fhir/StructureDefinition/CareTeam"
+        "source" : "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare"
       }],
       "isSummary" : true,
       "mapping" : [{
@@ -1690,7 +1690,7 @@
         "human" : "SHALL have a contained resource if a local reference is provided",
         "expression" : "reference.startsWith('#').not() or (reference.substring(1).trace('url') in %rootResource.contained.id.trace('ids'))",
         "xpath" : "not(starts-with(f:reference/@value, '#')) or exists(ancestor::*[self::f:entry or self::f:parameter]/f:resource/f:*/f:contained/f:*[f:id/@value=substring-after(current()/f:reference/@value, '#')]|/*/f:contained/f:*[f:id/@value=substring-after(current()/f:reference/@value, '#')])",
-        "source" : "http://hl7.org/fhir/StructureDefinition/CareTeam"
+        "source" : "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare"
       }],
       "mapping" : [{
         "identity" : "rim",
@@ -1750,7 +1750,7 @@
         "human" : "SHALL have a contained resource if a local reference is provided",
         "expression" : "reference.startsWith('#').not() or (reference.substring(1).trace('url') in %rootResource.contained.id.trace('ids'))",
         "xpath" : "not(starts-with(f:reference/@value, '#')) or exists(ancestor::*[self::f:entry or self::f:parameter]/f:resource/f:*/f:contained/f:*[f:id/@value=substring-after(current()/f:reference/@value, '#')]|/*/f:contained/f:*[f:id/@value=substring-after(current()/f:reference/@value, '#')])",
-        "source" : "http://hl7.org/fhir/StructureDefinition/CareTeam"
+        "source" : "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare"
       }],
       "mapping" : [{
         "identity" : "rim",
@@ -1992,7 +1992,7 @@
         "human" : "If a code for the unit is present, the system SHALL also be present",
         "expression" : "code.empty() or system.exists()",
         "xpath" : "not(exists(f:code)) or exists(f:system)",
-        "source" : "http://hl7.org/fhir/StructureDefinition/MedicationAdministration"
+        "source" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge"
       },
       {
         "key" : "sqty-1",
@@ -2000,7 +2000,7 @@
         "human" : "The comparator is not used on a SimpleQuantity",
         "expression" : "comparator.empty()",
         "xpath" : "not(exists(f:comparator))",
-        "source" : "http://hl7.org/fhir/StructureDefinition/MedicationAdministration"
+        "source" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge"
       }],
       "isModifier" : false,
       "mapping" : [{
@@ -2029,8 +2029,7 @@
       "path" : "Observation.referenceRange.high",
       "short" : "High Range, if relevant",
       "definition" : "The value of the high bound of the reference range.  The high bound of the reference range endpoint is inclusive of the value (e.g.  reference range is >=5 - <=9). If the high bound is omitted,  it is assumed to be meaningless (e.g. reference range is >= 2.3).",
-      "comment" : "Per Australian NHF Recommendations.",
-      "requirements" : "<2.0 mmol/L.",
+      "comment" : "The context of use may frequently define what kind of quantity this is and therefore what kind of units can be used. The context of use may also restrict the values for the comparator.",
       "min" : 1,
       "max" : "1",
       "base" : {
@@ -2058,7 +2057,7 @@
         "human" : "If a code for the unit is present, the system SHALL also be present",
         "expression" : "code.empty() or system.exists()",
         "xpath" : "not(exists(f:code)) or exists(f:system)",
-        "source" : "http://hl7.org/fhir/StructureDefinition/MedicationAdministration"
+        "source" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge"
       },
       {
         "key" : "sqty-1",
@@ -2066,7 +2065,7 @@
         "human" : "The comparator is not used on a SimpleQuantity",
         "expression" : "comparator.empty()",
         "xpath" : "not(exists(f:comparator))",
-        "source" : "http://hl7.org/fhir/StructureDefinition/MedicationAdministration"
+        "source" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge"
       }],
       "isModifier" : false,
       "mapping" : [{
@@ -2341,7 +2340,7 @@
         "human" : "SHALL have a contained resource if a local reference is provided",
         "expression" : "reference.startsWith('#').not() or (reference.substring(1).trace('url') in %rootResource.contained.id.trace('ids'))",
         "xpath" : "not(starts-with(f:reference/@value, '#')) or exists(ancestor::*[self::f:entry or self::f:parameter]/f:resource/f:*/f:contained/f:*[f:id/@value=substring-after(current()/f:reference/@value, '#')]|/*/f:contained/f:*[f:id/@value=substring-after(current()/f:reference/@value, '#')])",
-        "source" : "http://hl7.org/fhir/StructureDefinition/CareTeam"
+        "source" : "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare"
       }],
       "isSummary" : true,
       "mapping" : [{
@@ -2398,7 +2397,7 @@
         "human" : "SHALL have a contained resource if a local reference is provided",
         "expression" : "reference.startsWith('#').not() or (reference.substring(1).trace('url') in %rootResource.contained.id.trace('ids'))",
         "xpath" : "not(starts-with(f:reference/@value, '#')) or exists(ancestor::*[self::f:entry or self::f:parameter]/f:resource/f:*/f:contained/f:*[f:id/@value=substring-after(current()/f:reference/@value, '#')]|/*/f:contained/f:*[f:id/@value=substring-after(current()/f:reference/@value, '#')])",
-        "source" : "http://hl7.org/fhir/StructureDefinition/CareTeam"
+        "source" : "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare"
       }],
       "isSummary" : true,
       "mapping" : [{
@@ -2958,8 +2957,6 @@
     {
       "id" : "Observation.referenceRange.high",
       "path" : "Observation.referenceRange.high",
-      "comment" : "Per Australian NHF Recommendations.",
-      "requirements" : "<2.0 mmol/L.",
       "min" : 1
     },
     {

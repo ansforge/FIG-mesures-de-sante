@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "MesFrObservationOxygenSat"] ; # 
   fhir:title [ fhir:v "Saturation en Oxygène"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2024-09-18T13:56:13+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-09-18T14:01:59+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;

@@ -1193,13 +1193,11 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "mesures-fr-cholesterol-hdl","Observation.referenceRange.low","Observation.referenceRange.low","","","",1,1,"","","","Quantity {[CanonicalType[http://hl7.org/fhir/StructureDefinition/SimpleQuantity]]} {[]}
-","Low Range, if relevant",">1.5 mmol/L.","The context of use may frequently define what kind of quantity this is and therefore what kind of units can be used. The context of use may also restrict the values for the comparator.","","","","<valueQuantity xmlns=""http://hl7.org/fhir"">
-  <value value=""1.5""/>
-</valueQuantity>","","","","",,,,,"",,,,"Observation.referenceRange.low",0,1,"ele-1
+","Low Range, if relevant","The value of the low bound of the reference range.  The low bound of the reference range endpoint is inclusive of the value (e.g.  reference range is >=5 - <=9). If the low bound is omitted,  it is assumed to be meaningless (e.g. reference range is <=2.3).","The context of use may frequently define what kind of quantity this is and therefore what kind of units can be used. The context of use may also restrict the values for the comparator.","","","","","","","","",,,,,"",,,,"Observation.referenceRange.low",0,1,"ele-1
 obs-3","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 qty-3:If a code for the unit is present, the system SHALL also be present {code.empty() or system.exists()}sqty-1:The comparator is not used on a SimpleQuantity {comparator.empty()}"
 "mesures-fr-cholesterol-hdl","Observation.referenceRange.high","Observation.referenceRange.high","","","",0,0,"","","","Quantity {[CanonicalType[http://hl7.org/fhir/StructureDefinition/SimpleQuantity]]} {[]}
-","High Range, if relevant","The value of the high bound of the reference range.  The high bound of the reference range endpoint is inclusive of the value (e.g.  reference range is >=5 - <=9). If the high bound is omitted,  it is assumed to be meaningless (e.g. reference range is >= 2.3).","Per Australian NHF Recommendations.","","","","","","","","",,,,,"",,,,"Observation.referenceRange.high",0,1,"ele-1
+","High Range, if relevant","The value of the high bound of the reference range.  The high bound of the reference range endpoint is inclusive of the value (e.g.  reference range is >=5 - <=9). If the high bound is omitted,  it is assumed to be meaningless (e.g. reference range is >= 2.3).","The context of use may frequently define what kind of quantity this is and therefore what kind of units can be used. The context of use may also restrict the values for the comparator.","","","","","","","","",,,,,"",,,,"Observation.referenceRange.high",0,1,"ele-1
 obs-3","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 qty-3:If a code for the unit is present, the system SHALL also be present {code.empty() or system.exists()}sqty-1:The comparator is not used on a SimpleQuantity {comparator.empty()}"
 "mesures-fr-cholesterol-hdl","Observation.referenceRange.type","Observation.referenceRange.type","","","",0,0,"","","","CodeableConcept {[]} {[]}
@@ -1431,9 +1429,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 obs-3","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 qty-3:If a code for the unit is present, the system SHALL also be present {code.empty() or system.exists()}sqty-1:The comparator is not used on a SimpleQuantity {comparator.empty()}"
 "mesures-fr-cholesterol-ldl","Observation.referenceRange.high","Observation.referenceRange.high","","","",1,1,"","","","Quantity {[CanonicalType[http://hl7.org/fhir/StructureDefinition/SimpleQuantity]]} {[]}
-","High Range, if relevant","<3.0 mmol/L.","Per Australian NHF Recommendations.","","","","<valueQuantity xmlns=""http://hl7.org/fhir"">
-  <value value=""3""/>
-</valueQuantity>","","","","",,,,,"",,,,"Observation.referenceRange.high",0,1,"ele-1
+","High Range, if relevant","The value of the high bound of the reference range.  The high bound of the reference range endpoint is inclusive of the value (e.g.  reference range is >=5 - <=9). If the high bound is omitted,  it is assumed to be meaningless (e.g. reference range is >= 2.3).","The context of use may frequently define what kind of quantity this is and therefore what kind of units can be used. The context of use may also restrict the values for the comparator.","","","","","","","","",,,,,"",,,,"Observation.referenceRange.high",0,1,"ele-1
 obs-3","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 qty-3:If a code for the unit is present, the system SHALL also be present {code.empty() or system.exists()}sqty-1:The comparator is not used on a SimpleQuantity {comparator.empty()}"
 "mesures-fr-cholesterol-ldl","Observation.referenceRange.type","Observation.referenceRange.type","","","",0,0,"","","","CodeableConcept {[]} {[]}
@@ -1693,9 +1689,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 obs-3","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 qty-3:If a code for the unit is present, the system SHALL also be present {code.empty() or system.exists()}sqty-1:The comparator is not used on a SimpleQuantity {comparator.empty()}"
 "mesures-fr-cholesterol-total","Observation.referenceRange.high","Observation.referenceRange.high","","","",1,1,"","","","Quantity {[CanonicalType[http://hl7.org/fhir/StructureDefinition/SimpleQuantity]]} {[]}
-","High Range, if relevant","<4.5 mmol/L.","Per Australian NHF Recommendations.","","","","<valueQuantity xmlns=""http://hl7.org/fhir"">
-  <value value=""4.5""/>
-</valueQuantity>","","","","",,,,,"",,,,"Observation.referenceRange.high",0,1,"ele-1
+","High Range, if relevant","The value of the high bound of the reference range.  The high bound of the reference range endpoint is inclusive of the value (e.g.  reference range is >=5 - <=9). If the high bound is omitted,  it is assumed to be meaningless (e.g. reference range is >= 2.3).","The context of use may frequently define what kind of quantity this is and therefore what kind of units can be used. The context of use may also restrict the values for the comparator.","","","","","","","","",,,,,"",,,,"Observation.referenceRange.high",0,1,"ele-1
 obs-3","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 qty-3:If a code for the unit is present, the system SHALL also be present {code.empty() or system.exists()}sqty-1:The comparator is not used on a SimpleQuantity {comparator.empty()}"
 "mesures-fr-cholesterol-total","Observation.referenceRange.type","Observation.referenceRange.type","","","",0,0,"","","","CodeableConcept {[]} {[]}
@@ -1927,7 +1921,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 obs-3","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 qty-3:If a code for the unit is present, the system SHALL also be present {code.empty() or system.exists()}sqty-1:The comparator is not used on a SimpleQuantity {comparator.empty()}"
 "mesures-fr-cholesterol-triglycerides","Observation.referenceRange.high","Observation.referenceRange.high","","","",1,1,"","","","Quantity {[CanonicalType[http://hl7.org/fhir/StructureDefinition/SimpleQuantity]]} {[]}
-","High Range, if relevant","The value of the high bound of the reference range.  The high bound of the reference range endpoint is inclusive of the value (e.g.  reference range is >=5 - <=9). If the high bound is omitted,  it is assumed to be meaningless (e.g. reference range is >= 2.3).","Per Australian NHF Recommendations.","<2.0 mmol/L.","","","","","","","",,,,,"",,,,"Observation.referenceRange.high",0,1,"ele-1
+","High Range, if relevant","The value of the high bound of the reference range.  The high bound of the reference range endpoint is inclusive of the value (e.g.  reference range is >=5 - <=9). If the high bound is omitted,  it is assumed to be meaningless (e.g. reference range is >= 2.3).","The context of use may frequently define what kind of quantity this is and therefore what kind of units can be used. The context of use may also restrict the values for the comparator.","","","","","","","","",,,,,"",,,,"Observation.referenceRange.high",0,1,"ele-1
 obs-3","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 qty-3:If a code for the unit is present, the system SHALL also be present {code.empty() or system.exists()}sqty-1:The comparator is not used on a SimpleQuantity {comparator.empty()}"
 "mesures-fr-cholesterol-triglycerides","Observation.referenceRange.type","Observation.referenceRange.type","","","",0,0,"","","","CodeableConcept {[]} {[]}
