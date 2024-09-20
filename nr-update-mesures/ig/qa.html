@@ -36,7 +36,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for Mesures</h1>
- <p>Generated Wed Sep 18 09:09:21 UTC 2024, FHIR version 4.0.1 for ans.fhir.fr.mesures#3.1.0-ballot (canonical = <a href="https://interop.esante.gouv.fr/ig/fhir/mesures">https://interop.esante.gouv.fr/ig/fhir/mesures</a> (<a href="https://interop.esante.gouv.fr/ig/fhir/mesures/history.html">history</a>)). See <a href="qa.min.html">Errors Only</a></p>
+ <p>Generated Fri Sep 20 07:59:20 UTC 2024, FHIR version 4.0.1 for ans.fhir.fr.mesures#3.1.0-ballot (canonical = <a href="https://interop.esante.gouv.fr/ig/fhir/mesures">https://interop.esante.gouv.fr/ig/fhir/mesures</a> (<a href="https://interop.esante.gouv.fr/ig/fhir/mesures/history.html">history</a>)). See <a href="qa.min.html">Errors Only</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
  <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.6.25</span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = ans.fhir.fr.mesures, Canonical = https://interop.esante.gouv.fr/ig/fhir/mesures</td></tr>
@@ -78,7 +78,7 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
  (13 uses),     <a href="http://hl7.org/fhir/R4/nutritionorder.html">NutritionOrder</a>
  (13 uses),     <a href="http://hl7.org/fhir/R4/servicerequest.html">ServiceRequest</a>
  (13 uses),     <a href="http://hl7.org/fhir/R4/medicationadministration.html">MedicationAdministration</a>
- (12 uses),     <a href="http://hl7.org/fhir/R4/medicationdispense.html">MedicationDispense</a>
+ (32 uses),     <a href="http://hl7.org/fhir/R4/medicationdispense.html">MedicationDispense</a>
  (12 uses),     <a href="http://hl7.org/fhir/R4/medicationstatement.html">MedicationStatement</a>
  (12 uses),     <a href="http://hl7.org/fhir/R4/procedure.html">Procedure</a>
  (12 uses),     <a href="http://hl7.org/fhir/R4/immunization.html">Immunization</a>
@@ -86,7 +86,7 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
  (25 uses),     <a href="http://hl7.org/fhir/R4/valueset-observation-category.html">ObservationCategoryCodes</a>
  (26 uses),     <a href="http://hl7.org/fhir/R4/bmi.html">observation-bmi</a>
  (3 uses),     <a href="http://hl7.org/fhir/R4/careteam.html">CareTeam</a>
- (17 uses),     <a href="http://hl7.org/fhir/R4/relatedperson.html">RelatedPerson</a>
+ (67 uses),     <a href="http://hl7.org/fhir/R4/relatedperson.html">RelatedPerson</a>
  (14 uses),     <a href="http://hl7.org/fhir/R4/practitionerrole.html">PractitionerRole</a>
  (17 uses),     <a href="http://hl7.org/fhir/R4/valueset-body-site.html">SNOMEDCTBodyStructures</a>
  (9 uses),     <a href="http://hl7.org/fhir/R4/valueset-observation-methods.html">ObservationMethods</a>
@@ -109,9 +109,7 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
  (3 uses),     <a href="http://hl7.org/fhir/R4/encounter.html">Encounter</a>
  (2 uses),     <a href="http://hl7.org/fhir/R4/oxygensat.html">observation-oxygensat</a>
  (3 uses),     <a href="http://hl7.org/fhir/R4/resprate.html">observation-resprate</a>
- (3 uses),     <a href="http://hl7.org/fhir/R4/episodeofcare.html">EpisodeOfCare</a>
- (50 uses),     <a href="http://hl7.org/fhir/R4/medicationknowledge.html">MedicationKnowledge</a>
- (20 uses),     <a href="http://hl7.org/fhir/R4/practitioner.html">Practitioner</a>
+ (3 uses),     <a href="http://hl7.org/fhir/R4/practitioner.html">Practitioner</a>
  (1 uses),     <a href="http://hl7.org/fhir/R4/organization.html">Organization</a>
  (1 uses)
   </li>
@@ -923,7 +921,7 @@ hl7.fhir.uv.tools#0.2.0:     <a href="http://hl7.org/fhir/tools/0.2.0/StructureD
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition&#8203;.differential&#8203;.element[8]&#8203;.slicing (l1&#8203;/c186042)</b></td><td><b>error</b></td><td title="http://hl7.org/fhir/StructureDefinition/ElementDefinition#eld-1"><b>Constraint failed: eld-1: 'If there are no discriminators, there must be a definition' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition)</b></td>
+     <td><b>StructureDefinition&#8203;.differential&#8203;.element[8]&#8203;.slicing (l1&#8203;/c186012)</b></td><td><b>error</b></td><td title="http://hl7.org/fhir/StructureDefinition/ElementDefinition#eld-1"><b>Constraint failed: eld-1: 'If there are no discriminators, there must be a definition' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition)</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>StructureDefinition&#8203;.snapshot&#8203;.element[12]&#8203;.binding</b></td><td><b>warning</b></td><td title=""><b><img style="vertical-align: text-bottom" src="new.png" height="16px" width="36px" alt="New Rule: "> The definition for the element 'Observation.language' binds to the value set 'http://hl7.org/fhir/ValueSet/languages' which is experimental, but this structure is not labeled as experimental</b></td>

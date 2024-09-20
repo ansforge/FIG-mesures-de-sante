@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="b5139e0d-a9e1-4a4d-8e82-be637a352279"/>
+  <id value="287d67a4-f3b6-4483-9642-7996d6c0b351"/>
   <meta>
-    <lastUpdated value="2024-09-18T09:07:33.188+00:00"/>
+    <lastUpdated value="2024-09-20T07:57:47.794+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -192,7 +192,7 @@
         <name value="MethodeGlucoseVS"/>
         <title value="Méthode de mesures de glycémie sanguine ou interstitielle"/>
         <status value="active"/>
-        <date value="2024-09-18T09:07:33+00:00"/>
+        <date value="2024-09-20T07:57:47+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -201,8 +201,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:3a006a80-96dd-402a-9ebb-328c32d21c49"/>
-          <timestamp value="2024-09-18T09:08:34+00:00"/>
+          <identifier value="urn:uuid:09f1c858-3e7a-46e3-bbb5-11cc0545ade7"/>
+          <timestamp value="2024-09-20T07:58:43+00:00"/>
           <total value="18"/>
           <offset value="0"/>
           <parameter>
