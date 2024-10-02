@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "c7f4b430-a2e1-4ae0-9e7a-8c1aa936ec62-6",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/c7f4b430-a2e1-4ae0-9e7a-8c1aa936ec62-6",
+  "id" : "126bcb6e-7f07-4ddf-80db-b2b011206a10-6",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/126bcb6e-7f07-4ddf-80db-b2b011206a10-6",
   "name" : "IntersectionMesDiabetisTypeAndMesDiabetisType",
   "title" : "Intersection of Type de diabète And Type de diabète",
   "status" : "active",
-  "date" : "2024-10-02T08:33:58+00:00",
+  "date" : "2024-10-02T08:34:34+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

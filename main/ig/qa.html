@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = 19, errors = 12, warn = 36, info = 18-->
+<!-- broken links = 19, errors = 12, warn = 43, info = 32-->
 <head>
   <title>Mesures : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
@@ -36,7 +36,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for Mesures</h1>
- <p>Generated Wed Oct 02 08:35:04 UTC 2024, FHIR version 4.0.1 for ans.fhir.fr.mesures#3.1.0 (canonical = <a href="https://interop.esante.gouv.fr/ig/fhir/mesures">https://interop.esante.gouv.fr/ig/fhir/mesures</a> (<a href="https://interop.esante.gouv.fr/ig/fhir/mesures/history.html">history</a>)). See <a href="qa.min.html">Errors Only</a></p>
+ <p>Generated Wed Oct 02 08:35:44 UTC 2024, FHIR version 4.0.1 for ans.fhir.fr.mesures#3.1.0 (canonical = <a href="https://interop.esante.gouv.fr/ig/fhir/mesures">https://interop.esante.gouv.fr/ig/fhir/mesures</a> (<a href="https://interop.esante.gouv.fr/ig/fhir/mesures/history.html">history</a>)). See <a href="qa.min.html">Errors Only</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
  <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.6.28</span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = ans.fhir.fr.mesures, Canonical = https://interop.esante.gouv.fr/ig/fhir/mesures</td></tr>
@@ -87,7 +87,7 @@
 hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-parameter-code.html">GuideParameterCode</a>
  (15 uses),     <a href="http://hl7.org/fhir/R4/valueset-languages.html">CommonLanguages</a>
  (14 uses),     <a href="http://hl7.org/fhir/R4/vitalsigns.html">observation-vitalsigns</a>
- (63 uses),     <a href="http://hl7.org/fhir/R4/valueset-common-tags.html">CommonTags</a>
+ (58 uses),     <a href="http://hl7.org/fhir/R4/valueset-common-tags.html">CommonTags</a>
  (13 uses),     <a href="http://hl7.org/fhir/R4/careplan.html">CarePlan</a>
  (13 uses),     <a href="http://hl7.org/fhir/R4/devicerequest.html">DeviceRequest</a>
  (13 uses),     <a href="http://hl7.org/fhir/R4/immunizationrecommendation.html">ImmunizationRecommendation</a>
@@ -95,7 +95,7 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
  (13 uses),     <a href="http://hl7.org/fhir/R4/nutritionorder.html">NutritionOrder</a>
  (13 uses),     <a href="http://hl7.org/fhir/R4/servicerequest.html">ServiceRequest</a>
  (13 uses),     <a href="http://hl7.org/fhir/R4/medicationadministration.html">MedicationAdministration</a>
- (12 uses),     <a href="http://hl7.org/fhir/R4/medicationdispense.html">MedicationDispense</a>
+ (32 uses),     <a href="http://hl7.org/fhir/R4/medicationdispense.html">MedicationDispense</a>
  (12 uses),     <a href="http://hl7.org/fhir/R4/medicationstatement.html">MedicationStatement</a>
  (12 uses),     <a href="http://hl7.org/fhir/R4/procedure.html">Procedure</a>
  (12 uses),     <a href="http://hl7.org/fhir/R4/immunization.html">Immunization</a>
@@ -103,7 +103,7 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
  (25 uses),     <a href="http://hl7.org/fhir/R4/valueset-observation-category.html">ObservationCategoryCodes</a>
  (26 uses),     <a href="http://hl7.org/fhir/R4/bmi.html">observation-bmi</a>
  (3 uses),     <a href="http://hl7.org/fhir/R4/careteam.html">CareTeam</a>
- (17 uses),     <a href="http://hl7.org/fhir/R4/relatedperson.html">RelatedPerson</a>
+ (67 uses),     <a href="http://hl7.org/fhir/R4/relatedperson.html">RelatedPerson</a>
  (14 uses),     <a href="http://hl7.org/fhir/R4/practitionerrole.html">PractitionerRole</a>
  (17 uses),     <a href="http://hl7.org/fhir/R4/valueset-body-site.html">SNOMEDCTBodyStructures</a>
  (9 uses),     <a href="http://hl7.org/fhir/R4/valueset-observation-methods.html">ObservationMethods</a>
@@ -149,7 +149,7 @@ hl7.fhir.uv.tools#0.2.0:     <a href="http://hl7.org/fhir/tools/0.2.0/StructureD
  <tr><td>IPA Comparison:</td><td> n/a</td></tr>
  <tr><td>IPS Comparison:</td><td> n/a</td></tr>
  <tr><td>Validation Flags:</td><td> On: autoLoad; Off: hintAboutNonMustSupport, anyExtensionsAllowed, checkAggregation, showReferenceMessages, noExperimentalContent, displayWarnings</td></tr>
- <tr><td>Summary:</td><td> errors = 12, warn = 36, info = 18, broken links = 19</td></tr>
+ <tr><td>Summary:</td><td> errors = 12, warn = 43, info = 32, broken links = 19</td></tr>
 </table>
  <table class="grid">
    <tr>
@@ -159,7 +159,7 @@ hl7.fhir.uv.tools#0.2.0:     <a href="http://hl7.org/fhir/tools/0.2.0/StructureD
      <td><a href="#internal"><b>Build Errors</b></a></td><td><b>10</b></td><td><b>29</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_home_runner_work_IG-fhir-mesures-de-sante_IG-fhir-mesures-de-sante_igSource_fsh-generated_resources_Bundle-bundle-example"><b>/home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Bundle-bundle-example</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>2</b></td>
+     <td><a href="#_home_runner_work_IG-fhir-mesures-de-sante_IG-fhir-mesures-de-sante_igSource_fsh-generated_resources_Bundle-bundle-example"><b>/home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Bundle-bundle-example</b></a></td><td><b>0</b></td><td><b>3</b></td><td><b>3</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#_home_runner_work_IG-fhir-mesures-de-sante_IG-fhir-mesures-de-sante_igSource_fsh-generated_resources_Device-phd-74E8FFFEFF051C00"><b>/home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Device-phd-74E8FFFEFF051C00</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>4</b></td>
@@ -168,43 +168,43 @@ hl7.fhir.uv.tools#0.2.0:     <a href="http://hl7.org/fhir/tools/0.2.0/StructureD
      <td><a href="#_home_runner_work_IG-fhir-mesures-de-sante_IG-fhir-mesures-de-sante_igSource_fsh-generated_resources_ImplementationGuide-ans.fhir.fr.mesures"><b>/home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.mesures</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><a href="#_home_runner_work_IG-fhir-mesures-de-sante_IG-fhir-mesures-de-sante_igSource_fsh-generated_resources_Observation-ExampleMesFrObservationBP001"><b>/home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Observation-ExampleMesFrObservationBP001</b></a></td><td><b>1</b></td><td><b>0</b></td><td><b>1</b></td>
+     <td><a href="#_home_runner_work_IG-fhir-mesures-de-sante_IG-fhir-mesures-de-sante_igSource_fsh-generated_resources_Observation-ExampleMesFrObservationBP001"><b>/home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Observation-ExampleMesFrObservationBP001</b></a></td><td><b>1</b></td><td><b>2</b></td><td><b>2</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_home_runner_work_IG-fhir-mesures-de-sante_IG-fhir-mesures-de-sante_igSource_fsh-generated_resources_Observation-ExampleMesFrObservationBmi001"><b>/home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Observation-ExampleMesFrObservationBmi001</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+     <td><a href="#_home_runner_work_IG-fhir-mesures-de-sante_IG-fhir-mesures-de-sante_igSource_fsh-generated_resources_Observation-ExampleMesFrObservationBmi001"><b>/home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Observation-ExampleMesFrObservationBmi001</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>2</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_home_runner_work_IG-fhir-mesures-de-sante_IG-fhir-mesures-de-sante_igSource_fsh-generated_resources_Observation-ExampleMesFrObservationBodyHeight001"><b>/home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Observation-ExampleMesFrObservationBodyHeight001</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+     <td><a href="#_home_runner_work_IG-fhir-mesures-de-sante_IG-fhir-mesures-de-sante_igSource_fsh-generated_resources_Observation-ExampleMesFrObservationBodyHeight001"><b>/home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Observation-ExampleMesFrObservationBodyHeight001</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>2</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_home_runner_work_IG-fhir-mesures-de-sante_IG-fhir-mesures-de-sante_igSource_fsh-generated_resources_Observation-ExampleMesFrObservationBodyTemperature001"><b>/home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Observation-ExampleMesFrObservationBodyTemperature001</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+     <td><a href="#_home_runner_work_IG-fhir-mesures-de-sante_IG-fhir-mesures-de-sante_igSource_fsh-generated_resources_Observation-ExampleMesFrObservationBodyTemperature001"><b>/home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Observation-ExampleMesFrObservationBodyTemperature001</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>2</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_home_runner_work_IG-fhir-mesures-de-sante_IG-fhir-mesures-de-sante_igSource_fsh-generated_resources_Observation-ExampleMesFrObservationBodyWeight001"><b>/home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Observation-ExampleMesFrObservationBodyWeight001</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+     <td><a href="#_home_runner_work_IG-fhir-mesures-de-sante_IG-fhir-mesures-de-sante_igSource_fsh-generated_resources_Observation-ExampleMesFrObservationBodyWeight001"><b>/home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Observation-ExampleMesFrObservationBodyWeight001</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>2</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_home_runner_work_IG-fhir-mesures-de-sante_IG-fhir-mesures-de-sante_igSource_fsh-generated_resources_Observation-ExampleMesFrObservationHeartrate001"><b>/home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Observation-ExampleMesFrObservationHeartrate001</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+     <td><a href="#_home_runner_work_IG-fhir-mesures-de-sante_IG-fhir-mesures-de-sante_igSource_fsh-generated_resources_Observation-ExampleMesFrObservationHeartrate001"><b>/home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Observation-ExampleMesFrObservationHeartrate001</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>2</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_home_runner_work_IG-fhir-mesures-de-sante_IG-fhir-mesures-de-sante_igSource_fsh-generated_resources_Observation-ExampleMesFrOxygenSat"><b>/home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Observation-ExampleMesFrOxygenSat</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+     <td><a href="#_home_runner_work_IG-fhir-mesures-de-sante_IG-fhir-mesures-de-sante_igSource_fsh-generated_resources_Observation-ExampleMesFrOxygenSat"><b>/home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Observation-ExampleMesFrOxygenSat</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>2</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_home_runner_work_IG-fhir-mesures-de-sante_IG-fhir-mesures-de-sante_igSource_fsh-generated_resources_Observation-ExampleMesFrRespRate"><b>/home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Observation-ExampleMesFrRespRate</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+     <td><a href="#_home_runner_work_IG-fhir-mesures-de-sante_IG-fhir-mesures-de-sante_igSource_fsh-generated_resources_Observation-ExampleMesFrRespRate"><b>/home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Observation-ExampleMesFrRespRate</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>2</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><a href="#_home_runner_work_IG-fhir-mesures-de-sante_IG-fhir-mesures-de-sante_igSource_fsh-generated_resources_Observation-ExampleMesObservationGlucose001"><b>/home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Observation-ExampleMesObservationGlucose001</b></a></td><td><b>1</b></td><td><b>2</b></td><td><b>0</b></td>
+     <td><a href="#_home_runner_work_IG-fhir-mesures-de-sante_IG-fhir-mesures-de-sante_igSource_fsh-generated_resources_Observation-ExampleMesObservationGlucose001"><b>/home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Observation-ExampleMesObservationGlucose001</b></a></td><td><b>1</b></td><td><b>2</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><a href="#_home_runner_work_IG-fhir-mesures-de-sante_IG-fhir-mesures-de-sante_igSource_fsh-generated_resources_Observation-ExampleMesObservationHeadCircumference001"><b>/home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Observation-ExampleMesObservationHeadCircumference001</b></a></td><td><b>3</b></td><td><b>1</b></td><td><b>1</b></td>
+     <td><a href="#_home_runner_work_IG-fhir-mesures-de-sante_IG-fhir-mesures-de-sante_igSource_fsh-generated_resources_Observation-ExampleMesObservationHeadCircumference001"><b>/home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Observation-ExampleMesObservationHeadCircumference001</b></a></td><td><b>3</b></td><td><b>2</b></td><td><b>2</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><a href="#_home_runner_work_IG-fhir-mesures-de-sante_IG-fhir-mesures-de-sante_igSource_fsh-generated_resources_Observation-ExampleMesObservationPainSeverity001"><b>/home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Observation-ExampleMesObservationPainSeverity001</b></a></td><td><b>1</b></td><td><b>1</b></td><td><b>1</b></td>
+     <td><a href="#_home_runner_work_IG-fhir-mesures-de-sante_IG-fhir-mesures-de-sante_igSource_fsh-generated_resources_Observation-ExampleMesObservationPainSeverity001"><b>/home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Observation-ExampleMesObservationPainSeverity001</b></a></td><td><b>1</b></td><td><b>1</b></td><td><b>2</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><a href="#_home_runner_work_IG-fhir-mesures-de-sante_IG-fhir-mesures-de-sante_igSource_fsh-generated_resources_Observation-ExampleMesObservationStepsByDay001"><b>/home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Observation-ExampleMesObservationStepsByDay001</b></a></td><td><b>1</b></td><td><b>1</b></td><td><b>1</b></td>
+     <td><a href="#_home_runner_work_IG-fhir-mesures-de-sante_IG-fhir-mesures-de-sante_igSource_fsh-generated_resources_Observation-ExampleMesObservationStepsByDay001"><b>/home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Observation-ExampleMesObservationStepsByDay001</b></a></td><td><b>1</b></td><td><b>1</b></td><td><b>2</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><a href="#_home_runner_work_IG-fhir-mesures-de-sante_IG-fhir-mesures-de-sante_igSource_fsh-generated_resources_Observation-ExampleObservationWaistCircumference001"><b>/home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Observation-ExampleObservationWaistCircumference001</b></a></td><td><b>1</b></td><td><b>1</b></td><td><b>1</b></td>
+     <td><a href="#_home_runner_work_IG-fhir-mesures-de-sante_IG-fhir-mesures-de-sante_igSource_fsh-generated_resources_Observation-ExampleObservationWaistCircumference001"><b>/home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Observation-ExampleObservationWaistCircumference001</b></a></td><td><b>1</b></td><td><b>1</b></td><td><b>2</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#_home_runner_work_IG-fhir-mesures-de-sante_IG-fhir-mesures-de-sante_igSource_fsh-generated_resources_Patient-ExamplefrPatient001"><b>/home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Patient-ExamplefrPatient001</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
@@ -327,34 +327,34 @@ hl7.fhir.uv.tools#0.2.0:     <a href="http://hl7.org/fhir/tools/0.2.0/StructureD
      <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource Device/phd-74E8FFFEFF051C00.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b><a href="StructureDefinition-mesures-fr-observation-heartrate-definitions.html#l12131">output&#8203;/StructureDefinition-mesures-fr-observation-heartrate-definitions&#8203;.html&#8203;#&#8203;/html&#8203;/body&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/table&#8203;/tr&#8203;/td&#8203;/span&#8203;/a at Line 946, column 288</a></b></td><td><b>error</b></td><td><b>The link 'https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-heart-rate-body-position' for &quot;https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-heart-rate-body-position&quot; cannot be resolved</b></td>
+     <td><b><a href="StructureDefinition-mesures-fr-observation-heartrate-definitions.html#l12241">output&#8203;/StructureDefinition-mesures-fr-observation-heartrate-definitions&#8203;.html&#8203;#&#8203;/html&#8203;/body&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/table&#8203;/tr&#8203;/td&#8203;/span&#8203;/a at Line 953, column 288</a></b></td><td><b>error</b></td><td><b>The link 'https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-heart-rate-body-position' for &quot;https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-heart-rate-body-position&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b><a href="StructureDefinition-mesures-fr-observation-heartrate-definitions.html#l12550">output&#8203;/StructureDefinition-mesures-fr-observation-heartrate-definitions&#8203;.html&#8203;#&#8203;/html&#8203;/body&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/table&#8203;/tr&#8203;/td&#8203;/span&#8203;/a at Line 969, column 288</a></b></td><td><b>error</b></td><td><b>The link 'https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-heart-rate-method' for &quot;https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-heart-rate-method&quot; cannot be resolved</b></td>
+     <td><b><a href="StructureDefinition-mesures-fr-observation-heartrate-definitions.html#l12660">output&#8203;/StructureDefinition-mesures-fr-observation-heartrate-definitions&#8203;.html&#8203;#&#8203;/html&#8203;/body&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/table&#8203;/tr&#8203;/td&#8203;/span&#8203;/a at Line 976, column 288</a></b></td><td><b>error</b></td><td><b>The link 'https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-heart-rate-method' for &quot;https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-heart-rate-method&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b><a href="StructureDefinition-mesures-fr-observation-heartrate.html#l5822">output&#8203;/StructureDefinition-mesures-fr-observation-heartrate&#8203;.html&#8203;#&#8203;/html&#8203;/body&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/table&#8203;/tr&#8203;/td&#8203;/a at Line 1396, column 237</a></b></td><td><b>error</b></td><td><b>The link 'https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-heart-rate-body-position' for &quot;https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-heart-rate-body-position&quot; cannot be resolved</b></td>
+     <td><b><a href="StructureDefinition-mesures-fr-observation-heartrate.html#l5826">output&#8203;/StructureDefinition-mesures-fr-observation-heartrate&#8203;.html&#8203;#&#8203;/html&#8203;/body&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/table&#8203;/tr&#8203;/td&#8203;/a at Line 1396, column 237</a></b></td><td><b>error</b></td><td><b>The link 'https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-heart-rate-body-position' for &quot;https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-heart-rate-body-position&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b><a href="StructureDefinition-mesures-fr-observation-heartrate.html#l5971">output&#8203;/StructureDefinition-mesures-fr-observation-heartrate&#8203;.html&#8203;#&#8203;/html&#8203;/body&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/table&#8203;/tr&#8203;/td&#8203;/a at Line 1426, column 239</a></b></td><td><b>error</b></td><td><b>The link 'https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-heart-rate-method' for &quot;https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-heart-rate-method&quot; cannot be resolved</b></td>
+     <td><b><a href="StructureDefinition-mesures-fr-observation-heartrate.html#l5975">output&#8203;/StructureDefinition-mesures-fr-observation-heartrate&#8203;.html&#8203;#&#8203;/html&#8203;/body&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/table&#8203;/tr&#8203;/td&#8203;/a at Line 1426, column 239</a></b></td><td><b>error</b></td><td><b>The link 'https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-heart-rate-method' for &quot;https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-heart-rate-method&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b><a href="StructureDefinition-mesures-fr-observation-heartrate.html#l7496">output&#8203;/StructureDefinition-mesures-fr-observation-heartrate&#8203;.html&#8203;#&#8203;/html&#8203;/body&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/table&#8203;/tr&#8203;/td&#8203;/a at Line 1741, column 148</a></b></td><td><b>error</b></td><td><b>The link 'https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-heart-rate-body-position' for &quot;https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-heart-rate-body-position&quot; cannot be resolved</b></td>
+     <td><b><a href="StructureDefinition-mesures-fr-observation-heartrate.html#l7504">output&#8203;/StructureDefinition-mesures-fr-observation-heartrate&#8203;.html&#8203;#&#8203;/html&#8203;/body&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/table&#8203;/tr&#8203;/td&#8203;/a at Line 1741, column 148</a></b></td><td><b>error</b></td><td><b>The link 'https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-heart-rate-body-position' for &quot;https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-heart-rate-body-position&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b><a href="StructureDefinition-mesures-fr-observation-heartrate.html#l7524">output&#8203;/StructureDefinition-mesures-fr-observation-heartrate&#8203;.html&#8203;#&#8203;/html&#8203;/body&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/table&#8203;/tr&#8203;/td&#8203;/a at Line 1743, column 146</a></b></td><td><b>error</b></td><td><b>The link 'https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-heart-rate-method' for &quot;https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-heart-rate-method&quot; cannot be resolved</b></td>
+     <td><b><a href="StructureDefinition-mesures-fr-observation-heartrate.html#l7532">output&#8203;/StructureDefinition-mesures-fr-observation-heartrate&#8203;.html&#8203;#&#8203;/html&#8203;/body&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/table&#8203;/tr&#8203;/td&#8203;/a at Line 1743, column 146</a></b></td><td><b>error</b></td><td><b>The link 'https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-heart-rate-method' for &quot;https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-heart-rate-method&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b><a href="StructureDefinition-mesures-fr-observation-heartrate.html#l13201">output&#8203;/StructureDefinition-mesures-fr-observation-heartrate&#8203;.html&#8203;#&#8203;/html&#8203;/body&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/table&#8203;/tr&#8203;/td&#8203;/a at Line 3040, column 237</a></b></td><td><b>error</b></td><td><b>The link 'https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-heart-rate-body-position' for &quot;https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-heart-rate-body-position&quot; cannot be resolved</b></td>
+     <td><b><a href="StructureDefinition-mesures-fr-observation-heartrate.html#l13213">output&#8203;/StructureDefinition-mesures-fr-observation-heartrate&#8203;.html&#8203;#&#8203;/html&#8203;/body&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/table&#8203;/tr&#8203;/td&#8203;/a at Line 3040, column 237</a></b></td><td><b>error</b></td><td><b>The link 'https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-heart-rate-body-position' for &quot;https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-heart-rate-body-position&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b><a href="StructureDefinition-mesures-fr-observation-heartrate.html#l13350">output&#8203;/StructureDefinition-mesures-fr-observation-heartrate&#8203;.html&#8203;#&#8203;/html&#8203;/body&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/table&#8203;/tr&#8203;/td&#8203;/a at Line 3070, column 239</a></b></td><td><b>error</b></td><td><b>The link 'https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-heart-rate-method' for &quot;https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-heart-rate-method&quot; cannot be resolved</b></td>
+     <td><b><a href="StructureDefinition-mesures-fr-observation-heartrate.html#l13362">output&#8203;/StructureDefinition-mesures-fr-observation-heartrate&#8203;.html&#8203;#&#8203;/html&#8203;/body&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/table&#8203;/tr&#8203;/td&#8203;/a at Line 3070, column 239</a></b></td><td><b>error</b></td><td><b>The link 'https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-heart-rate-method' for &quot;https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-heart-rate-method&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b><a href="StructureDefinition-mesures-fr-observation-heartrate.html#l14875">output&#8203;/StructureDefinition-mesures-fr-observation-heartrate&#8203;.html&#8203;#&#8203;/html&#8203;/body&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/table&#8203;/tr&#8203;/td&#8203;/a at Line 3385, column 148</a></b></td><td><b>error</b></td><td><b>The link 'https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-heart-rate-body-position' for &quot;https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-heart-rate-body-position&quot; cannot be resolved</b></td>
+     <td><b><a href="StructureDefinition-mesures-fr-observation-heartrate.html#l14891">output&#8203;/StructureDefinition-mesures-fr-observation-heartrate&#8203;.html&#8203;#&#8203;/html&#8203;/body&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/table&#8203;/tr&#8203;/td&#8203;/a at Line 3385, column 148</a></b></td><td><b>error</b></td><td><b>The link 'https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-heart-rate-body-position' for &quot;https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-heart-rate-body-position&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b><a href="StructureDefinition-mesures-fr-observation-heartrate.html#l14903">output&#8203;/StructureDefinition-mesures-fr-observation-heartrate&#8203;.html&#8203;#&#8203;/html&#8203;/body&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/table&#8203;/tr&#8203;/td&#8203;/a at Line 3387, column 146</a></b></td><td><b>error</b></td><td><b>The link 'https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-heart-rate-method' for &quot;https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-heart-rate-method&quot; cannot be resolved</b></td>
+     <td><b><a href="StructureDefinition-mesures-fr-observation-heartrate.html#l14919">output&#8203;/StructureDefinition-mesures-fr-observation-heartrate&#8203;.html&#8203;#&#8203;/html&#8203;/body&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/table&#8203;/tr&#8203;/td&#8203;/a at Line 3387, column 146</a></b></td><td><b>error</b></td><td><b>The link 'https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-heart-rate-method' for &quot;https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-heart-rate-method&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b><a href="Terminologies.html#l532">output&#8203;/Terminologies&#8203;.html&#8203;#&#8203;/html&#8203;/body&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/table&#8203;/tr&#8203;/td&#8203;/div&#8203;/p&#8203;/a at Line 284, column 202</a></b></td><td><b>warning</b></td><td><b>The link 'https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-heartrate' for &quot;Fréquence Cardiaque&quot; is a canonical link and is therefore unsafe with regard to versions</b></td>
@@ -402,11 +402,17 @@ hl7.fhir.uv.tools#0.2.0:     <a href="http://hl7.org/fhir/tools/0.2.0/StructureD
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle&#8203;.entry[0]&#8203;.resource&#8203;/*Observation&#8203;/5138af77-df7e-4b9d-ba17-07ba3ebb950a*&#8203;/&#8203;.category[0] (l25&#8203;/c12)</b></td><td><b>information</b></td><td><b>Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|4.0.1 from hl7.fhir.r4.core#4.0.1</b> (from <a href="qa-txservers.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</ta>)</td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle&#8203;.entry[0]&#8203;.resource&#8203;/*Observation&#8203;/5138af77-df7e-4b9d-ba17-07ba3ebb950a*&#8203;/&#8203;.value&#8203;.ofType(Quantity)&#8203;.code (l45&#8203;/c23)</b></td><td><b>warning</b></td><td title="TERMINOLOGY_TX_WARNING"><b>Resolved system http://unitsofmeasure.org, but the definition is not complete, so assuming value set include is correct</b></td>
+   </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Bundle&#8203;.entry[0]&#8203;.resource&#8203;/*Observation&#8203;/5138af77-df7e-4b9d-ba17-07ba3ebb950a*&#8203;/ (l16&#8203;/c8)</b></td><td><b>warning</b></td><td title="All_observations_should_have_a_performer"><b>Best Practice Recommendation: In general, all observations should have a performer</b></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b><a href="">Bundle&#8203;.entry[0]&#8203;.resource&#8203;/*Observation&#8203;/5138af77-df7e-4b9d-ba17-07ba3ebb950a*&#8203;/&#8203;.meta&#8203;.profile[0] (l21&#8203;/c116)</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-body-weight|3.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)</b> <span id="sl40" class="flip" onclick="flip('l40')">Show Reasoning</span><div id="l40" style="display: none"><p>&nbsp;</p>This element does not match any known slice Defined in the profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-body-weight|3.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)<ul><li>Bundle.entry[0].resource/*Observation/5138af77-df7e-4b9d-ba17-07ba3ebb950a*/.meta.profile[0]: discriminator = true and $this.where(value = 'https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-observation-body-weight').exists()</li></ul></div></td>
+     <td><b><a href="">Bundle&#8203;.entry[0]&#8203;.resource&#8203;/*Observation&#8203;/5138af77-df7e-4b9d-ba17-07ba3ebb950a*&#8203;/&#8203;.meta&#8203;.profile[0] (l21&#8203;/c116)</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-body-weight|3.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)</b> <span id="sl42" class="flip" onclick="flip('l42')">Show Reasoning</span><div id="l42" style="display: none"><p>&nbsp;</p>This element does not match any known slice Defined in the profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-body-weight|3.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)<ul><li>Bundle.entry[0].resource/*Observation/5138af77-df7e-4b9d-ba17-07ba3ebb950a*/.meta.profile[0]: discriminator = true and $this.where(value = 'https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-observation-body-weight').exists()</li></ul></div></td>
    </tr>
    <tr style="background-color: #ffffe6">
      <td><b>Bundle&#8203;.entry[1]&#8203;.resource&#8203;/*Device&#8203;/d36bfdb6-b1b1-4efd-9cb9-d217a8696575*&#8203;/&#8203;.identifier[0]&#8203;.type (l85&#8203;/c14)</b></td><td><b>information</b></td><td title="MSG_EXPERIMENTAL"><b>Reference to experimental CodeSystem http://hl7.org/fhir/uv/phd/CodeSystem/ContinuaDeviceIdentifiers|1.0.0</b></td>
@@ -457,10 +463,19 @@ hl7.fhir.uv.tools#0.2.0:     <a href="http://hl7.org/fhir/tools/0.2.0/StructureD
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b><a href="">Observation.meta.profile[0] (l6/c101)</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-bp|3.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)</b> <span id="sl47" class="flip" onclick="flip('l47')">Show Reasoning</span><div id="l47" style="display: none"><p>&nbsp;</p>This element does not match any known slice Defined in the profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-bp|3.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)<ul><li>Observation.meta.profile[0]: discriminator = true and $this.where(value = 'https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-observation-bp').exists()</li></ul></div></td>
+     <td><b><a href="">Observation.meta.profile[0] (l6/c101)</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-bp|3.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)</b> <span id="sl49" class="flip" onclick="flip('l49')">Show Reasoning</span><div id="l49" style="display: none"><p>&nbsp;</p>This element does not match any known slice Defined in the profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-bp|3.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)<ul><li>Observation.meta.profile[0]: discriminator = true and $this.where(value = 'https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-observation-bp').exists()</li></ul></div></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Observation.category[0] (l10/c6)</b></td><td><b>information</b></td><td><b>Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|4.0.1 from hl7.fhir.r4.core#4.0.1</b> (from <a href="qa-txservers.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</ta>)</td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b>Observation.bodySite (l112/c4)</b></td><td><b>error</b></td><td title="Terminology_TX_NoValid_1_CC"><b>None of the codings provided are in the value set 'JDV_J149-BodySiteBP-ENS' (https://mos.esante.gouv.fr/NOS/JDV_J149-BodySiteBP-ENS/FHIR/JDV-J149-BodySiteBP-ENS|1.2.0), and a coding from this value set is required) (codes = https://mos.esante.gouv.fr/NOS/TRE_R309-FMA/FHIR/TRE-R309-FMA#24890)</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Observation&#8203;.component[0]&#8203;.value&#8203;.ofType(Quantity) (l29&#8203;/c8)</b></td><td><b>warning</b></td><td title=""><b>Resolved system http://unitsofmeasure.org, but the definition is not complete, so assuming value set include is correct</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Observation&#8203;.component[1]&#8203;.value&#8203;.ofType(Quantity) (l58&#8203;/c8)</b></td><td><b>warning</b></td><td title=""><b>Resolved system http://unitsofmeasure.org, but the definition is not complete, so assuming value set include is correct</b></td>
    </tr>
 </table>
 <hr/>
@@ -473,7 +488,10 @@ hl7.fhir.uv.tools#0.2.0:     <a href="http://hl7.org/fhir/tools/0.2.0/StructureD
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b><a href="">Observation.meta.profile[0] (l6/c102)</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-bmi|3.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)</b> <span id="sl49" class="flip" onclick="flip('l49')">Show Reasoning</span><div id="l49" style="display: none"><p>&nbsp;</p>This element does not match any known slice Defined in the profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-bmi|3.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)<ul><li>Observation.meta.profile[0]: discriminator = true and $this.where(value = 'https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-observation-bmi').exists()</li></ul></div></td>
+     <td><b><a href="">Observation.meta.profile[0] (l6/c102)</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-bmi|3.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)</b> <span id="sl54" class="flip" onclick="flip('l54')">Show Reasoning</span><div id="l54" style="display: none"><p>&nbsp;</p>This element does not match any known slice Defined in the profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-bmi|3.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)<ul><li>Observation.meta.profile[0]: discriminator = true and $this.where(value = 'https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-observation-bmi').exists()</li></ul></div></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Observation.category[0] (l16/c6)</b></td><td><b>information</b></td><td><b>Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|4.0.1 from hl7.fhir.r4.core#4.0.1</b> (from <a href="qa-txservers.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</ta>)</td>
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Observation (l1/c2)</b></td><td><b>warning</b></td><td title="All_observations_should_have_a_performer"><b>Best Practice Recommendation: In general, all observations should have a performer</b></td>
@@ -489,7 +507,13 @@ hl7.fhir.uv.tools#0.2.0:     <a href="http://hl7.org/fhir/tools/0.2.0/StructureD
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b><a href="">Observation.meta.profile[0] (l6/c109)</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-bodyheight|3.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)</b> <span id="sl51" class="flip" onclick="flip('l51')">Show Reasoning</span><div id="l51" style="display: none"><p>&nbsp;</p>This element does not match any known slice Defined in the profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-bodyheight|3.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)<ul><li>Observation.meta.profile[0]: discriminator = true and $this.where(value = 'https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-observation-body-height').exists()</li></ul></div></td>
+     <td><b><a href="">Observation.meta.profile[0] (l6/c109)</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-bodyheight|3.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)</b> <span id="sl57" class="flip" onclick="flip('l57')">Show Reasoning</span><div id="l57" style="display: none"><p>&nbsp;</p>This element does not match any known slice Defined in the profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-bodyheight|3.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)<ul><li>Observation.meta.profile[0]: discriminator = true and $this.where(value = 'https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-observation-body-height').exists()</li></ul></div></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Observation.category[0] (l10/c6)</b></td><td><b>information</b></td><td><b>Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|4.0.1 from hl7.fhir.r4.core#4.0.1</b> (from <a href="qa-txservers.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</ta>)</td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Observation&#8203;.value&#8203;.ofType(Quantity)&#8203;.code (l29&#8203;/c17)</b></td><td><b>warning</b></td><td title="TERMINOLOGY_TX_WARNING"><b>Resolved system http://unitsofmeasure.org, but the definition is not complete, so assuming value set include is correct</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Observation (l1/c2)</b></td><td><b>warning</b></td><td title="All_observations_should_have_a_performer"><b>Best Practice Recommendation: In general, all observations should have a performer</b></td>
@@ -505,7 +529,13 @@ hl7.fhir.uv.tools#0.2.0:     <a href="http://hl7.org/fhir/tools/0.2.0/StructureD
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b><a href="">Observation.meta.profile[0] (l6/c115)</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-body-temperature|3.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)</b> <span id="sl53" class="flip" onclick="flip('l53')">Show Reasoning</span><div id="l53" style="display: none"><p>&nbsp;</p>This element does not match any known slice Defined in the profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-body-temperature|3.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)<ul><li>Observation.meta.profile[0]: discriminator = true and $this.where(value = 'https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-observation-body-temperature').exists()</li></ul></div></td>
+     <td><b><a href="">Observation.meta.profile[0] (l6/c115)</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-body-temperature|3.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)</b> <span id="sl61" class="flip" onclick="flip('l61')">Show Reasoning</span><div id="l61" style="display: none"><p>&nbsp;</p>This element does not match any known slice Defined in the profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-body-temperature|3.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)<ul><li>Observation.meta.profile[0]: discriminator = true and $this.where(value = 'https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-observation-body-temperature').exists()</li></ul></div></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Observation.category[0] (l10/c6)</b></td><td><b>information</b></td><td><b>Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|4.0.1 from hl7.fhir.r4.core#4.0.1</b> (from <a href="qa-txservers.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</ta>)</td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Observation&#8203;.value&#8203;.ofType(Quantity)&#8203;.code (l29&#8203;/c18)</b></td><td><b>warning</b></td><td title="TERMINOLOGY_TX_WARNING"><b>Resolved system http://unitsofmeasure.org, but the definition is not complete, so assuming value set include is correct</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Observation (l1/c2)</b></td><td><b>warning</b></td><td title="All_observations_should_have_a_performer"><b>Best Practice Recommendation: In general, all observations should have a performer</b></td>
@@ -521,7 +551,13 @@ hl7.fhir.uv.tools#0.2.0:     <a href="http://hl7.org/fhir/tools/0.2.0/StructureD
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b><a href="">Observation.meta.profile[0] (l6/c110)</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-body-weight|3.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)</b> <span id="sl55" class="flip" onclick="flip('l55')">Show Reasoning</span><div id="l55" style="display: none"><p>&nbsp;</p>This element does not match any known slice Defined in the profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-body-weight|3.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)<ul><li>Observation.meta.profile[0]: discriminator = true and $this.where(value = 'https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-observation-body-weight').exists()</li></ul></div></td>
+     <td><b><a href="">Observation.meta.profile[0] (l6/c110)</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-body-weight|3.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)</b> <span id="sl65" class="flip" onclick="flip('l65')">Show Reasoning</span><div id="l65" style="display: none"><p>&nbsp;</p>This element does not match any known slice Defined in the profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-body-weight|3.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)<ul><li>Observation.meta.profile[0]: discriminator = true and $this.where(value = 'https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-observation-body-weight').exists()</li></ul></div></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Observation.category[0] (l10/c6)</b></td><td><b>information</b></td><td><b>Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|4.0.1 from hl7.fhir.r4.core#4.0.1</b> (from <a href="qa-txservers.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</ta>)</td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Observation&#8203;.value&#8203;.ofType(Quantity)&#8203;.code (l35&#8203;/c17)</b></td><td><b>warning</b></td><td title="TERMINOLOGY_TX_WARNING"><b>Resolved system http://unitsofmeasure.org, but the definition is not complete, so assuming value set include is correct</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Observation (l1/c2)</b></td><td><b>warning</b></td><td title="All_observations_should_have_a_performer"><b>Best Practice Recommendation: In general, all observations should have a performer</b></td>
@@ -537,7 +573,10 @@ hl7.fhir.uv.tools#0.2.0:     <a href="http://hl7.org/fhir/tools/0.2.0/StructureD
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b><a href="">Observation.meta.profile[0] (l6/c108)</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-heartrate|3.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)</b> <span id="sl57" class="flip" onclick="flip('l57')">Show Reasoning</span><div id="l57" style="display: none"><p>&nbsp;</p>This element does not match any known slice Defined in the profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-heartrate|3.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)<ul><li>Observation.meta.profile[0]: discriminator = true and $this.where(value = 'https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-observation-heartrate').exists()</li></ul></div></td>
+     <td><b><a href="">Observation.meta.profile[0] (l6/c108)</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-heartrate|3.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)</b> <span id="sl69" class="flip" onclick="flip('l69')">Show Reasoning</span><div id="l69" style="display: none"><p>&nbsp;</p>This element does not match any known slice Defined in the profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-heartrate|3.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)<ul><li>Observation.meta.profile[0]: discriminator = true and $this.where(value = 'https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-observation-heartrate').exists()</li></ul></div></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Observation.category[0] (l10/c6)</b></td><td><b>information</b></td><td><b>Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|4.0.1 from hl7.fhir.r4.core#4.0.1</b> (from <a href="qa-txservers.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</ta>)</td>
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Observation (l1/c2)</b></td><td><b>warning</b></td><td title="All_observations_should_have_a_performer"><b>Best Practice Recommendation: In general, all observations should have a performer</b></td>
@@ -553,7 +592,10 @@ hl7.fhir.uv.tools#0.2.0:     <a href="http://hl7.org/fhir/tools/0.2.0/StructureD
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b><a href="">Observation.meta.profile[0] (l6/c109)</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-oxygen-sat|3.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)</b> <span id="sl59" class="flip" onclick="flip('l59')">Show Reasoning</span><div id="l59" style="display: none"><p>&nbsp;</p>This element does not match any known slice Defined in the profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-oxygen-sat|3.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)<ul><li>Observation.meta.profile[0]: discriminator = true and $this.where(value = 'https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-observation-saturation-oxygen').exists()</li></ul></div></td>
+     <td><b><a href="">Observation.meta.profile[0] (l6/c109)</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-oxygen-sat|3.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)</b> <span id="sl72" class="flip" onclick="flip('l72')">Show Reasoning</span><div id="l72" style="display: none"><p>&nbsp;</p>This element does not match any known slice Defined in the profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-oxygen-sat|3.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)<ul><li>Observation.meta.profile[0]: discriminator = true and $this.where(value = 'https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-observation-saturation-oxygen').exists()</li></ul></div></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Observation.category[0] (l10/c6)</b></td><td><b>information</b></td><td><b>Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|4.0.1 from hl7.fhir.r4.core#4.0.1</b> (from <a href="qa-txservers.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</ta>)</td>
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Observation (l1/c2)</b></td><td><b>warning</b></td><td title="All_observations_should_have_a_performer"><b>Best Practice Recommendation: In general, all observations should have a performer</b></td>
@@ -569,7 +611,10 @@ hl7.fhir.uv.tools#0.2.0:     <a href="http://hl7.org/fhir/tools/0.2.0/StructureD
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b><a href="">Observation.meta.profile[0] (l6/c108)</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-resp-rate|3.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)</b> <span id="sl61" class="flip" onclick="flip('l61')">Show Reasoning</span><div id="l61" style="display: none"><p>&nbsp;</p>This element does not match any known slice Defined in the profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-resp-rate|3.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)<ul><li>Observation.meta.profile[0]: discriminator = true and $this.where(value = 'https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-observation-resp-rate').exists()</li></ul></div></td>
+     <td><b><a href="">Observation.meta.profile[0] (l6/c108)</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-resp-rate|3.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)</b> <span id="sl75" class="flip" onclick="flip('l75')">Show Reasoning</span><div id="l75" style="display: none"><p>&nbsp;</p>This element does not match any known slice Defined in the profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-resp-rate|3.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)<ul><li>Observation.meta.profile[0]: discriminator = true and $this.where(value = 'https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-observation-resp-rate').exists()</li></ul></div></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Observation.category[0] (l10/c6)</b></td><td><b>information</b></td><td><b>Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|4.0.1 from hl7.fhir.r4.core#4.0.1</b> (from <a href="qa-txservers.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</ta>)</td>
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Observation (l1/c2)</b></td><td><b>warning</b></td><td title="All_observations_should_have_a_performer"><b>Best Practice Recommendation: In general, all observations should have a performer</b></td>
@@ -590,6 +635,9 @@ hl7.fhir.uv.tools#0.2.0:     <a href="http://hl7.org/fhir/tools/0.2.0/StructureD
    <tr style="background-color: #ffcccc">
      <td><b>Observation&#8203;.extension[3]&#8203;.value&#8203;.ofType(CodeableConcept) (l56&#8203;/c8)</b></td><td><b>error</b></td><td title="Terminology_TX_NoValid_1_CC"><b>None of the codings provided are in the value set 'JDV_J153-TypeDiabete-ENS' (https://mos.esante.gouv.fr/NOS/JDV_J153-TypeDiabete-ENS/FHIR/JDV-J153-TypeDiabete-ENS|1.2.0), and a coding from this value set is required) (codes = https://mos.esante.gouv.fr/NOS/TRE_R311-CIM10Atih/FHIR/TRE-R311-CIM10Atih#E11.x0)</b></td>
    </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Observation.category[0] (l10/c6)</b></td><td><b>information</b></td><td><b>Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|4.0.1 from hl7.fhir.r4.core#4.0.1</b> (from <a href="qa-txservers.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</ta>)</td>
+   </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Observation (l1/c2)</b></td><td><b>warning</b></td><td title="All_observations_should_have_a_performer"><b>Best Practice Recommendation: In general, all observations should have a performer</b></td>
    </tr>
@@ -602,6 +650,9 @@ hl7.fhir.uv.tools#0.2.0:     <a href="http://hl7.org/fhir/tools/0.2.0/StructureD
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Observation.category[0] (l18/c6)</b></td><td><b>information</b></td><td><b>Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|4.0.1 from hl7.fhir.r4.core#4.0.1</b> (from <a href="qa-txservers.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</ta>)</td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b>Observation.code.coding[0] (l11/c8)</b></td><td><b>error</b></td><td title="SLICING_CANNOT_BE_EVALUATED"><b>Slicing cannot be evaluated: Could not match any discriminators ([code, system]) for slice Observation.code.coding:headCircumCode in profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-observation-head-circumference|3.1.0 - None of the 2 discriminators [code, system] have fixed value, binding or existence assertions</b></td>
@@ -616,6 +667,9 @@ hl7.fhir.uv.tools#0.2.0:     <a href="http://hl7.org/fhir/tools/0.2.0/StructureD
      <td><b>Observation&#8203;.value&#8203;.ofType(Quantity) (l34&#8203;/c4)</b></td><td><b>error</b></td><td title="Validation_VAL_Profile_Minimum"><b>Observation.value[x]:valueQuantity.unit: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/headcircum|4.0.1)</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
+     <td><b>Observation&#8203;.value&#8203;.ofType(Quantity)&#8203;.code (l36&#8203;/c17)</b></td><td><b>warning</b></td><td title="TERMINOLOGY_TX_WARNING"><b>Resolved system http://unitsofmeasure.org, but the definition is not complete, so assuming value set include is correct</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
      <td><b>Observation (l1/c2)</b></td><td><b>warning</b></td><td title="All_observations_should_have_a_performer"><b>Best Practice Recommendation: In general, all observations should have a performer</b></td>
    </tr>
 </table>
@@ -627,6 +681,9 @@ hl7.fhir.uv.tools#0.2.0:     <a href="http://hl7.org/fhir/tools/0.2.0/StructureD
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Observation.category[0] (l18/c6)</b></td><td><b>information</b></td><td><b>Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|4.0.1 from hl7.fhir.r4.core#4.0.1</b> (from <a href="qa-txservers.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</ta>)</td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b>Observation.code.coding[0] (l11/c8)</b></td><td><b>error</b></td><td title="SLICING_CANNOT_BE_EVALUATED"><b>Slicing cannot be evaluated: Could not match any discriminators ([code, system]) for slice Observation.code.coding:painServerCode in profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-observation-pain-severity|3.1.0 - None of the 2 discriminators [code, system] have fixed value, binding or existence assertions</b></td>
@@ -647,6 +704,9 @@ hl7.fhir.uv.tools#0.2.0:     <a href="http://hl7.org/fhir/tools/0.2.0/StructureD
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Observation.category[0] (l18/c6)</b></td><td><b>information</b></td><td><b>Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|4.0.1 from hl7.fhir.r4.core#4.0.1</b> (from <a href="qa-txservers.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</ta>)</td>
+   </tr>
    <tr style="background-color: #ffcccc">
      <td><b>Observation.code.coding[0] (l11/c8)</b></td><td><b>error</b></td><td title="SLICING_CANNOT_BE_EVALUATED"><b>Slicing cannot be evaluated: Could not match any discriminators ([code, system]) for slice Observation.code.coding:stepsBDCode in profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-observation-steps-by-day|3.1.0 - None of the 2 discriminators [code, system] have fixed value, binding or existence assertions</b></td>
    </tr>
@@ -665,6 +725,9 @@ hl7.fhir.uv.tools#0.2.0:     <a href="http://hl7.org/fhir/tools/0.2.0/StructureD
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Observation.category[0] (l18/c6)</b></td><td><b>information</b></td><td><b>Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|4.0.1 from hl7.fhir.r4.core#4.0.1</b> (from <a href="qa-txservers.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</ta>)</td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b>Observation.code.coding[0] (l11/c8)</b></td><td><b>error</b></td><td title="SLICING_CANNOT_BE_EVALUATED"><b>Slicing cannot be evaluated: Could not match any discriminators ([code, system]) for slice Observation.code.coding:waistCircumCode in profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-observation-waist-circumference|3.1.0 - None of the 2 discriminators [code, system] have fixed value, binding or existence assertions</b></td>
@@ -776,7 +839,7 @@ hl7.fhir.uv.tools#0.2.0:     <a href="http://hl7.org/fhir/tools/0.2.0/StructureD
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition&#8203;.snapshot&#8203;.element[81]&#8203;.binding&#8203;.valueSet (l1&#8203;/c152027)</b></td><td><b>error</b></td><td title="TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE"><b>Canonical URL 'http://hl7.org/fhir/hspc/ValueSet/heartRateMeasBodyLocationPrecoordVS' does not resolve</b></td>
+     <td><b>StructureDefinition&#8203;.snapshot&#8203;.element[81]&#8203;.binding&#8203;.valueSet (l1&#8203;/c152991)</b></td><td><b>error</b></td><td title="TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE"><b>Canonical URL 'http://hl7.org/fhir/hspc/ValueSet/heartRateMeasBodyLocationPrecoordVS' does not resolve</b></td>
    </tr>
 </table>
 <hr/>
@@ -845,7 +908,7 @@ hl7.fhir.uv.tools#0.2.0:     <a href="http://hl7.org/fhir/tools/0.2.0/StructureD
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition&#8203;.differential&#8203;.element[9]&#8203;.slicing (l1&#8203;/c166042)</b></td><td><b>error</b></td><td title="http://hl7.org/fhir/StructureDefinition/ElementDefinition#eld-1"><b>Constraint failed: eld-1: 'If there are no discriminators, there must be a definition'</b></td>
+     <td><b>StructureDefinition&#8203;.differential&#8203;.element[8]&#8203;.slicing (l1&#8203;/c186005)</b></td><td><b>error</b></td><td title="http://hl7.org/fhir/StructureDefinition/ElementDefinition#eld-1"><b>Constraint failed: eld-1: 'If there are no discriminators, there must be a definition' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition)</b></td>
    </tr>
 </table>
 <hr/>
@@ -988,6 +1051,53 @@ hl7.fhir.uv.tools#0.2.0:     <a href="http://hl7.org/fhir/tools/0.2.0/StructureD
    </tr>
 </table>
 <hr/>
+<a name="MSG_DRAFT"> </a>
+<h2>MSG_DRAFT</h2>
+ <table class="grid">
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-bundle-example.html">fsh-generated/resources/Bundle-bundle-example.json</a></td><td><b>Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|4.0.1 from hl7.fhir.r4.core#4.0.1</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Observation-ExampleMesFrObservationBP001.html">fsh-generated/resources/Observation-ExampleMesFrObservationBP001.json</a></td><td><b>Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|4.0.1 from hl7.fhir.r4.core#4.0.1</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Observation-ExampleMesFrObservationBmi001.html">fsh-generated/resources/Observation-ExampleMesFrObservationBmi001.json</a></td><td><b>Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|4.0.1 from hl7.fhir.r4.core#4.0.1</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Observation-ExampleMesFrObservationBodyHeight001.html">fsh-generated/resources/Observation-ExampleMesFrObservationBodyHeight001.json</a></td><td><b>Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|4.0.1 from hl7.fhir.r4.core#4.0.1</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Observation-ExampleMesFrObservationBodyTemperature001.html">fsh-generated/resources/Observation-ExampleMesFrObservationBodyTemperature001.json</a></td><td><b>Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|4.0.1 from hl7.fhir.r4.core#4.0.1</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Observation-ExampleMesFrObservationBodyWeight001.html">fsh-generated/resources/Observation-ExampleMesFrObservationBodyWeight001.json</a></td><td><b>Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|4.0.1 from hl7.fhir.r4.core#4.0.1</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Observation-ExampleMesFrObservationHeartrate001.html">fsh-generated/resources/Observation-ExampleMesFrObservationHeartrate001.json</a></td><td><b>Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|4.0.1 from hl7.fhir.r4.core#4.0.1</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Observation-ExampleMesFrOxygenSat.html">fsh-generated/resources/Observation-ExampleMesFrOxygenSat.json</a></td><td><b>Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|4.0.1 from hl7.fhir.r4.core#4.0.1</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Observation-ExampleMesFrRespRate.html">fsh-generated/resources/Observation-ExampleMesFrRespRate.json</a></td><td><b>Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|4.0.1 from hl7.fhir.r4.core#4.0.1</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Observation-ExampleMesObservationGlucose001.html">fsh-generated/resources/Observation-ExampleMesObservationGlucose001.json</a></td><td><b>Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|4.0.1 from hl7.fhir.r4.core#4.0.1</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Observation-ExampleMesObservationHeadCircumference001.html">fsh-generated/resources/Observation-ExampleMesObservationHeadCircumference001.json</a></td><td><b>Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|4.0.1 from hl7.fhir.r4.core#4.0.1</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Observation-ExampleMesObservationPainSeverity001.html">fsh-generated/resources/Observation-ExampleMesObservationPainSeverity001.json</a></td><td><b>Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|4.0.1 from hl7.fhir.r4.core#4.0.1</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Observation-ExampleMesObservationStepsByDay001.html">fsh-generated/resources/Observation-ExampleMesObservationStepsByDay001.json</a></td><td><b>Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|4.0.1 from hl7.fhir.r4.core#4.0.1</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Observation-ExampleObservationWaistCircumference001.html">fsh-generated/resources/Observation-ExampleObservationWaistCircumference001.json</a></td><td><b>Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|4.0.1 from hl7.fhir.r4.core#4.0.1</b></td>
+   </tr>
+</table>
+<hr/>
 <a name="MSG_EXPERIMENTAL"> </a>
 <h2>MSG_EXPERIMENTAL</h2>
  <table class="grid">
@@ -1022,6 +1132,26 @@ hl7.fhir.uv.tools#0.2.0:     <a href="http://hl7.org/fhir/tools/0.2.0/StructureD
    </tr>
    <tr style="background-color: #ffeeee">
      <td><a href="Observation-ExampleObservationWaistCircumference001.html">fsh-generated/resources/Observation-ExampleObservationWaistCircumference001.json</a></td><td><b>Slicing cannot be evaluated: Could not match any discriminators ([code, system]) for slice Observation.code.coding:waistCircumCode in profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-observation-waist-circumference|3.1.0 - None of the 2 discriminators [code, system] have fixed value, binding or existence assertions</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="TERMINOLOGY_TX_WARNING"> </a>
+<h2>TERMINOLOGY_TX_WARNING</h2>
+ <table class="grid">
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-bundle-example.html">fsh-generated/resources/Bundle-bundle-example.json</a></td><td><b>Resolved system http://unitsofmeasure.org, but the definition is not complete, so assuming value set include is correct</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Observation-ExampleMesFrObservationBodyHeight001.html">fsh-generated/resources/Observation-ExampleMesFrObservationBodyHeight001.json</a></td><td><b>Resolved system http://unitsofmeasure.org, but the definition is not complete, so assuming value set include is correct</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Observation-ExampleMesFrObservationBodyTemperature001.html">fsh-generated/resources/Observation-ExampleMesFrObservationBodyTemperature001.json</a></td><td><b>Resolved system http://unitsofmeasure.org, but the definition is not complete, so assuming value set include is correct</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Observation-ExampleMesFrObservationBodyWeight001.html">fsh-generated/resources/Observation-ExampleMesFrObservationBodyWeight001.json</a></td><td><b>Resolved system http://unitsofmeasure.org, but the definition is not complete, so assuming value set include is correct</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Observation-ExampleMesObservationHeadCircumference001.html">fsh-generated/resources/Observation-ExampleMesObservationHeadCircumference001.json</a></td><td><b>Resolved system http://unitsofmeasure.org, but the definition is not complete, so assuming value set include is correct</b></td>
    </tr>
 </table>
 <hr/>
