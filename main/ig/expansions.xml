@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="bcbfb0f3-c218-4481-83db-123219a80dfe"/>
+  <id value="ac77c8ae-fe1e-4ca8-9d1d-bad14698ae46"/>
   <meta>
-    <lastUpdated value="2024-09-18T08:16:45.414+00:00"/>
+    <lastUpdated value="2024-10-02T08:33:33.088+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -188,11 +188,11 @@
           </div>
         </text>
         <url value="https://interop.esante.gouv.fr/ig/fhir/mesures/ValueSet/method-glucose-vs"/>
-        <version value="3.1.0-ballot"/>
+        <version value="3.1.0"/>
         <name value="MethodeGlucoseVS"/>
         <title value="Méthode de mesures de glycémie sanguine ou interstitielle"/>
         <status value="active"/>
-        <date value="2024-09-18T08:16:45+00:00"/>
+        <date value="2024-10-02T08:33:33+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -201,8 +201,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:d7e02065-d053-4e66-b815-62b7dced6778"/>
-          <timestamp value="2024-09-18T08:17:38+00:00"/>
+          <identifier value="urn:uuid:4e365c7a-b080-47f5-bc19-e4d89cde108a"/>
+          <timestamp value="2024-10-02T08:34:31+00:00"/>
           <total value="18"/>
           <offset value="0"/>
           <parameter>

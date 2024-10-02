@@ -1,7 +1,7 @@
 {
-  "version" : "3.1.0-ballot",
+  "version" : "3.1.0",
   "fhirVersion" : ["4.0.1"],
-  "date" : "20240918081559",
+  "date" : "20241002083239",
   "name" : "ans.fhir.fr.mesures",
   "jurisdiction" : "urn:iso:std:iso:3166#FR"
 }

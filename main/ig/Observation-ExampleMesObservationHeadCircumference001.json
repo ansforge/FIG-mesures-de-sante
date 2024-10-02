@@ -29,7 +29,6 @@
   "effectiveDateTime" : "2022-11-06",
   "valueQuantity" : {
     "value" : 61,
-    "unit" : "cm",
     "system" : "http://unitsofmeasure.org",
     "code" : "cm"
   }
