@@ -38,7 +38,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.620"],
       "uses" : {
       },
-      "StructureDefinition-mesures-bundle-flux-alimentation-cholesterol.html" : "Bundle d'alimentation des mesures de cholestérol",
+      "StructureDefinition-mesures-bundle-flux-alimentation-lipid.html" : "Bundle d'alimentation",
       "StructureDefinition-mesures-bundle-flux-alimentation.html" : "Bundle d'alimentation"
     },
     {
@@ -151,7 +151,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.624"],
       "uses" : {
       },
-      "StructureDefinition-mesures-bundle-flux-alimentation-cholesterol.html" : "Bundle d'alimentation des mesures de cholestérol",
+      "StructureDefinition-mesures-bundle-flux-alimentation-lipid.html" : "Bundle d'alimentation",
       "StructureDefinition-mesures-bundle-flux-alimentation.html" : "Bundle d'alimentation"
     },
     {
@@ -174,7 +174,7 @@
       "StructureDefinition-mesures-fr-observation-oxygen-sat.html" : "Saturation en Oxygène",
       "StructureDefinition-mesures-fr-observation-bp.html" : "Pression Artérielle",
       "StructureDefinition-mesures-fr-observation-resp-rate.html" : "Fréquence respiratoire",
-      "StructureDefinition-mesures-bundle-flux-alimentation-cholesterol.html" : "Bundle d'alimentation des mesures de cholestérol",
+      "StructureDefinition-mesures-bundle-flux-alimentation-lipid.html" : "Bundle d'alimentation",
       "StructureDefinition-mesures-fr-observation-body-temperature.html" : "Température",
       "StructureDefinition-mesures-observation-steps-by-day.html" : "Nombre de pas par jour",
       "StructureDefinition-mesures-observation-waist-circumference.html" : "Tour de taille",
@@ -472,7 +472,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.622"],
       "uses" : {
       },
-      "StructureDefinition-mesures-bundle-flux-alimentation-cholesterol.html" : "Bundle d'alimentation des mesures de cholestérol",
+      "StructureDefinition-mesures-bundle-flux-alimentation-lipid.html" : "Bundle d'alimentation",
       "StructureDefinition-mesures-bundle-flux-alimentation.html" : "Bundle d'alimentation"
     },
     {

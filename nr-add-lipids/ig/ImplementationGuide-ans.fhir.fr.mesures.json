@@ -10,7 +10,7 @@
   "name" : "Mesures",
   "title" : "Guide d'implémentation FHIR - Mesures de santé",
   "status" : "active",
-  "date" : "2024-10-30T13:56:40+00:00",
+  "date" : "2024-10-30T13:57:24+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -650,7 +650,7 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/mesures-bundle-flux-alimentation"
+        "reference" : "StructureDefinition/mesures-bundle-flux-alimentation-lipid"
       },
       "name" : "Bundle d'alimentation",
       "description" : "Profil de la ressource Bundle du flux d'alimentation à envoyer au serveur",
@@ -662,10 +662,10 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/mesures-bundle-flux-alimentation-cholesterol"
+        "reference" : "StructureDefinition/mesures-bundle-flux-alimentation"
       },
-      "name" : "Bundle d'alimentation des mesures de cholestérol",
-      "description" : "Profil de la ressource Bundle du flux d'alimentation des mesures de cholestérolà envoyer au serveur",
+      "name" : "Bundle d'alimentation",
+      "description" : "Profil de la ressource Bundle du flux d'alimentation à envoyer au serveur",
       "exampleBoolean" : false
     },
     {

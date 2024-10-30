@@ -14,11 +14,11 @@
     "name" : "MesBundleFluxAlimentation"
   },
   {
-    "id" : "mesures-bundle-flux-alimentation-cholesterol",
+    "id" : "mesures-bundle-flux-alimentation-lipid",
     "type" : "StructureDefinition",
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-bundle-flux-alimentation-cholesterol",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-bundle-flux-alimentation-lipid",
     "version" : "3.1.0",
-    "name" : "MesBundleFluxAlimentationCholesterol"
+    "name" : "MesBundleFluxAlimentationLipid"
   },
   {
     "id" : "mesures-cholesterol-diagnostic-report",
