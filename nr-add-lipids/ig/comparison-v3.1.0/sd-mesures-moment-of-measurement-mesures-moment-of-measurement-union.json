@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "5bba9dce-61a9-49b2-8d0d-fab9c9028859-35",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/5bba9dce-61a9-49b2-8d0d-fab9c9028859-35",
+  "id" : "22b8ecb9-a211-4bb6-bf8a-c41187a809db-35",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/22b8ecb9-a211-4bb6-bf8a-c41187a809db-35",
   "name" : "UnionMesMomentOfMeasurementAndMesMomentOfMeasurement",
   "title" : "Union of Moment de la mesure And Moment de la mesure",
   "status" : "active",
-  "date" : "2024-10-30T10:29:06+00:00",
+  "date" : "2024-10-30T10:32:12+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
