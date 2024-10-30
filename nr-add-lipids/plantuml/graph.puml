@@ -56,6 +56,7 @@ package IG #DDDDDD{
 
         class MesCholesterolDiagnosticReport{
 
+             DiagnosticReport.code => [None..None]
              DiagnosticReport.result => [4..None]
              DiagnosticReport.result:ldl-cholesterol => [1..1]
              DiagnosticReport.result:hdl-cholesterol => [1..1]

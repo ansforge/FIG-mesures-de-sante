@@ -1504,7 +1504,13 @@ Sub-departmentServiceDiscipline","",0,*,"","","Y","CodeableConcept {[]} {[]}
 "
 "mesures-cholesterol-diagnostic-report","DiagnosticReport.code","DiagnosticReport.code","","Type
 ","",1,1,"","","Y","CodeableConcept {[]} {[]}
-","Name/Code for this diagnostic report","A code or name that describes this diagnostic report.","Not all terminology uses fit this general pattern. In some cases, models should not use CodeableConcept and use Coding directly and provide their own structure for managing text, codings, translations and the relationship between elements and pre- and post-coordination.","","","","","","","","",,"preferred","Codes that describe Diagnostic Reports.","http://hl7.org/fhir/ValueSet/report-codes","",,,,"DiagnosticReport.code",1,1,"ele-1
+","Name/Code for this diagnostic report","A code or name that describes this diagnostic report.","Not all terminology uses fit this general pattern. In some cases, models should not use CodeableConcept and use Coding directly and provide their own structure for managing text, codings, translations and the relationship between elements and pre- and post-coordination.","","","","","<valueCodeableConcept xmlns=""http://hl7.org/fhir"">
+  <coding>
+    <system value=""http://loinc.org""/>
+    <code value=""57698-3""/>
+    <display value=""Lipid panel with direct LDL - Serum or Plasma""/>
+  </coding>
+</valueCodeableConcept>","","","",,"preferred","Codes that describe Diagnostic Reports.","http://hl7.org/fhir/ValueSet/report-codes","",,,,"DiagnosticReport.code",1,1,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "mesures-cholesterol-diagnostic-report","DiagnosticReport.subject","DiagnosticReport.subject","","Patient
