@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "55b943bb-4993-4724-aca2-16fa5bbd411e-41",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/55b943bb-4993-4724-aca2-16fa5bbd411e-41",
+  "id" : "1b4552da-934c-4dba-8e23-c0ccdf597de3-41",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/1b4552da-934c-4dba-8e23-c0ccdf597de3-41",
   "name" : "UnionMesObservationGlucoseAndMesObservationGlucose",
   "title" : "Union of Glycémie And Glycémie",
   "status" : "active",
-  "date" : "2024-10-30T10:16:44+00:00",
+  "date" : "2024-10-30T10:20:31+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "55b943bb-4993-4724-aca2-16fa5bbd411e-60",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/55b943bb-4993-4724-aca2-16fa5bbd411e-60",
+  "id" : "1b4552da-934c-4dba-8e23-c0ccdf597de3-60",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/1b4552da-934c-4dba-8e23-c0ccdf597de3-60",
   "name" : "IntersectionMethodeGlucoseVSAndMethodeGlucoseVS",
   "title" : "Intersection of Méthode de mesures de glycémie sanguine ou interstitielle And Méthode de mesures de glycémie sanguine ou interstitielle",
   "status" : "active",
-  "date" : "2024-10-30T10:16:44+00:00",
+  "date" : "2024-10-30T10:20:31+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

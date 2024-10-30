@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "MesFrObservationRespiratoryRate"] ; # 
   fhir:title [ fhir:v "Fréquence respiratoire"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2024-10-30T10:16:09+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-10-30T10:20:03+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;

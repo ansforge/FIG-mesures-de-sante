@@ -3,8 +3,8 @@ Mesures : Validation Results
 
 err = 18, warn = 49, info = 32
 IG Publisher Version: 1.7.1
-Generated Wed Oct 30 10:18:13 UTC 2024. FHIR version 4.0.1 for ans.fhir.fr.mesures#3.1.0-ballot (canonical = https://interop.esante.gouv.fr/ig/fhir/mesures)
- Build Errors : 10 / 29 / 0
+Generated Wed Oct 30 10:21:48 UTC 2024. FHIR version 4.0.1 for ans.fhir.fr.mesures#3.1.0-ballot (canonical = https://interop.esante.gouv.fr/ig/fhir/mesures)
+ Build Errors : 15 / 29 / 0
  /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Bundle-bundle-example : 0 / 3 / 11
  /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Device-phd-74E8FFFEFF051C00 : 0 / 0 / 5
  /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.mesures : 0 / 0 / 1
@@ -86,6 +86,11 @@ WARNING: /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igS
 WARNING: /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/output/Terminologies.html#/html/body/div/div/div/div/div/table/tr/td/div/p/a at Line 293, column 146: The link 'https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-oxygen-sat' for "Saturation en Oxygène" is a canonical link and is therefore unsafe with regard to versions
 WARNING: /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/output/Terminologies.html#/html/body/div/div/div/div/div/table/tr/td/div/p/a at Line 294, column 145: The link 'https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-bodyheight' for "Taille" is a canonical link and is therefore unsafe with regard to versions
 WARNING: /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/output/Terminologies.html#/html/body/div/div/div/div/div/table/tr/td/div/p/a at Line 295, column 145: The link 'https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-body-temperature' for "Température" is a canonical link and is therefore unsafe with regard to versions
+ERROR: /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/output/profils-cholesterol.html#/html/body/div/div/div/div/div/div/p/svg/g/g/a at Line 221, column 386: The link 'StructureDefinition-as-device.html' for "DiagnosticReport" cannot be resolved
+ERROR: /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/output/profils-cholesterol.html#/html/body/div/div/div/div/div/div/p/svg/g/g/a at Line 221, column 1265: The link 'StructureDefinition-as-healthcareservice-healthcare-activity.html' for "Total Cholesterol" cannot be resolved
+ERROR: /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/output/profils-cholesterol.html#/html/body/div/div/div/div/div/div/p/svg/g/g/a at Line 221, column 2259: The link 'StructureDefinition-as-healthcareservice-social-equipment.html' for "HDL Cholesterol" cannot be resolved
+ERROR: /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/output/profils-cholesterol.html#/html/body/div/div/div/div/div/div/p/svg/g/g/a at Line 221, column 3246: The link 'StructureDefinition-as-organization.html' for "Trigycerides" cannot be resolved
+ERROR: /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/output/profils-cholesterol.html#/html/body/div/div/div/div/div/div/p/svg/g/g/a at Line 221, column 4161: The link 'StructureDefinition-as-person.html' for "LDL Cholesterol" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
