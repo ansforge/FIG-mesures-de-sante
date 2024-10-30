@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "MesBundleFluxAlimentationCholesterol"] ; # 
   fhir:title [ fhir:v "Bundle d'alimentation des mesures de cholestérol"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2024-10-30T16:05:44+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-10-30T16:09:37+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
