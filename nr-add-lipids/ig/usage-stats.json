@@ -55,23 +55,13 @@
         "title": "Bundle d\u0027alimentation"
       }
     ],
+    "DiagnosticReport": [
+      {
+        "url": "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-cholesterol-diagnostic-report",
+        "title": "DiagnosticReport mesures cholestérol"
+      }
+    ],
     "Observation": [
-      {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-cholesterol-hdl",
-        "title": "HDL Cholesterol"
-      },
-      {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-cholesterol-ldl",
-        "title": "LDL Cholesterol"
-      },
-      {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-cholesterol-total",
-        "title": "Cholestérol total"
-      },
-      {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-cholesterol-triglycerides",
-        "title": "Triglycerides"
-      },
       {
         "url": "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-bmi",
         "title": "Indice de Masse Corporelle"
@@ -103,6 +93,22 @@
       {
         "url": "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-resp-rate",
         "title": "Fréquence respiratoire"
+      },
+      {
+        "url": "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-observation-cholesterol-hdl",
+        "title": "Cholestérol HDL"
+      },
+      {
+        "url": "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-observation-cholesterol-ldl",
+        "title": "Cholestérol LDL"
+      },
+      {
+        "url": "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-observation-cholesterol-total",
+        "title": "Cholestérol total"
+      },
+      {
+        "url": "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-observation-cholesterol-trigly",
+        "title": "Cholestérol triglycerides"
       },
       {
         "url": "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-observation-glucose",

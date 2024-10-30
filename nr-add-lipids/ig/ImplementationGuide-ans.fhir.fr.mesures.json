@@ -10,7 +10,7 @@
   "name" : "Mesures",
   "title" : "Guide d'implémentation FHIR - Mesures de santé",
   "status" : "active",
-  "date" : "2024-09-18T14:11:02+00:00",
+  "date" : "2024-10-30T10:16:09+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -685,10 +685,58 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/mesures-fr-cholesterol-total"
+        "reference" : "StructureDefinition/mesures-observation-cholesterol-hdl"
+      },
+      "name" : "Cholestérol HDL",
+      "description" : "Profil de la ressource Observation pour définir le cholestérol HDL",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/mesures-observation-cholesterol-ldl"
+      },
+      "name" : "Cholestérol LDL",
+      "description" : "Profil de la ressource Observation pour définir le cholestérol LDL",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/mesures-observation-cholesterol-total"
       },
       "name" : "Cholestérol total",
-      "description" : "Profil de la ressource Observation pour échanger la mesure de cholestérol total",
+      "description" : "Profil de la ressource Observation pour définir le cholestérol total",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/mesures-observation-cholesterol-trigly"
+      },
+      "name" : "Cholestérol triglycerides",
+      "description" : "Profil de la ressource Observation pour définir le cholestérol triglycerides",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/mesures-cholesterol-diagnostic-report"
+      },
+      "name" : "DiagnosticReport mesures cholestérol",
+      "description" : "Profil de la ressource DiagnosticReport pour définir un rapport sur les mesures de cholestérol",
       "exampleBoolean" : false
     },
     {
@@ -898,34 +946,10 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/mesures-fr-cholesterol-hdl"
-      },
-      "name" : "HDL Cholesterol",
-      "description" : "Profil de la ressource Observation pour échanger la mesure de cholestérol HDL",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
         "reference" : "StructureDefinition/mesures-fr-observation-bmi"
       },
       "name" : "Indice de Masse Corporelle",
       "description" : "Profil de la ressource Observation pour définir un Indice de Masse Corporelle (acronyme : IMC ou BMI)",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/mesures-fr-cholesterol-ldl"
-      },
-      "name" : "LDL Cholesterol",
-      "description" : "Profil de la ressource Observation pour échanger la mesure de cholestérol LDL",
       "exampleBoolean" : false
     },
     {
@@ -1093,18 +1117,6 @@
       },
       "name" : "Tour de taille",
       "description" : "Profil de la ressource Observation pour définir une taille en cm",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/mesures-fr-cholesterol-triglycerides"
-      },
-      "name" : "Triglycerides",
-      "description" : "Profil de la ressource Observation pour échanger la mesure de triglycérides",
       "exampleBoolean" : false
     },
     {

@@ -10,17 +10,17 @@ package IG #DDDDDD{
         class MesBundleFluxAlimentationLipid{
 
              Bundle.type => [None..None]
-             Bundle.entry => [4..None]
+             Bundle.entry => [5..None]
              Bundle.entry:mes-observation => [4..4]
              Bundle.entry:mes-observation.resource => [None..None]
              Bundle.entry:mes-observation.request => [1..None]
              Bundle.entry:mes-observation.request.method => [None..None]
              Bundle.entry:mes-observation.request.url => [None..None]
-             Bundle.entry:mes-device => [0..1]
-             Bundle.entry:mes-device.resource => [None..None]
-             Bundle.entry:mes-device.request => [1..None]
-             Bundle.entry:mes-device.request.method => [None..None]
-             Bundle.entry:mes-device.request.url => [None..None]
+             Bundle.entry:mes-diagnostic-report => [1..1]
+             Bundle.entry:mes-diagnostic-report.resource => [None..None]
+             Bundle.entry:mes-diagnostic-report.request => [1..None]
+             Bundle.entry:mes-diagnostic-report.request.method => [None..None]
+             Bundle.entry:mes-diagnostic-report.request.url => [None..None]
         } 
 
         class MesBundleFluxAlimentation{
@@ -39,75 +39,13 @@ package IG #DDDDDD{
              Bundle.entry:mes-device.request.url => [None..None]
         } 
 
-        class MesFrObservationHDL{
+        class MesCholesterolDiagnosticReport{
 
-             Observation.code => [None..None]
-             Observation.value[x] => [1..None]
-             Observation.value[x]:valueQuantity => [1..1]
-             Observation.interpretation => [None..1]
-             Observation.note => [None..None]
-             Observation.referenceRange => [1..1]
-             Observation.referenceRange.low => [1..None]
-             Observation.referenceRange.high => [None..0]
-             Observation.referenceRange.type => [None..0]
-             Observation.referenceRange.appliesTo => [None..0]
-             Observation.referenceRange.age => [None..0]
-             Observation.hasMember => [None..0]
-             Observation.derivedFrom => [None..0]
-        } 
-
-        class MesFrObservationLDL{
-
-             Observation.code => [None..None]
-             Observation.value[x] => [1..None]
-             Observation.value[x]:valueQuantity => [1..1]
-             Observation.interpretation => [None..1]
-             Observation.note => [None..None]
-             Observation.referenceRange => [1..1]
-             Observation.referenceRange.low => [None..0]
-             Observation.referenceRange.high => [1..None]
-             Observation.referenceRange.type => [None..0]
-             Observation.referenceRange.appliesTo => [None..0]
-             Observation.referenceRange.age => [None..0]
-             Observation.hasMember => [None..0]
-             Observation.derivedFrom => [None..0]
-        } 
-
-        class MesFrObservationCholesterolTotal{
-
-             Observation.code => [None..None]
-             Observation.value[x] => [1..None]
-             Observation.value[x]:valueQuantity => [1..1]
-             Observation.value[x]:valueQuantity.value => [None..None]
-             Observation.value[x]:valueQuantity.comparator => [None..0]
-             Observation.value[x]:valueQuantity.unit => [1..None]
-             Observation.value[x]:valueQuantity.system => [1..None]
-             Observation.value[x]:valueQuantity.code => [1..None]
-             Observation.interpretation => [None..1]
-             Observation.referenceRange => [1..1]
-             Observation.referenceRange.low => [None..0]
-             Observation.referenceRange.high => [1..None]
-             Observation.referenceRange.type => [None..0]
-             Observation.referenceRange.appliesTo => [None..0]
-             Observation.referenceRange.age => [None..0]
-             Observation.hasMember => [None..0]
-             Observation.derivedFrom => [None..0]
-        } 
-
-        class MesFrObservationTriglycerides{
-
-             Observation.code => [None..None]
-             Observation.value[x] => [1..None]
-             Observation.value[x]:valueQuantity => [1..1]
-             Observation.interpretation => [None..1]
-             Observation.referenceRange => [1..1]
-             Observation.referenceRange.low => [None..0]
-             Observation.referenceRange.high => [1..None]
-             Observation.referenceRange.type => [None..0]
-             Observation.referenceRange.appliesTo => [None..0]
-             Observation.referenceRange.age => [None..0]
-             Observation.hasMember => [None..0]
-             Observation.derivedFrom => [None..0]
+             DiagnosticReport.result => [4..None]
+             DiagnosticReport.result:ldl-cholesterol => [1..1]
+             DiagnosticReport.result:hdl-cholesterol => [1..1]
+             DiagnosticReport.result:total-cholesterol => [1..1]
+             DiagnosticReport.result:trigly-cholesterol => [1..1]
         } 
 
         class MesFrObservationBmi{
@@ -223,6 +161,81 @@ package IG #DDDDDD{
              Observation.category:VSCat => [None..None]
              Observation.category:VSCat.coding.display => [None..None]
              Observation.device => [None..None]
+        } 
+
+        class MesFrObservationCholesterolHDL{
+
+             Observation.code => [None..None]
+             Observation.dataAbsentReason.coding.system => [1..None]
+             Observation.dataAbsentReason.coding.code => [1..None]
+             Observation.referenceRange => [1..1]
+             Observation.referenceRange.low => [1..None]
+             Observation.referenceRange.high => [None..0]
+             Observation.referenceRange.type => [None..0]
+             Observation.referenceRange.appliesTo => [None..0]
+             Observation.referenceRange.age => [None..0]
+             Observation.hasMember => [None..0]
+             Observation.derivedFrom => [None..0]
+        } 
+
+        class MesFrObservationCholesterolLDL{
+
+             Observation.code => [None..None]
+             Observation.value[x] => [None..None]
+             Observation.value[x].value => [1..None]
+             Observation.value[x].unit => [None..None]
+             Observation.value[x].system => [None..None]
+             Observation.value[x].code => [1..None]
+             Observation.dataAbsentReason.coding.system => [1..None]
+             Observation.dataAbsentReason.coding.code => [1..None]
+             Observation.referenceRange => [1..1]
+             Observation.referenceRange.low => [None..0]
+             Observation.referenceRange.high => [1..None]
+             Observation.referenceRange.type => [None..0]
+             Observation.referenceRange.appliesTo => [None..0]
+             Observation.referenceRange.age => [None..0]
+             Observation.hasMember => [None..0]
+             Observation.derivedFrom => [None..0]
+        } 
+
+        class MesFrObservationCholesterolTotal{
+
+             Observation.code => [None..None]
+             Observation.value[x] => [None..None]
+             Observation.value[x].value => [1..None]
+             Observation.value[x].unit => [None..None]
+             Observation.value[x].system => [None..None]
+             Observation.value[x].code => [1..None]
+             Observation.dataAbsentReason.coding.system => [1..None]
+             Observation.dataAbsentReason.coding.code => [1..None]
+             Observation.referenceRange => [1..1]
+             Observation.referenceRange.low => [None..0]
+             Observation.referenceRange.high => [1..None]
+             Observation.referenceRange.type => [None..0]
+             Observation.referenceRange.appliesTo => [None..0]
+             Observation.referenceRange.age => [None..0]
+             Observation.hasMember => [None..0]
+             Observation.derivedFrom => [None..0]
+        } 
+
+        class MesFrObservationCholesterolTrigly{
+
+             Observation.code => [None..None]
+             Observation.value[x] => [None..None]
+             Observation.value[x].value => [1..None]
+             Observation.value[x].unit => [None..None]
+             Observation.value[x].system => [None..None]
+             Observation.value[x].code => [1..None]
+             Observation.dataAbsentReason.coding.system => [1..None]
+             Observation.dataAbsentReason.coding.code => [1..None]
+             Observation.referenceRange => [1..1]
+             Observation.referenceRange.low => [None..0]
+             Observation.referenceRange.high => [1..None]
+             Observation.referenceRange.type => [None..0]
+             Observation.referenceRange.appliesTo => [None..0]
+             Observation.referenceRange.age => [None..0]
+             Observation.hasMember => [None..0]
+             Observation.derivedFrom => [None..0]
         } 
 
         class MesObservationGlucose{
@@ -396,21 +409,9 @@ package "Ressources de base" #palegreen {
 
     class94c51f19c37f96ed231f5a0ae512b2a8 --> MesBundleFluxAlimentation
 
- class "Observation" as  classc680d437163cc6bab4f9bdb35c3073d0 
+ class "DiagnosticReport" as  class4a13057f4409624a283d7471c591d19e 
 
-    classc680d437163cc6bab4f9bdb35c3073d0 --> MesFrObservationHDL
-
- class "Observation" as  classc680d437163cc6bab4f9bdb35c3073d0 
-
-    classc680d437163cc6bab4f9bdb35c3073d0 --> MesFrObservationLDL
-
- class "Observation" as  classc680d437163cc6bab4f9bdb35c3073d0 
-
-    classc680d437163cc6bab4f9bdb35c3073d0 --> MesFrObservationCholesterolTotal
-
- class "Observation" as  classc680d437163cc6bab4f9bdb35c3073d0 
-
-    classc680d437163cc6bab4f9bdb35c3073d0 --> MesFrObservationTriglycerides
+    class4a13057f4409624a283d7471c591d19e --> MesCholesterolDiagnosticReport
 
  class "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-observation-bmi" as  class4b43d46c025adbdf652998cf707e8583 
 
@@ -443,6 +444,22 @@ package "Ressources de base" #palegreen {
  class "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-observation-resp-rate" as  class1007bbff74f35a51250cefd06f5f20d7 
 
     class1007bbff74f35a51250cefd06f5f20d7 --> MesFrObservationRespiratoryRate
+
+ class "Observation" as  classc680d437163cc6bab4f9bdb35c3073d0 
+
+    classc680d437163cc6bab4f9bdb35c3073d0 --> MesFrObservationCholesterolHDL
+
+ class "Observation" as  classc680d437163cc6bab4f9bdb35c3073d0 
+
+    classc680d437163cc6bab4f9bdb35c3073d0 --> MesFrObservationCholesterolLDL
+
+ class "Observation" as  classc680d437163cc6bab4f9bdb35c3073d0 
+
+    classc680d437163cc6bab4f9bdb35c3073d0 --> MesFrObservationCholesterolTotal
+
+ class "Observation" as  classc680d437163cc6bab4f9bdb35c3073d0 
+
+    classc680d437163cc6bab4f9bdb35c3073d0 --> MesFrObservationCholesterolTrigly
 
  class "vitalsigns" as  classbc3e6f566d4b627eb1169a15f6c63afa 
 
