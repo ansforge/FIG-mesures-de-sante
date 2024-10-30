@@ -1,10 +1,10 @@
 Mesures : Validation Results
 =========================================
 
-err = 20, warn = 49, info = 32
+err = 24, warn = 53, info = 32
 $--
 Generated $--. FHIR version $-- for ans.fhir.fr.mesures#$-- (canonical = https://interop.esante.gouv.fr/ig/fhir/mesures)
- Build Errors : 11 / 29 / 0
+ Build Errors : 11 / 33 / 0
  /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Bundle-bundle-example : 0 / 3 / 11
  /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Device-phd-74E8FFFEFF051C00 : 0 / 0 / 5
  /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.mesures : 0 / 0 / 1
@@ -21,6 +21,10 @@ Generated $--. FHIR version $-- for ans.fhir.fr.mesures#$-- (canonical = https:/
  /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Observation-ExampleMesObservationPainSeverity001 : 1 / 1 / 3
  /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Observation-ExampleMesObservationStepsByDay001 : 1 / 1 / 3
  /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Observation-ExampleObservationWaistCircumference001 : 1 / 1 / 3
+ /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Observation-cholesterol-hdl-example : 1 / 1 / 1
+ /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Observation-cholesterol-ldl-example : 1 / 1 / 1
+ /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Observation-cholesterol-total-example : 1 / 1 / 1
+ /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Observation-cholesterol-trigly-example : 1 / 1 / 1
  /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Patient-ExamplefrPatient001 : 0 / 0 / 1
  /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Practitioner-ExampleFrPractitionner001 : 0 / 0 / 1
  /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/StructureDefinition-mesures-bundle-flux-alimentation : 0 / 0 / 1
@@ -37,10 +41,10 @@ Generated $--. FHIR version $-- for ans.fhir.fr.mesures#$-- (canonical = https:/
  /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/StructureDefinition-mesures-fr-observation-resp-rate : 1 / 0 / 1
  /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/StructureDefinition-mesures-moment-of-measurement : 0 / 0 / 1
  /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/StructureDefinition-mesures-number-of-days : 0 / 0 / 1
- /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/StructureDefinition-mesures-observation-cholesterol-hdl : 2 / 1 / 1
- /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/StructureDefinition-mesures-observation-cholesterol-ldl : 2 / 1 / 1
- /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/StructureDefinition-mesures-observation-cholesterol-total : 2 / 1 / 1
- /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/StructureDefinition-mesures-observation-cholesterol-trigly : 2 / 1 / 1
+ /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/StructureDefinition-mesures-observation-cholesterol-hdl : 2 / 0 / 1
+ /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/StructureDefinition-mesures-observation-cholesterol-ldl : 2 / 0 / 1
+ /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/StructureDefinition-mesures-observation-cholesterol-total : 2 / 0 / 1
+ /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/StructureDefinition-mesures-observation-cholesterol-trigly : 2 / 0 / 1
  /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/StructureDefinition-mesures-observation-glucose : 0 / 0 / 1
  /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/StructureDefinition-mesures-observation-head-circumference : 1 / 0 / 1
  /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/StructureDefinition-mesures-observation-pain-severity : 0 / 0 / 1
@@ -66,6 +70,10 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/ExampleObservationWaistCircumference001.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/ExamplefrPatient001.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Bundle/bundle-example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/cholesterol-hdl-example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/cholesterol-ldl-example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/cholesterol-total-example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/cholesterol-trigly-example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Device/phd-74E8FFFEFF051C00.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/output/StructureDefinition-mesures-fr-observation-heartrate-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/a at Line 956, column 288: The link 'https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-heart-rate-body-position' for "https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-heart-rate-body-position" cannot be resolved
 ERROR: /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/output/StructureDefinition-mesures-fr-observation-heartrate-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/a at Line 979, column 288: The link 'https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-heart-rate-method' for "https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-heart-rate-method" cannot be resolved
@@ -168,6 +176,18 @@ INFORMATION: Observation/ExampleObservationWaistCircumference001: Observation.ca
 ERROR: Observation/ExampleObservationWaistCircumference001: Observation.code.coding[0]: Slicing cannot be evaluated: Could not match any discriminators ([code, system]) for slice Observation.code.coding:waistCircumCode in profile https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-observation-waist-circumference|3.1.0 - None of the 2 discriminators [code, system] have fixed value, binding or existence assertions
 INFORMATION: Observation/ExampleObservationWaistCircumference001: Observation.code: Observation.code.coding:waistCircumCode: Found 0 matches, but unable to check minimum required (Observation.code.coding) due to lack of slicing validation (from https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-observation-waist-circumference|3.1.0)
 WARNING: Observation/ExampleObservationWaistCircumference001: Observation: Best Practice Recommendation: In general, all observations should have a performer
+== fsh-generated/resources/Observation-cholesterol-hdl-example.json ==
+ERROR: Observation/cholesterol-hdl-example: Observation.code.coding[0].display: Wrong Display Name 'HDL Cholesterol' for http://loinc.org#2085-9. There are no valid display names found for language(s) 'en'. Default display is 'Cholesterol in HDL [Mass/volume] in Serum or Plasma'
+WARNING: Observation/cholesterol-hdl-example: Observation: Best Practice Recommendation: In general, all observations should have a performer
+== fsh-generated/resources/Observation-cholesterol-ldl-example.json ==
+ERROR: Observation/cholesterol-ldl-example: Observation.code.coding[0].display: Wrong Display Name 'LDL Cholesterol' for http://loinc.org#2089-1. There are no valid display names found for language(s) 'en'. Default display is 'Cholesterol in LDL [Mass/volume] in Serum or Plasma'
+WARNING: Observation/cholesterol-ldl-example: Observation: Best Practice Recommendation: In general, all observations should have a performer
+== fsh-generated/resources/Observation-cholesterol-total-example.json ==
+ERROR: Observation/cholesterol-total-example: Observation.code.coding[0].display: Wrong Display Name 'LDL Cholesterol' for http://loinc.org#2093-3. There are no valid display names found for language(s) 'en'. Default display is 'Cholesterol [Mass/volume] in Serum or Plasma'
+WARNING: Observation/cholesterol-total-example: Observation: Best Practice Recommendation: In general, all observations should have a performer
+== fsh-generated/resources/Observation-cholesterol-trigly-example.json ==
+ERROR: Observation/cholesterol-trigly-example: Observation.code.coding[0].display: Wrong Display Name 'LDL Cholesterol' for http://loinc.org#2571-8. There are no valid display names found for language(s) 'en'. Default display is 'Triglyceride [Mass/volume] in Serum or Plasma'
+WARNING: Observation/cholesterol-trigly-example: Observation: Best Practice Recommendation: In general, all observations should have a performer
 == fsh-generated/resources/Patient-ExamplefrPatient001.json ==
 == fsh-generated/resources/Practitioner-ExampleFrPractitionner001.json ==
 == fsh-generated/resources/StructureDefinition-mesures-bundle-flux-alimentation.json ==
@@ -192,19 +212,15 @@ ERROR: StructureDefinition/mesures-fr-observation-resp-rate: StructureDefinition
 == fsh-generated/resources/StructureDefinition-mesures-observation-cholesterol-hdl.json ==
 ERROR: StructureDefinition/mesures-observation-cholesterol-hdl: StructureDefinition.snapshot.element[14].pattern.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'HDL Cholesterol' for http://loinc.org#2085-9. There are no valid display names found for language(s) 'en'. Default display is 'Cholesterol in HDL [Mass/volume] in Serum or Plasma'
 ERROR: StructureDefinition/mesures-observation-cholesterol-hdl: StructureDefinition.differential.element[0].pattern.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'HDL Cholesterol' for http://loinc.org#2085-9. There are no valid display names found for language(s) 'en'. Default display is 'Cholesterol in HDL [Mass/volume] in Serum or Plasma'
-WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-observation-cholesterol-hdl'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-mesures-observation-cholesterol-ldl.json ==
 ERROR: StructureDefinition/mesures-observation-cholesterol-ldl: StructureDefinition.snapshot.element[14].pattern.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'LDL Cholesterol' for http://loinc.org#2089-1. There are no valid display names found for language(s) 'en'. Default display is 'Cholesterol in LDL [Mass/volume] in Serum or Plasma'
 ERROR: StructureDefinition/mesures-observation-cholesterol-ldl: StructureDefinition.differential.element[0].pattern.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'LDL Cholesterol' for http://loinc.org#2089-1. There are no valid display names found for language(s) 'en'. Default display is 'Cholesterol in LDL [Mass/volume] in Serum or Plasma'
-WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-observation-cholesterol-ldl'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-mesures-observation-cholesterol-total.json ==
 ERROR: StructureDefinition/mesures-observation-cholesterol-total: StructureDefinition.snapshot.element[14].pattern.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'LDL Cholesterol' for http://loinc.org#2093-3. There are no valid display names found for language(s) 'en'. Default display is 'Cholesterol [Mass/volume] in Serum or Plasma'
 ERROR: StructureDefinition/mesures-observation-cholesterol-total: StructureDefinition.differential.element[0].pattern.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'LDL Cholesterol' for http://loinc.org#2093-3. There are no valid display names found for language(s) 'en'. Default display is 'Cholesterol [Mass/volume] in Serum or Plasma'
-WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-observation-cholesterol-total'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-mesures-observation-cholesterol-trigly.json ==
 ERROR: StructureDefinition/mesures-observation-cholesterol-trigly: StructureDefinition.snapshot.element[14].pattern.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'LDL Cholesterol' for http://loinc.org#2571-8. There are no valid display names found for language(s) 'en'. Default display is 'Triglyceride [Mass/volume] in Serum or Plasma'
 ERROR: StructureDefinition/mesures-observation-cholesterol-trigly: StructureDefinition.differential.element[0].pattern.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'LDL Cholesterol' for http://loinc.org#2571-8. There are no valid display names found for language(s) 'en'. Default display is 'Triglyceride [Mass/volume] in Serum or Plasma'
-WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-observation-cholesterol-trigly'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-mesures-observation-glucose.json ==
 == fsh-generated/resources/StructureDefinition-mesures-observation-head-circumference.json ==
 ERROR: StructureDefinition/mesures-observation-head-circumference: StructureDefinition.differential.element[8].slicing: Constraint failed: eld-1: 'If there are no discriminators, there must be a definition' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition)

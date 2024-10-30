@@ -1,0 +1,39 @@
+{
+  "resourceType" : "Observation",
+  "id" : "cholesterol-hdl-example",
+  "meta" : {
+    "profile" : ["https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-observation-cholesterol-hdl"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation cholesterol-hdl-example</b></p><a name=\"cholesterol-hdl-example\"> </a><a name=\"hccholesterol-hdl-example\"> </a><a name=\"cholesterol-hdl-example-fr-FR\"> </a><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 2085-9}\">HDL Cholesterol</span></p><p><b>subject</b>: <a href=\"Patient-ExamplefrPatient001.html\">Pierre Durand</a></p><p><b>effective</b>: 2024-10-15</p><p><b>value</b>: 0.52 g/L<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codeg/L = 'g/L')</span></p><h3>ReferenceRanges</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Low</b></td></tr><tr><td style=\"display: none\">*</td><td>0.55 g/L<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codeg/L = 'g/L')</span></td></tr></table></div>"
+  },
+  "status" : "final",
+  "code" : {
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "2085-9",
+      "display" : "HDL Cholesterol"
+    }]
+  },
+  "subject" : {
+    "reference" : "Patient/ExamplefrPatient001",
+    "type" : "Patient",
+    "display" : "Pierre Durand"
+  },
+  "effectiveDateTime" : "2024-10-15",
+  "valueQuantity" : {
+    "value" : 0.52,
+    "unit" : "g/L",
+    "system" : "http://unitsofmeasure.org",
+    "code" : "g/L"
+  },
+  "referenceRange" : [{
+    "low" : {
+      "value" : 0.55,
+      "unit" : "g/L",
+      "system" : "http://unitsofmeasure.org",
+      "code" : "g/L"
+    }
+  }]
+}

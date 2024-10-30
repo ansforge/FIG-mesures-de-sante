@@ -345,8 +345,11 @@ Cette liste pourra être complétée par d’autres mesures jugées pertinentes.
 
 <h3 id="problématique-connue">Problématique connue</h3>
 
-<p>Les profils mesures de santé sont optionnellement liés à un device qui doivent hériter du profil PHD (Personal Health Device), couvrant uniquement les appareils personnels connectés. Des discussions sont en cours pour intégrer les dispositifs médicaux prescrits dans le parcours de soins modélisé à l’international par le guide d’implémentation PoCD.
-En cas de besoins allant dans ce sens, merci de le spécifier dans une <a href="https://github.com/ansforge/IG-fhir-mesures-de-sante">issue GitHub</a>.</p>
+<p>1/ Les profils mesures de santé sont optionnellement liés à un device qui doivent hériter du profil PHD (Personal Health Device), couvrant uniquement les appareils personnels connectés. Des discussions sont en cours pour intégrer les dispositifs médicaux prescrits dans le parcours de soins modélisé à l’international par le guide d’implémentation PoCD.</p>
+
+<p>2/ Dans le cadre des mesures biologiques (glycémie, cholestérol), l’intervalle de référence n’est pour l’instant pas obligatoire contrairement aux <a href="https://www.hl7.org/fhir/R4/lipid-report.html">profils FHIR internationaux</a>. Cet intervalle peut varier en fonction : de l’analyse effectuée, de l’âge, du sexe, … Pour l’heure, les données sont considérées comme pouvant être interprétées sans intervalle de référence.</p>
+
+<p>Si vous souhaitez réagir par rapport à ces problématiques connues, merci de commenter dans une <a href="https://github.com/ansforge/IG-fhir-mesures-de-sante">issue GitHub</a>.</p>
 
 <h3 id="dépendances">Dépendances</h3>
 
@@ -414,7 +417,7 @@ En cas de besoins allant dans ce sens, merci de le spécifier dans une <a href="
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fhir.fr.mesures#3.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Oct 30, 2024 16:09+0000">2024-10-30</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fhir.fr.mesures#3.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Oct 30, 2024 16:49+0000">2024-10-30</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |
