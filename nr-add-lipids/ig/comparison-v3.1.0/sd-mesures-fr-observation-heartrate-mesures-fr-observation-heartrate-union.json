@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "1b4552da-934c-4dba-8e23-c0ccdf597de3-26",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/1b4552da-934c-4dba-8e23-c0ccdf597de3-26",
+  "id" : "5bba9dce-61a9-49b2-8d0d-fab9c9028859-26",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/5bba9dce-61a9-49b2-8d0d-fab9c9028859-26",
   "name" : "UnionMesFrObservationHeartrateAndMesFrObservationHeartrate",
   "title" : "Union of Fréquence Cardiaque And Fréquence Cardiaque",
   "status" : "active",
-  "date" : "2024-10-30T10:20:31+00:00",
+  "date" : "2024-10-30T10:29:06+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
