@@ -7,7 +7,7 @@ package IG #DDDDDD{
 
      package Profiles #DDDDDD{
 
-        class MesBundleFluxAlimentationLipid{
+        class MesBundleFluxAlimentationCholesterol{
 
              Bundle.type => [None..None]
              Bundle.entry => [5..None]
@@ -56,6 +56,7 @@ package IG #DDDDDD{
 
         class MesCholesterolDiagnosticReport{
 
+             DiagnosticReport.code => [None..None]
              DiagnosticReport.result => [4..None]
              DiagnosticReport.result:ldl-cholesterol => [1..1]
              DiagnosticReport.result:hdl-cholesterol => [1..1]
@@ -420,7 +421,7 @@ package "Ressources de base" #palegreen {
 
  class "Bundle" as  class94c51f19c37f96ed231f5a0ae512b2a8 
 
-    class94c51f19c37f96ed231f5a0ae512b2a8 --> MesBundleFluxAlimentationLipid
+    class94c51f19c37f96ed231f5a0ae512b2a8 --> MesBundleFluxAlimentationCholesterol
 
  class "Bundle" as  class94c51f19c37f96ed231f5a0ae512b2a8 
 

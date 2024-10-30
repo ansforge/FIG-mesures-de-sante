@@ -24,7 +24,7 @@ Generated $--. FHIR version $-- for ans.fhir.fr.mesures#$-- (canonical = https:/
  /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Patient-ExamplefrPatient001 : 0 / 0 / 1
  /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Practitioner-ExampleFrPractitionner001 : 0 / 0 / 1
  /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/StructureDefinition-mesures-bundle-flux-alimentation : 0 / 0 / 1
- /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/StructureDefinition-mesures-bundle-flux-alimentation-lipid : 0 / 1 / 1
+ /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/StructureDefinition-mesures-bundle-flux-alimentation-cholesterol : 0 / 1 / 1
  /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/StructureDefinition-mesures-cholesterol-diagnostic-report : 0 / 1 / 1
  /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/StructureDefinition-mesures-diabetis-type : 0 / 0 / 1
  /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/StructureDefinition-mesures-fr-observation-bmi : 0 / 0 / 1
@@ -171,8 +171,8 @@ WARNING: Observation/ExampleObservationWaistCircumference001: Observation: Best 
 == fsh-generated/resources/Patient-ExamplefrPatient001.json ==
 == fsh-generated/resources/Practitioner-ExampleFrPractitionner001.json ==
 == fsh-generated/resources/StructureDefinition-mesures-bundle-flux-alimentation.json ==
-== fsh-generated/resources/StructureDefinition-mesures-bundle-flux-alimentation-lipid.json ==
-WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-bundle-flux-alimentation-lipid'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-mesures-bundle-flux-alimentation-cholesterol.json ==
+WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-bundle-flux-alimentation-cholesterol'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-mesures-cholesterol-diagnostic-report.json ==
 WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-cholesterol-diagnostic-report'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-mesures-diabetis-type.json ==
