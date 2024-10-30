@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>bundle-example - JSON Representation - Guide d'implémentation FHIR - Mesures de santé v3.1.0</title>
+    <title>cholesterol-dr - JSON Representation - Guide d'implémentation FHIR - Mesures de santé v3.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -43,8 +43,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"8.26"}
-    h3,h4,h5,h6{--heading-prefix:"8.26"}</style>
+    <style type="text/css">h2{--heading-prefix:"8.28"}
+    h3,h4,h5,h6{--heading-prefix:"8.28"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -167,15 +167,15 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>bundle-example</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>cholesterol-dr</b></li>
 
           <span style="float:right;">
 
-            <a href="Bundle-bundle-example.xml.html">&lt;prev</a> | 
+            <a href="DiagnosticReport-cholesterol-dr.xml.html">&lt;prev</a> | 
 
             <a href="#bottom">bottom</a>
 
-          | <a href="Bundle-bundle-example.ttl.html">next&gt;</a>
+          | <a href="DiagnosticReport-cholesterol-dr.ttl.html">next&gt;</a>
 
           </span>
 
@@ -203,14 +203,14 @@
 <ul class="nav nav-tabs">
 
   <li>
-    <a href="Bundle-bundle-example.html">Narrative Content</a>
+    <a href="DiagnosticReport-cholesterol-dr.html">Narrative Content</a>
   </li>
 
 
 
   
     <li>
-      <a href="Bundle-bundle-example.xml.html">XML</a>
+      <a href="DiagnosticReport-cholesterol-dr.xml.html">XML</a>
     </li>
   
 
@@ -224,7 +224,7 @@
 
   
     <li>
-      <a href="Bundle-bundle-example.ttl.html">TTL</a>
+      <a href="DiagnosticReport-cholesterol-dr.ttl.html">TTL</a>
     </li>
   
 
@@ -236,10 +236,10 @@
 <a name="root"> </a>
 
 
-<h2 id="root">: bundle-example - JSON Representation</h2>
+<h2 id="root">: cholesterol-dr - JSON Representation</h2>
 
 
-<p><a href="Bundle-bundle-example.json" no-download="true">Raw json</a> | <a href="Bundle-bundle-example.json" download>Download</a></p>
+<p><a href="DiagnosticReport-cholesterol-dr.json" no-download="true">Raw json</a> | <a href="DiagnosticReport-cholesterol-dr.json" download>Download</a></p>
 
   <!-- insert intro if present -->
   
@@ -247,139 +247,39 @@
 
 
   <pre class="json" style="white-space: pre; text-wrap: nowrap; width: auto;"><code class="language-json" style="white-space: pre; text-wrap: nowrap;">{
-  "<a href="http://hl7.org/fhir/R4/bundle.html#Bundle">resourceType</a>" : "Bundle",
-  "<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.id">id</a>" : "bundle-example",
-  "<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.meta">meta</a>" : {
+  "<a href="http://hl7.org/fhir/R4/diagnosticreport.html#DiagnosticReport">resourceType</a>" : "DiagnosticReport",
+  "<a href="http://hl7.org/fhir/R4/diagnosticreport.html#DiagnosticReport.id">id</a>" : "cholesterol-dr",
+  "<a href="http://hl7.org/fhir/R4/diagnosticreport.html#DiagnosticReport.meta">meta</a>" : {
     "<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>" : [
-      <a href="StructureDefinition-mesures-bundle-flux-alimentation.html" style="color: Maroon">&#x1F517;</a> "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-bundle-flux-alimentation"
+      <a href="StructureDefinition-mesures-cholesterol-diagnostic-report.html" style="color: Maroon">&#x1F517;</a> "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-cholesterol-diagnostic-report"
     ]
   },
-  "<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.type">type</a>" : "transaction",
-  "<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry">entry</a>" : [
-    {
-      "<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.fullUrl">fullUrl</a>" : "urn:uuid:5138af77-df7e-4b9d-ba17-07ba3ebb950a",
-      "<a href="http://hl7.org/fhir/R4/observation.html#Observation">resource</a>" : {
-        "<a href="http://hl7.org/fhir/R4/observation.html">resourceType</a>" : "Observation",
-        "<a href="http://hl7.org/fhir/R4/observation.html#Observation.id">id</a>" : "5138af77-df7e-4b9d-ba17-07ba3ebb950a",
-        "<a href="http://hl7.org/fhir/R4/observation.html#Observation.meta">meta</a>" : {
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>" : [
-            <a href="StructureDefinition-mesures-fr-observation-body-weight.html" style="color: Maroon">&#x1F517;</a> "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-body-weight"
-          ]
-        },
-        "<a href="http://hl7.org/fhir/R4/observation.html#Observation.text">text</a>" : {
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "extensions",
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Observation_5138af77-df7e-4b9d-ba17-07ba3ebb950a\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: Observation 5138af77-df7e-4b9d-ba17-07ba3ebb950a&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;5138af77-df7e-4b9d-ba17-07ba3ebb950a\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hc5138af77-df7e-4b9d-ba17-07ba3ebb950a\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;5138af77-df7e-4b9d-ba17-07ba3ebb950a-fr-FR\&quot;&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;Raison de la mesure&lt;/b&gt;: Mon nouveau poids !&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Final&lt;/p&gt;&lt;p&gt;&lt;b&gt;category&lt;/b&gt;: &lt;span title=\&quot;Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\&quot;&gt;Vital Signs&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=\&quot;Codes:{http://loinc.org 29463-7}\&quot;&gt;Body weight&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: Identifier: &lt;code&gt;urn:oid:1.2.840.10004.1.1.1.0.0.1.0.0.1.2560&lt;/code&gt;/id-value&lt;/p&gt;&lt;p&gt;&lt;b&gt;effective&lt;/b&gt;: 2022-08-22 01:56:16+0100&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: 71 kg&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Details: UCUM  codekg = 'kg')&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;device&lt;/b&gt;: &lt;a href=\&quot;Bundle-bundle-example.html#Device_d36bfdb6-b1b1-4efd-9cb9-d217a8696575\&quot;&gt;Bundle: type = transaction&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;"
-        },
-        "<a href="http://hl7.org/fhir/R4/observation.html#Observation.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-reason-for-measurement",
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "Mon nouveau poids !"
-          }
-        ],
-        "<a href="http://hl7.org/fhir/R4/observation.html#Observation.status">status</a>" : "final",
-        "<a href="http://hl7.org/fhir/R4/observation.html#Observation.category">category</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://terminology.hl7.org/CodeSystem/observation-category",
-                "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "vital-signs"
-              }
-            ]
-          }
-        ],
-        "<a href="http://hl7.org/fhir/R4/observation.html#Observation.code">code</a>" : {
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
-            {
-              "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://loinc.org",
-              "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "29463-7",
-              "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "Body weight"
-            }
-          ]
-        },
-        "<a href="http://hl7.org/fhir/R4/observation.html#Observation.subject">subject</a>" : {
-          "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.identifier">identifier</a>" : {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a>" : "urn:oid:1.2.840.10004.1.1.1.0.0.1.0.0.1.2560",
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a>" : "id-value"
-          }
-        },
-        "<a href="http://hl7.org/fhir/R4/observation.html#Observation.effective[x]">effectiveDateTime</a>" : "2022-08-22T01:56:16+01:00",
-        "<a href="http://hl7.org/fhir/R4/observation.html#Observation.value[x]">valueQuantity</a>" : {
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">value</a>" : 71,
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">unit</a>" : "kg",
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">system</a>" : "http://unitsofmeasure.org",
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.code">code</a>" : "kg"
-        },
-        "<a href="http://hl7.org/fhir/R4/observation.html#Observation.device">device</a>" : {
-          "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Device/d36bfdb6-b1b1-4efd-9cb9-d217a8696575"
-        }
-      },
-      "<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.request">request</a>" : {
-        "<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.request.method">method</a>" : "POST",
-        "<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.request.url">url</a>" : "Observation"
+  "<a href="http://hl7.org/fhir/R4/diagnosticreport.html#DiagnosticReport.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: DiagnosticReport cholesterol-dr&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;cholesterol-dr\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hccholesterol-dr\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;cholesterol-dr-fr-FR\&quot;&gt; &lt;/a&gt;&lt;h2&gt;&lt;span title=\&quot;Codes:{http://loinc.org 57698-3}\&quot;&gt;Lipid panel with direct LDL - Serum or Plasma&lt;/span&gt; &lt;/h2&gt;&lt;table class=\&quot;grid\&quot;/&gt;&lt;p&gt;&lt;b&gt;Report Details&lt;/b&gt;&lt;/p&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Value&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Reference Range&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Flags&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;When For&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;Observation-cholesterol-total-example.html\&quot;&gt;&lt;span title=\&quot;Codes:{http://loinc.org 2093-3}\&quot;&gt;LDL Cholesterol&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;&lt;td&gt;2.1 g/L&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Details: UCUM  codeg/L = 'g/L')&lt;/span&gt;&lt;/td&gt;&lt;td&gt;0.5 g/L&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Details: UCUM  codeg/L = 'g/L')&lt;/span&gt; - 2 g/L&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Details: UCUM  codeg/L = 'g/L')&lt;/span&gt;&lt;/td&gt;&lt;td&gt;Final&lt;/td&gt;&lt;td&gt;2024-10-15&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;Observation-cholesterol-hdl-example.html\&quot;&gt;&lt;span title=\&quot;Codes:{http://loinc.org 2085-9}\&quot;&gt;HDL Cholesterol&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;&lt;td&gt;0.52 g/L&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Details: UCUM  codeg/L = 'g/L')&lt;/span&gt;&lt;/td&gt;&lt;td&gt;&amp;gt;0.55 g/L&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Details: UCUM  codeg/L = 'g/L')&lt;/span&gt;&lt;/td&gt;&lt;td&gt;Final&lt;/td&gt;&lt;td&gt;2024-10-15&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;Observation-cholesterol-ldl-example.html\&quot;&gt;&lt;span title=\&quot;Codes:{http://loinc.org 2089-1}\&quot;&gt;LDL Cholesterol&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;&lt;td&gt;1.39 g/L&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Details: UCUM  codeg/L = 'g/L')&lt;/span&gt;&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Final&lt;/td&gt;&lt;td&gt;2024-10-15&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;Observation-cholesterol-trigly-example.html\&quot;&gt;&lt;span title=\&quot;Codes:{http://loinc.org 2571-8}\&quot;&gt;LDL Cholesterol&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;&lt;td&gt;0.96 g/L&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Details: UCUM  codeg/L = 'g/L')&lt;/span&gt;&lt;/td&gt;&lt;td&gt;0.5 g/L&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Details: UCUM  codeg/L = 'g/L')&lt;/span&gt; - 1.5 g/L&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Details: UCUM  codeg/L = 'g/L')&lt;/span&gt;&lt;/td&gt;&lt;td&gt;Final&lt;/td&gt;&lt;td&gt;2024-10-15&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"
+  },
+  "<a href="http://hl7.org/fhir/R4/diagnosticreport.html#DiagnosticReport.status">status</a>" : "final",
+  "<a href="http://hl7.org/fhir/R4/diagnosticreport.html#DiagnosticReport.code">code</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+      {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://loinc.org",
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "57698-3",
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "Lipid panel with direct LDL - Serum or Plasma"
       }
+    ]
+  },
+  "<a href="http://hl7.org/fhir/R4/diagnosticreport.html#DiagnosticReport.result">result</a>" : [
+    {
+      <a href="Observation-cholesterol-total-example.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Observation/cholesterol-total-example"
     },
     {
-      "<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.fullUrl">fullUrl</a>" : "urn:uuid:d36bfdb6-b1b1-4efd-9cb9-d217a8696575",
-      "<a href="http://hl7.org/fhir/R4/device.html#Device">resource</a>" : {
-        "<a href="http://hl7.org/fhir/R4/device.html">resourceType</a>" : "Device",
-        "<a href="http://hl7.org/fhir/R4/device.html#Device.id">id</a>" : "d36bfdb6-b1b1-4efd-9cb9-d217a8696575",
-        "<a href="http://hl7.org/fhir/R4/device.html#Device.meta">meta</a>" : {
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>" : [
-            <a href="http://hl7.org/fhir/uv/phd/STU1/StructureDefinition-PhdDevice.html" style="color: Maroon">&#x1F517;</a> "http://hl7.org/fhir/uv/phd/StructureDefinition/PhdDevice"
-          ]
-        },
-        "<a href="http://hl7.org/fhir/R4/device.html#Device.text">text</a>" : {
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Device_d36bfdb6-b1b1-4efd-9cb9-d217a8696575\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: Device d36bfdb6-b1b1-4efd-9cb9-d217a8696575&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;d36bfdb6-b1b1-4efd-9cb9-d217a8696575\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcd36bfdb6-b1b1-4efd-9cb9-d217a8696575\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;d36bfdb6-b1b1-4efd-9cb9-d217a8696575-fr-FR\&quot;&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: IEEE 11073 System Identifier/FE-ED-AB-AA-DE-AD-77-C5&lt;/p&gt;&lt;p&gt;&lt;b&gt;manufacturer&lt;/b&gt;: OMRONHEALTHCARE&lt;/p&gt;&lt;h3&gt;DeviceNames&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Name&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;Ma balance&lt;/td&gt;&lt;td&gt;Patient Reported name&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;modelNumber&lt;/b&gt;: HEM-9200T&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=\&quot;Codes:{urn:iso:std:iso:11073:10101 65573}\&quot;&gt;MDC_MOC_VMS_MDS_SIMP&lt;/span&gt;&lt;/p&gt;&lt;h3&gt;Specializations&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;SystemType&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Version&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;&lt;span title=\&quot;Codes:{urn:iso:std:iso:11073:10101 528457}\&quot;&gt;MDC_DEV_SPEC_PROFILE_GENERIC&lt;/span&gt;&lt;/td&gt;&lt;td&gt;2.3&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"
-        },
-        "<a href="http://hl7.org/fhir/R4/device.html#Device.identifier">identifier</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.type">type</a>" : {
-              "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
-                {
-                  "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://hl7.org/fhir/uv/phd/CodeSystem/ContinuaDeviceIdentifiers",
-                  "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "SYSID"
-                }
-              ]
-            },
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a>" : "urn:oid:1.2.840.10004.1.1.1.0.0.1.0.0.1.2680",
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a>" : "FE-ED-AB-AA-DE-AD-77-C5"
-          }
-        ],
-        "<a href="http://hl7.org/fhir/R4/device.html#Device.manufacturer">manufacturer</a>" : "OMRONHEALTHCARE",
-        "<a href="http://hl7.org/fhir/R4/device.html#Device.deviceName">deviceName</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/device.html#Device.deviceName.name">name</a>" : "Ma balance",
-            "<a href="http://hl7.org/fhir/R4/device.html#Device.deviceName.type">type</a>" : "patient-reported-name"
-          }
-        ],
-        "<a href="http://hl7.org/fhir/R4/device.html#Device.modelNumber">modelNumber</a>" : "HEM-9200T",
-        "<a href="http://hl7.org/fhir/R4/device.html#Device.type">type</a>" : {
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
-            {
-              "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "urn:iso:std:iso:11073:10101",
-              "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "65573"
-            }
-          ]
-        },
-        "<a href="http://hl7.org/fhir/R4/device.html#Device.specialization">specialization</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/device.html#Device.specialization.systemType">systemType</a>" : {
-              "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
-                {
-                  "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "urn:iso:std:iso:11073:10101",
-                  "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "528457"
-                }
-              ]
-            },
-            "<a href="http://hl7.org/fhir/R4/device.html#Device.specialization.version">version</a>" : "2.3"
-          }
-        ]
-      },
-      "<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.request">request</a>" : {
-        "<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.request.method">method</a>" : "POST",
-        "<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.request.url">url</a>" : "Device"
-      }
+      <a href="Observation-cholesterol-hdl-example.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Observation/cholesterol-hdl-example"
+    },
+    {
+      <a href="Observation-cholesterol-ldl-example.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Observation/cholesterol-ldl-example"
+    },
+    {
+      <a href="Observation-cholesterol-trigly-example.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Observation/cholesterol-trigly-example"
     }
   ]
 }</code></pre>
@@ -410,7 +310,7 @@
             <tr>
               <td style="text-align:left">&#xA0;
 
-                <a href="Bundle-bundle-example.xml.html">&lt;prev</a>
+                <a href="DiagnosticReport-cholesterol-dr.xml.html">&lt;prev</a>
 
               </td>
               <td style="text-align:center">
@@ -418,7 +318,7 @@
               </td>
               <td style="text-align:right">&#xA0;
 
-                <a href="Bundle-bundle-example.ttl.html">next&gt;</a>
+                <a href="DiagnosticReport-cholesterol-dr.ttl.html">next&gt;</a>
 
               </td>
             </tr>
@@ -428,7 +328,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fhir.fr.mesures#3.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Oct 30, 2024 16:49+0000">2024-10-30</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fhir.fr.mesures#3.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Oct 30, 2024 17:29+0000">2024-10-30</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

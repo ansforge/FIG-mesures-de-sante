@@ -6,9 +6,9 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://interop.esante.gouv.fr/ig/fhir/mesures/Bundle/bundle-example> a fhir:Bundle ;
+<https://interop.esante.gouv.fr/ig/fhir/mesures/Bundle/bundle-example-body-weight> a fhir:Bundle ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "bundle-example"] ; # 
+  fhir:id [ fhir:v "bundle-example-body-weight"] ; # 
   fhir:meta [
      fhir:profile ( [
        fhir:v "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-bundle-flux-alimentation"^^xsd:anyURI ;
@@ -42,7 +42,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_5138af77-df7e-4b9d-ba17-07ba3ebb950a\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Observation 5138af77-df7e-4b9d-ba17-07ba3ebb950a</b></p><a name=\"5138af77-df7e-4b9d-ba17-07ba3ebb950a\"> </a><a name=\"hc5138af77-df7e-4b9d-ba17-07ba3ebb950a\"> </a><a name=\"5138af77-df7e-4b9d-ba17-07ba3ebb950a-fr-FR\"> </a><p><b>Raison de la mesure</b>: Mon nouveau poids !</p><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\">Vital Signs</span></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 29463-7}\">Body weight</span></p><p><b>subject</b>: Identifier: <code>urn:oid:1.2.840.10004.1.1.1.0.0.1.0.0.1.2560</code>/id-value</p><p><b>effective</b>: 2022-08-22 01:56:16+0100</p><p><b>value</b>: 71 kg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codekg = 'kg')</span></p><p><b>device</b>: <a href=\"Bundle-bundle-example.html#Device_d36bfdb6-b1b1-4efd-9cb9-d217a8696575\">Bundle: type = transaction</a></p></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_5138af77-df7e-4b9d-ba17-07ba3ebb950a\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Observation 5138af77-df7e-4b9d-ba17-07ba3ebb950a</b></p><a name=\"5138af77-df7e-4b9d-ba17-07ba3ebb950a\"> </a><a name=\"hc5138af77-df7e-4b9d-ba17-07ba3ebb950a\"> </a><a name=\"5138af77-df7e-4b9d-ba17-07ba3ebb950a-fr-FR\"> </a><p><b>Raison de la mesure</b>: Mon nouveau poids !</p><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\">Vital Signs</span></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 29463-7}\">Body weight</span></p><p><b>subject</b>: Identifier: <code>urn:oid:1.2.840.10004.1.1.1.0.0.1.0.0.1.2560</code>/id-value</p><p><b>effective</b>: 2022-08-22 01:56:16+0100</p><p><b>value</b>: 71 kg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codekg = 'kg')</span></p><p><b>device</b>: <a href=\"Bundle-bundle-example-body-weight.html#Device_d36bfdb6-b1b1-4efd-9cb9-d217a8696575\">Bundle: type = transaction</a></p></div>"
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-reason-for-measurement"^^xsd:anyURI ] ;

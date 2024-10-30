@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="bundle-example-lipids"/>
+  <meta>
+    <profile value="https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-bundle-flux-alimentation-cholesterol"/>
+  </meta>
+  <type value="transaction"/>
+  <entry>
+    <fullUrl value="urn:uuid:0f6a9f7f-d307-4497-b7e3-2059dc7344d4"/>
+    <resource>
+      <Observation>
+        <id value="cholesterol-ldl-example"/>
+        <meta>
+          <profile value="https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-observation-cholesterol-ldl"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Observation_cholesterol-ldl-example"> </a><p class="res-header-id"><b>Generated Narrative: Observation cholesterol-ldl-example</b></p><a name="cholesterol-ldl-example"> </a><a name="hccholesterol-ldl-example"> </a><a name="cholesterol-ldl-example-fr-FR"> </a><p><b>status</b>: Final</p><p><b>code</b>: <span title="Codes:{http://loinc.org 2089-1}">LDL Cholesterol</span></p><p><b>subject</b>: <a href="Patient-ExamplefrPatient001.html">Pierre Durand</a></p><p><b>effective</b>: 2024-10-15</p><p><b>value</b>: 1.39 g/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codeg/L = 'g/L')</span></p></div>
+        </text>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="2089-1"/>
+            <display value="LDL Cholesterol"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="Patient/ExamplefrPatient001"/>
+          <type value="Patient"/>
+          <display value="Pierre Durand"/>
+        </subject>
+        <effectiveDateTime value="2024-10-15"/>
+        <valueQuantity>
+          <value value="1.39"/>
+          <unit value="g/L"/>
+          <system value="http://unitsofmeasure.org"/>
+          <code value="g/L"/>
+        </valueQuantity>
+      </Observation>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="Observation"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:7375171a-805e-440d-aa55-eb0ced35625c"/>
+    <resource>
+      <Observation>
+        <id value="cholesterol-hdl-example"/>
+        <meta>
+          <profile value="https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-observation-cholesterol-hdl"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Observation_cholesterol-hdl-example"> </a><p class="res-header-id"><b>Generated Narrative: Observation cholesterol-hdl-example</b></p><a name="cholesterol-hdl-example"> </a><a name="hccholesterol-hdl-example"> </a><a name="cholesterol-hdl-example-fr-FR"> </a><p><b>status</b>: Final</p><p><b>code</b>: <span title="Codes:{http://loinc.org 2085-9}">HDL Cholesterol</span></p><p><b>subject</b>: <a href="Patient-ExamplefrPatient001.html">Pierre Durand</a></p><p><b>effective</b>: 2024-10-15</p><p><b>value</b>: 0.52 g/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codeg/L = 'g/L')</span></p><h3>ReferenceRanges</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Low</b></td></tr><tr><td style="display: none">*</td><td>0.55 g/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codeg/L = 'g/L')</span></td></tr></table></div>
+        </text>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="2085-9"/>
+            <display value="HDL Cholesterol"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="Patient/ExamplefrPatient001"/>
+          <type value="Patient"/>
+          <display value="Pierre Durand"/>
+        </subject>
+        <effectiveDateTime value="2024-10-15"/>
+        <valueQuantity>
+          <value value="0.52"/>
+          <unit value="g/L"/>
+          <system value="http://unitsofmeasure.org"/>
+          <code value="g/L"/>
+        </valueQuantity>
+        <referenceRange>
+          <low>
+            <value value="0.55"/>
+            <unit value="g/L"/>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="g/L"/>
+          </low>
+        </referenceRange>
+      </Observation>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="Observation"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:1cd043f1-996c-49e8-bb03-b02a865505af"/>
+    <resource>
+      <Observation>
+        <id value="cholesterol-trigly-example"/>
+        <meta>
+          <profile value="https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-observation-cholesterol-trigly"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Observation_cholesterol-trigly-example"> </a><p class="res-header-id"><b>Generated Narrative: Observation cholesterol-trigly-example</b></p><a name="cholesterol-trigly-example"> </a><a name="hccholesterol-trigly-example"> </a><a name="cholesterol-trigly-example-fr-FR"> </a><p><b>status</b>: Final</p><p><b>code</b>: <span title="Codes:{http://loinc.org 2571-8}">LDL Cholesterol</span></p><p><b>subject</b>: <a href="Patient-ExamplefrPatient001.html">Pierre Durand</a></p><p><b>effective</b>: 2024-10-15</p><p><b>value</b>: 0.96 g/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codeg/L = 'g/L')</span></p><h3>ReferenceRanges</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Low</b></td><td><b>High</b></td></tr><tr><td style="display: none">*</td><td>0.5 g/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codeg/L = 'g/L')</span></td><td>1.5 g/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codeg/L = 'g/L')</span></td></tr></table></div>
+        </text>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="2571-8"/>
+            <display value="LDL Cholesterol"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="Patient/ExamplefrPatient001"/>
+          <type value="Patient"/>
+          <display value="Pierre Durand"/>
+        </subject>
+        <effectiveDateTime value="2024-10-15"/>
+        <valueQuantity>
+          <value value="0.96"/>
+          <unit value="g/L"/>
+          <system value="http://unitsofmeasure.org"/>
+          <code value="g/L"/>
+        </valueQuantity>
+        <referenceRange>
+          <low>
+            <value value="0.5"/>
+            <unit value="g/L"/>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="g/L"/>
+          </low>
+          <high>
+            <value value="1.5"/>
+            <unit value="g/L"/>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="g/L"/>
+          </high>
+        </referenceRange>
+      </Observation>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="Observation"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:91bc2d03-5406-490c-89f5-23cce837494d"/>
+    <resource>
+      <Observation>
+        <id value="cholesterol-total-example"/>
+        <meta>
+          <profile value="https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-observation-cholesterol-total"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Observation_cholesterol-total-example"> </a><p class="res-header-id"><b>Generated Narrative: Observation cholesterol-total-example</b></p><a name="cholesterol-total-example"> </a><a name="hccholesterol-total-example"> </a><a name="cholesterol-total-example-fr-FR"> </a><p><b>status</b>: Final</p><p><b>code</b>: <span title="Codes:{http://loinc.org 2093-3}">LDL Cholesterol</span></p><p><b>subject</b>: <a href="Patient-ExamplefrPatient001.html">Pierre Durand</a></p><p><b>effective</b>: 2024-10-15</p><p><b>value</b>: 2.1 g/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codeg/L = 'g/L')</span></p><h3>ReferenceRanges</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Low</b></td><td><b>High</b></td></tr><tr><td style="display: none">*</td><td>0.5 g/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codeg/L = 'g/L')</span></td><td>2 g/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codeg/L = 'g/L')</span></td></tr></table></div>
+        </text>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="2093-3"/>
+            <display value="LDL Cholesterol"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="Patient/ExamplefrPatient001"/>
+          <type value="Patient"/>
+          <display value="Pierre Durand"/>
+        </subject>
+        <effectiveDateTime value="2024-10-15"/>
+        <valueQuantity>
+          <value value="2.1"/>
+          <unit value="g/L"/>
+          <system value="http://unitsofmeasure.org"/>
+          <code value="g/L"/>
+        </valueQuantity>
+        <referenceRange>
+          <low>
+            <value value="0.5"/>
+            <unit value="g/L"/>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="g/L"/>
+          </low>
+          <high>
+            <value value="2"/>
+            <unit value="g/L"/>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="g/L"/>
+          </high>
+        </referenceRange>
+      </Observation>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="Observation"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:25207dab-e2f1-4513-a499-48e508847382"/>
+    <resource>
+      <DiagnosticReport>
+        <id value="cholesterol-dr"/>
+        <meta>
+          <profile value="https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-cholesterol-diagnostic-report"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="DiagnosticReport_cholesterol-dr"> </a><p class="res-header-id"><b>Generated Narrative: DiagnosticReport cholesterol-dr</b></p><a name="cholesterol-dr"> </a><a name="hccholesterol-dr"> </a><a name="cholesterol-dr-fr-FR"> </a><h2><span title="Codes:{http://loinc.org 57698-3}">Lipid panel with direct LDL - Serum or Plasma</span> </h2><table class="grid"/><p><b>Report Details</b></p><table class="grid"><tr><td><b>Code</b></td><td><b>Value</b></td><td><b>Reference Range</b></td><td><b>Flags</b></td><td><b>When For</b></td></tr><tr><td><a href="Observation-cholesterol-total-example.html"><span title="Codes:{http://loinc.org 2093-3}">LDL Cholesterol</span></a></td><td>2.1 g/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codeg/L = 'g/L')</span></td><td>0.5 g/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codeg/L = 'g/L')</span> - 2 g/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codeg/L = 'g/L')</span></td><td>Final</td><td>2024-10-15</td></tr><tr><td><a href="Observation-cholesterol-hdl-example.html"><span title="Codes:{http://loinc.org 2085-9}">HDL Cholesterol</span></a></td><td>0.52 g/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codeg/L = 'g/L')</span></td><td>&gt;0.55 g/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codeg/L = 'g/L')</span></td><td>Final</td><td>2024-10-15</td></tr><tr><td><a href="Observation-cholesterol-ldl-example.html"><span title="Codes:{http://loinc.org 2089-1}">LDL Cholesterol</span></a></td><td>1.39 g/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codeg/L = 'g/L')</span></td><td/><td>Final</td><td>2024-10-15</td></tr><tr><td><a href="Observation-cholesterol-trigly-example.html"><span title="Codes:{http://loinc.org 2571-8}">LDL Cholesterol</span></a></td><td>0.96 g/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codeg/L = 'g/L')</span></td><td>0.5 g/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codeg/L = 'g/L')</span> - 1.5 g/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codeg/L = 'g/L')</span></td><td>Final</td><td>2024-10-15</td></tr></table></div>
+        </text>
+        <status value="final"/>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="57698-3"/>
+            <display value="Lipid panel with direct LDL - Serum or Plasma"/>
+          </coding>
+        </code>
+        <result>
+          <reference value="Observation/cholesterol-total-example"/>
+        </result>
+        <result>
+          <reference value="Observation/cholesterol-hdl-example"/>
+        </result>
+        <result>
+          <reference value="Observation/cholesterol-ldl-example"/>
+        </result>
+        <result>
+          <reference value="Observation/cholesterol-trigly-example"/>
+        </result>
+      </DiagnosticReport>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="DiagnosticReport"/>
+    </request>
+  </entry>
+</Bundle>

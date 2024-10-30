@@ -10,7 +10,7 @@
   <name value="Mesures"/>
   <title value="Guide d'implémentation FHIR - Mesures de santé"/>
   <status value="active"/>
-  <date value="2024-10-30T16:49:36+00:00"/>
+  <date value="2024-10-30T17:29:46+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -507,10 +507,30 @@
         <valueString value="Bundle"/>
       </extension>
       <reference>
-        <reference value="Bundle/bundle-example"/>
+        <reference value="Bundle/bundle-example-body-weight"/>
       </reference>
-      <name value="bundle-example"/>
+      <name value="bundle-example-body-weight"/>
       <exampleCanonical value="https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-bundle-flux-alimentation"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/bundle-example-lipids"/>
+      </reference>
+      <name value="bundle-example-lipids"/>
+      <exampleCanonical value="https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-bundle-flux-alimentation-cholesterol"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="DiagnosticReport"/>
+      </extension>
+      <reference>
+        <reference value="DiagnosticReport/cholesterol-dr"/>
+      </reference>
+      <name value="cholesterol-dr"/>
+      <exampleCanonical value="https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-cholesterol-diagnostic-report"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "Mesures"] ; # 
   fhir:title [ fhir:v "Guide d'implémentation FHIR - Mesures de santé"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2024-10-30T16:49:36+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-10-30T17:29:46+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -588,13 +588,41 @@
          fhir:value [ fhir:v "Bundle" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/mesures/Bundle/bundle-example> ;
-         fhir:reference [ fhir:v "Bundle/bundle-example" ]
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/mesures/Bundle/bundle-example-body-weight> ;
+         fhir:reference [ fhir:v "Bundle/bundle-example-body-weight" ]
        ] ;
-       fhir:name [ fhir:v "bundle-example" ] ;
+       fhir:name [ fhir:v "bundle-example-body-weight" ] ;
        fhir:example [
          fhir:v "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-bundle-flux-alimentation"^^xsd:anyURI ;
          fhir:link <https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-bundle-flux-alimentation>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Bundle" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/mesures/Bundle/bundle-example-lipids> ;
+         fhir:reference [ fhir:v "Bundle/bundle-example-lipids" ]
+       ] ;
+       fhir:name [ fhir:v "bundle-example-lipids" ] ;
+       fhir:example [
+         fhir:v "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-bundle-flux-alimentation-cholesterol"^^xsd:anyURI ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-bundle-flux-alimentation-cholesterol>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "DiagnosticReport" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/mesures/DiagnosticReport/cholesterol-dr> ;
+         fhir:reference [ fhir:v "DiagnosticReport/cholesterol-dr" ]
+       ] ;
+       fhir:name [ fhir:v "cholesterol-dr" ] ;
+       fhir:example [
+         fhir:v "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-cholesterol-diagnostic-report"^^xsd:anyURI ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-cholesterol-diagnostic-report>
        ]
      ] [
        fhir:extension ( [

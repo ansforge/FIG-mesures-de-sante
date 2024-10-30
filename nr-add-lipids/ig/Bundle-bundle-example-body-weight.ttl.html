@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>bundle-example - TTL Representation - Guide d'implémentation FHIR - Mesures de santé v3.1.0</title>
+    <title>bundle-example-body-weight - TTL Representation - Guide d'implémentation FHIR - Mesures de santé v3.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -167,15 +167,15 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>bundle-example</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>bundle-example-body-weight</b></li>
 
           <span style="float:right;">
 
-            <a href="Bundle-bundle-example.json.html">&lt;prev</a> | 
+            <a href="Bundle-bundle-example-body-weight.json.html">&lt;prev</a> | 
 
             <a href="#bottom">bottom</a>
 
-          | <a href="Observation-cholesterol-hdl-example.html">next&gt;</a>
+          | <a href="Bundle-bundle-example-lipids.html">next&gt;</a>
 
           </span>
 
@@ -203,21 +203,21 @@
 <ul class="nav nav-tabs">
 
   <li>
-    <a href="Bundle-bundle-example.html">Narrative Content</a>
+    <a href="Bundle-bundle-example-body-weight.html">Narrative Content</a>
   </li>
 
 
 
   
     <li>
-      <a href="Bundle-bundle-example.xml.html">XML</a>
+      <a href="Bundle-bundle-example-body-weight.xml.html">XML</a>
     </li>
   
 
 
   
     <li>
-      <a href="Bundle-bundle-example.json.html">JSON</a>
+      <a href="Bundle-bundle-example-body-weight.json.html">JSON</a>
     </li>
   
 
@@ -236,10 +236,10 @@
 <a name="root"> </a>
 
 
-<h2 id="root">: bundle-example - TTL Representation</h2>
+<h2 id="root">: bundle-example-body-weight - TTL Representation</h2>
 
 
-<p><a href="Bundle-bundle-example.ttl" no-download="true">Raw ttl</a> | <a href="Bundle-bundle-example.ttl" download>Download</a></p>
+<p><a href="Bundle-bundle-example-body-weight.ttl" no-download="true">Raw ttl</a> | <a href="Bundle-bundle-example-body-weight.ttl" download>Download</a></p>
 
   <!-- insert intro if present -->
   
@@ -257,7 +257,7 @@
 
  a fhir:Bundle ;
   <a href="http://hl7.org/fhir/R4/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot ;
-  <a href="http://hl7.org/fhir/R4/bundle.html#Bundle.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:v</a> &quot;bundle-example&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/bundle.html#Bundle.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:v</a> &quot;bundle-example-body-weight&quot;] ; # 
   <a href="http://hl7.org/fhir/R4/bundle.html#Bundle.meta">fhir:meta</a> [
     ( <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:profile</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-bundle-flux-alimentation&quot;^^xsd:anyURI ;
@@ -287,7 +287,7 @@
   ] ; # 
   <a href="http://hl7.org/fhir/R4/observation.html#Observation.text">fhir:text</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;extensions&quot; ] ;
-fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Observation_5138af77-df7e-4b9d-ba17-07ba3ebb950a\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: Observation 5138af77-df7e-4b9d-ba17-07ba3ebb950a&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;5138af77-df7e-4b9d-ba17-07ba3ebb950a\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hc5138af77-df7e-4b9d-ba17-07ba3ebb950a\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;5138af77-df7e-4b9d-ba17-07ba3ebb950a-fr-FR\&quot;&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;Raison de la mesure&lt;/b&gt;: Mon nouveau poids !&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Final&lt;/p&gt;&lt;p&gt;&lt;b&gt;category&lt;/b&gt;: &lt;span title=\&quot;Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\&quot;&gt;Vital Signs&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=\&quot;Codes:{http://loinc.org 29463-7}\&quot;&gt;Body weight&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: Identifier: &lt;code&gt;urn:oid:1.2.840.10004.1.1.1.0.0.1.0.0.1.2560&lt;/code&gt;/id-value&lt;/p&gt;&lt;p&gt;&lt;b&gt;effective&lt;/b&gt;: 2022-08-22 01:56:16+0100&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: 71 kg&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Details: UCUM  codekg = 'kg')&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;device&lt;/b&gt;: &lt;a href=\&quot;Bundle-bundle-example.html#Device_d36bfdb6-b1b1-4efd-9cb9-d217a8696575\&quot;&gt;Bundle: type = transaction&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&quot;
+fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Observation_5138af77-df7e-4b9d-ba17-07ba3ebb950a\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: Observation 5138af77-df7e-4b9d-ba17-07ba3ebb950a&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;5138af77-df7e-4b9d-ba17-07ba3ebb950a\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hc5138af77-df7e-4b9d-ba17-07ba3ebb950a\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;5138af77-df7e-4b9d-ba17-07ba3ebb950a-fr-FR\&quot;&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;Raison de la mesure&lt;/b&gt;: Mon nouveau poids !&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Final&lt;/p&gt;&lt;p&gt;&lt;b&gt;category&lt;/b&gt;: &lt;span title=\&quot;Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\&quot;&gt;Vital Signs&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=\&quot;Codes:{http://loinc.org 29463-7}\&quot;&gt;Body weight&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: Identifier: &lt;code&gt;urn:oid:1.2.840.10004.1.1.1.0.0.1.0.0.1.2560&lt;/code&gt;/id-value&lt;/p&gt;&lt;p&gt;&lt;b&gt;effective&lt;/b&gt;: 2022-08-22 01:56:16+0100&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: 71 kg&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Details: UCUM  codekg = 'kg')&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;device&lt;/b&gt;: &lt;a href=\&quot;Bundle-bundle-example-body-weight.html#Device_d36bfdb6-b1b1-4efd-9cb9-d217a8696575\&quot;&gt;Bundle: type = transaction&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&quot;
   ] ; # 
   <a href="http://hl7.org/fhir/R4/observation.html#Observation.extension">fhir:extension</a> ( [
 <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-reason-for-measurement&quot;^^xsd:anyURI ] ;
@@ -390,7 +390,7 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a
             <tr>
               <td style="text-align:left">&#xA0;
 
-                <a href="Bundle-bundle-example.json.html">&lt;prev</a>
+                <a href="Bundle-bundle-example-body-weight.json.html">&lt;prev</a>
 
               </td>
               <td style="text-align:center">
@@ -398,7 +398,7 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a
               </td>
               <td style="text-align:right">&#xA0;
 
-                <a href="Observation-cholesterol-hdl-example.html">next&gt;</a>
+                <a href="Bundle-bundle-example-lipids.html">next&gt;</a>
 
               </td>
             </tr>
@@ -408,7 +408,7 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fhir.fr.mesures#3.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Oct 30, 2024 16:49+0000">2024-10-30</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fhir.fr.mesures#3.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Oct 30, 2024 17:29+0000">2024-10-30</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |
