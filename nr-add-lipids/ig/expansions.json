@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "a045d45f-a38f-4895-80b9-c4ca930b6300",
+  "id" : "64d227d1-e43c-42a6-bf88-0b000d3284e4",
   "meta" : {
-    "lastUpdated" : "2024-10-30T10:56:03.463+00:00"
+    "lastUpdated" : "2024-10-30T13:21:16.290+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -18,7 +18,7 @@
       "name" : "MethodeGlucoseVS",
       "title" : "Méthode de mesures de glycémie sanguine ou interstitielle",
       "status" : "active",
-      "date" : "2024-10-30T10:56:03+00:00",
+      "date" : "2024-10-30T13:21:16+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -27,8 +27,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:dc4aece3-32fd-4075-97ad-028573a7e31b",
-        "timestamp" : "2024-10-30T10:57:10+00:00",
+        "identifier" : "urn:uuid:1232f980-501a-4432-a34d-485ffcca07e0",
+        "timestamp" : "2024-10-30T13:22:18+00:00",
         "total" : 18,
         "offset" : 0,
         "parameter" : [{
