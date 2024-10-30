@@ -281,9 +281,10 @@ package IG #DDDDDD{
              Observation.performer => [None..None]
              Observation.value[x] => [None..None]
              Observation.value[x].value => [1..None]
-             Observation.value[x].unit => [1..None]
+             Observation.value[x].unit => [None..None]
              Observation.value[x].system => [None..None]
              Observation.value[x].code => [1..None]
+             Observation.device => [None..None]
         } 
 
         class MesObservationPainSeverity{
@@ -304,6 +305,7 @@ package IG #DDDDDD{
              Observation.dataAbsentReason.coding.code => [1..None]
              Observation.bodySite => [None..None]
              Observation.method => [None..None]
+             Observation.device => [None..None]
         } 
 
         class MesObservationStepsByDay{

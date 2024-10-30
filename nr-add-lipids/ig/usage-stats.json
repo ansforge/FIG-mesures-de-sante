@@ -1,6 +1,6 @@
 {
   "package": "ans.fhir.fr.mesures",
-  "version": "3.1.0-ballot",
+  "version": "3.1.0",
   "fhirVersion": "4.0.1",
   "jurisdiction": "FR",
   "extensions": [
