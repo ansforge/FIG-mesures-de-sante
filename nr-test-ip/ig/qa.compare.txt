@@ -1,7 +1,7 @@
 Mesures : Validation Results
 =========================================
 
-err = 12, warn = 42, info = 32
+err = 12, warn = 46, info = 32
 $--
 Generated $--. FHIR version $-- for ans.fhir.fr.mesures#$-- (canonical = https://interop.esante.gouv.fr/ig/fhir/mesures)
  Build Errors : 10 / 28 / 0
@@ -23,7 +23,7 @@ Generated $--. FHIR version $-- for ans.fhir.fr.mesures#$-- (canonical = https:/
  /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Observation-ExampleObservationWaistCircumference001 : 1 / 1 / 3
  /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Patient-ExamplefrPatient001 : 0 / 0 / 1
  /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Practitioner-ExampleFrPractitionner001 : 0 / 0 / 1
- /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/StructureDefinition-mesures-bundle-flux-alimentation : 0 / 0 / 1
+ /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/StructureDefinition-mesures-bundle-flux-alimentation : 0 / 2 / 1
  /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/StructureDefinition-mesures-diabetis-type : 0 / 0 / 1
  /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/StructureDefinition-mesures-fr-observation-bmi : 0 / 0 / 1
  /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/StructureDefinition-mesures-fr-observation-body-temperature : 0 / 0 / 1
@@ -38,7 +38,7 @@ Generated $--. FHIR version $-- for ans.fhir.fr.mesures#$-- (canonical = https:/
  /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/StructureDefinition-mesures-observation-glucose : 0 / 0 / 1
  /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/StructureDefinition-mesures-observation-head-circumference : 1 / 0 / 1
  /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/StructureDefinition-mesures-observation-pain-severity : 0 / 0 / 1
- /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/StructureDefinition-mesures-observation-steps-by-day : 0 / 0 / 1
+ /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/StructureDefinition-mesures-observation-steps-by-day : 0 / 2 / 1
  /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/StructureDefinition-mesures-observation-waist-circumference : 0 / 0 / 1
  /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/StructureDefinition-mesures-reason-for-measurement : 0 / 0 / 1
  /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/ValueSet-method-glucose-vs : 0 / 1 / 1
@@ -163,6 +163,8 @@ WARNING: Observation/ExampleObservationWaistCircumference001: Observation: Best 
 == fsh-generated/resources/Patient-ExamplefrPatient001.json ==
 == fsh-generated/resources/Practitioner-ExampleFrPractitionner001.json ==
 == fsh-generated/resources/StructureDefinition-mesures-bundle-flux-alimentation.json ==
+WARNING: StructureDefinition/mesures-bundle-flux-alimentation: StructureDefinition.differential.element[2].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
+WARNING: StructureDefinition/mesures-bundle-flux-alimentation: StructureDefinition.snapshot.element[15].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
 == fsh-generated/resources/StructureDefinition-mesures-diabetis-type.json ==
 == fsh-generated/resources/StructureDefinition-mesures-fr-observation-bmi.json ==
 == fsh-generated/resources/StructureDefinition-mesures-fr-observation-body-temperature.json ==
@@ -182,6 +184,8 @@ ERROR: StructureDefinition/mesures-fr-observation-resp-rate: StructureDefinition
 ERROR: StructureDefinition/mesures-observation-head-circumference: StructureDefinition.differential.element[8].slicing: Constraint failed: eld-1: 'If there are no discriminators, there must be a definition' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition)
 == fsh-generated/resources/StructureDefinition-mesures-observation-pain-severity.json ==
 == fsh-generated/resources/StructureDefinition-mesures-observation-steps-by-day.json ==
+WARNING: StructureDefinition/mesures-observation-steps-by-day: StructureDefinition.differential.element[3].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
+WARNING: StructureDefinition/mesures-observation-steps-by-day: StructureDefinition.snapshot.element[39].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
 == fsh-generated/resources/StructureDefinition-mesures-observation-waist-circumference.json ==
 == fsh-generated/resources/StructureDefinition-mesures-reason-for-measurement.json ==
 == fsh-generated/resources/ValueSet-method-glucose-vs.json ==
