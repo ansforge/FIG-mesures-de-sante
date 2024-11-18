@@ -6,14 +6,14 @@
   "status" : "active",
   "package-id" : "ans.fhir.fr.mesures",
   "ig-ver" : "3.1.0",
-  "date" : "Wed, 30 Oct, 2024 13:35:51 +0000",
-  "dateISO8601" : "2024-10-30T13:35:51+00:00",
+  "date" : "Mon, 18 Nov, 2024 15:35:30 +0000",
+  "dateISO8601" : "2024-11-18T15:35:30+00:00",
   "errs" : 12,
-  "warnings" : 43,
+  "warnings" : 46,
   "hints" : 32,
   "suppressed-hints" : 0,
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 6118854032
+  "maxMemory" : 3242298616
 }
