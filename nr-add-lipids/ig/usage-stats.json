@@ -5,13 +5,6 @@
   "jurisdiction": "FR",
   "extensions": [
     {
-      "url": "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-diabetis-type",
-      "title": "Type de diabète",
-      "types": [
-        "CodeableConcept"
-      ]
-    },
-    {
       "url": "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-moment-of-measurement",
       "title": "Moment de la mesure",
       "types": [
@@ -186,9 +179,6 @@
       "Observation"
     ],
     "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-observation-level-of-exertion": [
-      "Observation"
-    ],
-    "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-diabetis-type": [
       "Observation"
     ],
     "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-moment-of-measurement": [

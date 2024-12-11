@@ -265,7 +265,6 @@ package IG #DDDDDD{
              Observation.extension:MesMomentOfMeasurement => <&plus>[0..1]
              Observation.extension:MesMomentOfMeasurement.value[x] => <&plus>[None..None]
              Observation.extension:MesNumberOfDays => <&plus>[0..1]
-             Observation.extension:MesDiabetisType => <&plus>[0..1]
              Observation.category:VSCat => [None..None]
              Observation.category:VSCat.coding.display => [None..None]
              Observation.code => [None..None]
@@ -379,18 +378,11 @@ package IG #DDDDDD{
      MesObservationGlucose -[#black,dashed,thickness=2]-> MesReasonForMeasurement
      MesObservationGlucose -[#black,dashed,thickness=2]-> MesMomentOfMeasurement
      MesObservationGlucose -[#black,dashed,thickness=2]-> MesNumberOfDays
-     MesObservationGlucose -[#black,dashed,thickness=2]-> MesDiabetisType
      MesObservationHeadCircumference -[#black,dashed,thickness=2]-> MesReasonForMeasurement
      MesObservationPainSeverity -[#black,dashed,thickness=2]-> MesReasonForMeasurement
      MesObservationStepsByDay -[#black,dashed,thickness=2]-> MesReasonForMeasurement
      MesObservationWaistCircumference -[#black,dashed,thickness=2]-> MesReasonForMeasurement
 
-        class MesDiabetisType{
-
-          Extension.extension => [None..0]
-          Extension.url => [None..None]
-          Extension.value[x] => [None..None]
-        } 
         class MesMomentOfMeasurement{
 
           Extension.extension => [None..0]

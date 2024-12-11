@@ -10,7 +10,7 @@
   <name value="Mesures"/>
   <title value="Guide d'implémentation FHIR - Mesures de santé"/>
   <status value="active"/>
-  <date value="2024-12-11T16:36:57+00:00"/>
+  <date value="2024-12-11T16:39:06+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -988,17 +988,6 @@
       </reference>
       <name value="Tour de taille"/>
       <description value="Profil de la ressource Observation pour définir une taille en cm"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/mesures-diabetis-type"/>
-      </reference>
-      <name value="Type de diabète"/>
-      <description value="Extension sur le type de diabète"/>
       <exampleBoolean value="false"/>
     </resource>
     <page>
