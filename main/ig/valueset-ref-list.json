@@ -14,12 +14,12 @@
       "sources" : ["2.16.840.1.113883.4.642.3.399"],
       "uses" : {
       },
-      "StructureDefinition-mesures-fr-observation-bp.html" : "Pression Artérielle",
       "StructureDefinition-mesures-fr-observation-body-temperature.html" : "Température",
-      "StructureDefinition-mesures-fr-observation-body-weight.html" : "Poids",
-      "StructureDefinition-mesures-fr-observation-bodyheight.html" : "Taille",
+      "StructureDefinition-mesures-fr-observation-bp.html" : "Pression Artérielle",
+      "StructureDefinition-mesures-fr-observation-heartrate.html" : "Fréquence Cardiaque",
       "StructureDefinition-mesures-fr-observation-bmi.html" : "Indice de Masse Corporelle",
-      "StructureDefinition-mesures-fr-observation-heartrate.html" : "Fréquence Cardiaque"
+      "StructureDefinition-mesures-fr-observation-body-weight.html" : "Poids",
+      "StructureDefinition-mesures-fr-observation-bodyheight.html" : "Taille"
     },
     {
       "url" : "https://interop.esante.gouv.fr/ig/fhir/mesures/ValueSet/method-glucose-vs",
@@ -101,9 +101,9 @@
       "uses" : {
       },
       "StructureDefinition-mesures-fr-observation-bp.html" : "Pression Artérielle",
-      "StructureDefinition-mesures-observation-glucose.html" : "Glycémie",
+      "StructureDefinition-mesures-fr-observation-heartrate.html" : "Fréquence Cardiaque",
       "StructureDefinition-mesures-fr-observation-bmi.html" : "Indice de Masse Corporelle",
-      "StructureDefinition-mesures-fr-observation-heartrate.html" : "Fréquence Cardiaque"
+      "StructureDefinition-mesures-observation-glucose.html" : "Glycémie"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J149-BodySiteBP-ENS/FHIR/JDV-J149-BodySiteBP-ENS",
@@ -160,24 +160,6 @@
       "uses" : {
       },
       "StructureDefinition-mesures-fr-observation-body-temperature.html" : "Température"
-    },
-    {
-      "url" : "https://mos.esante.gouv.fr/NOS/JDV_J153-TypeDiabete-ENS/FHIR/JDV-J153-TypeDiabete-ENS",
-      "version" : "1.2.0",
-      "status" : "active",
-      "name" : "JDV_J153-TypeDiabete-ENS",
-      "title" : null,
-      "description" : "JDV pour caractériser le type de diabète dans l'extension DiabetisType",
-      "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R308-TAASIP/FHIR/TRE-R308-TAASIP",
-        "https://mos.esante.gouv.fr/NOS/TRE_R311-RegroupementSurCIM10ATIH/FHIR/TRE-R311-RegroupementSurCIM10ATIH",
-        "https://mos.esante.gouv.fr/NOS/TRE_R310-CIM10ATIH/FHIR/TRE-R310-CIM10ATIH"
-      ],
-      "oids" : ["1.2.250.1.213.1.1.5.608"],
-      "sources" : ["1.2.250.1.213.1.1.5.608"],
-      "uses" : {
-      },
-      "StructureDefinition-mesures-diabetis-type.html" : "Type de diabète"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J154-TypeGlucose-ENS/FHIR/JDV-J154-TypeGlucose-ENS",

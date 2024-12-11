@@ -14,13 +14,6 @@
     "name" : "MesBundleFluxAlimentation"
   },
   {
-    "id" : "mesures-diabetis-type",
-    "type" : "StructureDefinition",
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-diabetis-type",
-    "version" : "3.1.0",
-    "name" : "MesDiabetisType"
-  },
-  {
     "id" : "mesures-fr-observation-bmi",
     "type" : "StructureDefinition",
     "url" : "https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-fr-observation-bmi",
