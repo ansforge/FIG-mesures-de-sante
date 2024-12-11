@@ -33,7 +33,7 @@ Si la mesure a été faite par un objet connecté (Profil PhdDevice), cette réf
   <name value="MesObservationHeadCircumference"/>
   <title value="Périmètre Crânien"/>
   <status value="active"/>
-  <date value="2024-12-11T17:02:02+00:00"/>
+  <date value="2024-12-11T17:11:59+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -783,7 +783,7 @@ Si la mesure a été faite par un objet connecté (Profil PhdDevice), cette réf
       <path value="Observation.extension"/>
       <sliceName value="MesReasonForMeasurement"/>
       <short value="Motif de la mesure"/>
-      <definition value="Extension du Motif de la mesure, exprimé en texte libre  (ex. diabète, surpoids, maladie du cœur et des vaisseaux, cholestérol…)."/>
+      <definition value="Extension du Motif de la mesure, exprimé en texte libre."/>
       <min value="0"/>
       <max value="1"/>
       <base>

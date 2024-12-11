@@ -10,7 +10,7 @@
   "name" : "Mesures",
   "title" : "Guide d'implémentation FHIR - Mesures de santé",
   "status" : "active",
-  "date" : "2024-12-11T17:02:02+00:00",
+  "date" : "2024-12-11T17:11:59+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -1156,7 +1156,7 @@
         "reference" : "StructureDefinition/mesures-reason-for-measurement"
       },
       "name" : "Raison de la mesure",
-      "description" : "Extension du Motif de la mesure, exprimé en texte libre  (ex. diabète, surpoids, maladie du cœur et des vaisseaux, cholestérol…).",
+      "description" : "Extension du Motif de la mesure, exprimé en texte libre.",
       "exampleBoolean" : false
     },
     {

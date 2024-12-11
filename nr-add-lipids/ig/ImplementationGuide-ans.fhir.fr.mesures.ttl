@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "Mesures"] ; # 
   fhir:title [ fhir:v "Guide d'implémentation FHIR - Mesures de santé"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2024-12-11T17:02:02+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-12-11T17:11:59+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -1127,7 +1127,7 @@
          fhir:reference [ fhir:v "StructureDefinition/mesures-reason-for-measurement" ]
        ] ;
        fhir:name [ fhir:v "Raison de la mesure" ] ;
-       fhir:description [ fhir:v "Extension du Motif de la mesure, exprimé en texte libre  (ex. diabète, surpoids, maladie du cœur et des vaisseaux, cholestérol…)." ] ;
+       fhir:description [ fhir:v "Extension du Motif de la mesure, exprimé en texte libre." ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [

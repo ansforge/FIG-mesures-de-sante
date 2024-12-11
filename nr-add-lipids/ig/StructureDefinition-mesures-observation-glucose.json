@@ -10,7 +10,7 @@
   "name" : "MesObservationGlucose",
   "title" : "Glycémie",
   "status" : "active",
-  "date" : "2024-12-11T17:02:02+00:00",
+  "date" : "2024-12-11T17:11:59+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -790,7 +790,7 @@
       "path" : "Observation.extension",
       "sliceName" : "MesReasonForMeasurement",
       "short" : "Motif de la mesure",
-      "definition" : "Extension du Motif de la mesure, exprimé en texte libre  (ex. diabète, surpoids, maladie du cœur et des vaisseaux, cholestérol…).",
+      "definition" : "Extension du Motif de la mesure, exprimé en texte libre.",
       "min" : 0,
       "max" : "1",
       "base" : {

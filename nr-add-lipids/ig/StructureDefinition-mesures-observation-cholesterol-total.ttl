@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "MesFrObservationCholesterolTotal"] ; # 
   fhir:title [ fhir:v "Cholestérol total"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2024-12-11T17:02:02+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-12-11T17:11:59+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
