@@ -17,7 +17,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation cholesterol-hdl-example</b></p><a name=\"cholesterol-hdl-example\"> </a><a name=\"hccholesterol-hdl-example\"> </a><a name=\"cholesterol-hdl-example-fr\"> </a><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 2085-9}\">HDL Cholesterol</span></p><p><b>subject</b>: <a href=\"Patient-ExamplefrPatient001.html\">Pierre Durand</a></p><p><b>effective</b>: 2024-10-15</p><p><b>value</b>: 0.52 g/L<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codeg/L = 'g/L')</span></p><h3>ReferenceRanges</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Low</b></td></tr><tr><td style=\"display: none\">*</td><td>0.55 g/L<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codeg/L = 'g/L')</span></td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation cholesterol-hdl-example</b></p><a name=\"cholesterol-hdl-example\"> </a><a name=\"hccholesterol-hdl-example\"> </a><a name=\"cholesterol-hdl-example-fr\"> </a><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 2085-9}\">HDL Cholesterol</span></p><p><b>subject</b>: <a href=\"Patient-ExamplefrPatient001.html\">Pierre Durand</a></p><p><b>effective</b>: 2024-10-15</p><p><b>value</b>: 2.8 mmol/L<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemmol/L = 'mmol/L')</span></p><h3>ReferenceRanges</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Low</b></td></tr><tr><td style=\"display: none\">*</td><td>3.1 mmol/L<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemmol/L = 'mmol/L')</span></td></tr></table></div>"
   ] ; # 
   fhir:status [ fhir:v "final"] ; # 
   fhir:code [
@@ -37,17 +37,17 @@
   fhir:effective [ fhir:v "2024-10-15"^^xsd:date] ; # 
   fhir:value [
      a fhir:Quantity ;
-     fhir:value [ fhir:v "0.52"^^xsd:decimal ] ;
-     fhir:unit [ fhir:v "g/L" ] ;
+     fhir:value [ fhir:v "2.8"^^xsd:decimal ] ;
+     fhir:unit [ fhir:v "mmol/L" ] ;
      fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
-     fhir:code [ fhir:v "g/L" ]
+     fhir:code [ fhir:v "mmol/L" ]
   ] ; # 
   fhir:referenceRange ( [
      fhir:low [
-       fhir:value [ fhir:v "0.55"^^xsd:decimal ] ;
-       fhir:unit [ fhir:v "g/L" ] ;
+       fhir:value [ fhir:v "3.1"^^xsd:decimal ] ;
+       fhir:unit [ fhir:v "mmol/L" ] ;
        fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
-       fhir:code [ fhir:v "g/L" ]
+       fhir:code [ fhir:v "mmol/L" ]
      ]
   ] ) . # 
 

@@ -15,7 +15,7 @@
           <profile value="https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-observation-cholesterol-ldl"/>
         </meta>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Observation_cholesterol-ldl-example"> </a><p class="res-header-id"><b>Generated Narrative: Observation cholesterol-ldl-example</b></p><a name="cholesterol-ldl-example"> </a><a name="hccholesterol-ldl-example"> </a><a name="cholesterol-ldl-example-fr"> </a><p><b>status</b>: Final</p><p><b>code</b>: <span title="Codes:{http://loinc.org 2089-1}">LDL Cholesterol</span></p><p><b>subject</b>: <a href="Patient-ExamplefrPatient001.html">Pierre Durand</a></p><p><b>effective</b>: 2024-10-15</p><p><b>value</b>: 1.39 g/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codeg/L = 'g/L')</span></p></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Observation_cholesterol-ldl-example"> </a><p class="res-header-id"><b>Generated Narrative: Observation cholesterol-ldl-example</b></p><a name="cholesterol-ldl-example"> </a><a name="hccholesterol-ldl-example"> </a><a name="cholesterol-ldl-example-fr"> </a><p><b>status</b>: Final</p><p><b>code</b>: <span title="Codes:{http://loinc.org 2089-1}">LDL Cholesterol</span></p><p><b>subject</b>: <a href="Patient-ExamplefrPatient001.html">Pierre Durand</a></p><p><b>effective</b>: 2024-10-15</p><p><b>value</b>: 7.8 mmol/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codemmol/L = 'mmol/L')</span></p></div>
         </text>
         <status value="final"/>
         <code>
@@ -32,10 +32,10 @@
         </subject>
         <effectiveDateTime value="2024-10-15"/>
         <valueQuantity>
-          <value value="1.39"/>
-          <unit value="g/L"/>
+          <value value="7.8"/>
+          <unit value="mmol/L"/>
           <system value="http://unitsofmeasure.org"/>
-          <code value="g/L"/>
+          <code value="mmol/L"/>
         </valueQuantity>
       </Observation>
     </resource>
@@ -53,7 +53,7 @@
           <profile value="https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-observation-cholesterol-hdl"/>
         </meta>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Observation_cholesterol-hdl-example"> </a><p class="res-header-id"><b>Generated Narrative: Observation cholesterol-hdl-example</b></p><a name="cholesterol-hdl-example"> </a><a name="hccholesterol-hdl-example"> </a><a name="cholesterol-hdl-example-fr"> </a><p><b>status</b>: Final</p><p><b>code</b>: <span title="Codes:{http://loinc.org 2085-9}">HDL Cholesterol</span></p><p><b>subject</b>: <a href="Patient-ExamplefrPatient001.html">Pierre Durand</a></p><p><b>effective</b>: 2024-10-15</p><p><b>value</b>: 0.52 g/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codeg/L = 'g/L')</span></p><h3>ReferenceRanges</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Low</b></td></tr><tr><td style="display: none">*</td><td>0.55 g/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codeg/L = 'g/L')</span></td></tr></table></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Observation_cholesterol-hdl-example"> </a><p class="res-header-id"><b>Generated Narrative: Observation cholesterol-hdl-example</b></p><a name="cholesterol-hdl-example"> </a><a name="hccholesterol-hdl-example"> </a><a name="cholesterol-hdl-example-fr"> </a><p><b>status</b>: Final</p><p><b>code</b>: <span title="Codes:{http://loinc.org 2085-9}">HDL Cholesterol</span></p><p><b>subject</b>: <a href="Patient-ExamplefrPatient001.html">Pierre Durand</a></p><p><b>effective</b>: 2024-10-15</p><p><b>value</b>: 2.8 mmol/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codemmol/L = 'mmol/L')</span></p><h3>ReferenceRanges</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Low</b></td></tr><tr><td style="display: none">*</td><td>3.1 mmol/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codemmol/L = 'mmol/L')</span></td></tr></table></div>
         </text>
         <status value="final"/>
         <code>
@@ -70,17 +70,17 @@
         </subject>
         <effectiveDateTime value="2024-10-15"/>
         <valueQuantity>
-          <value value="0.52"/>
-          <unit value="g/L"/>
+          <value value="2.8"/>
+          <unit value="mmol/L"/>
           <system value="http://unitsofmeasure.org"/>
-          <code value="g/L"/>
+          <code value="mmol/L"/>
         </valueQuantity>
         <referenceRange>
           <low>
-            <value value="0.55"/>
-            <unit value="g/L"/>
+            <value value="3.1"/>
+            <unit value="mmol/L"/>
             <system value="http://unitsofmeasure.org"/>
-            <code value="g/L"/>
+            <code value="mmol/L"/>
           </low>
         </referenceRange>
       </Observation>
@@ -99,7 +99,7 @@
           <profile value="https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-observation-cholesterol-trigly"/>
         </meta>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Observation_cholesterol-trigly-example"> </a><p class="res-header-id"><b>Generated Narrative: Observation cholesterol-trigly-example</b></p><a name="cholesterol-trigly-example"> </a><a name="hccholesterol-trigly-example"> </a><a name="cholesterol-trigly-example-fr"> </a><p><b>status</b>: Final</p><p><b>code</b>: <span title="Codes:{http://loinc.org 2571-8}">LDL Cholesterol</span></p><p><b>subject</b>: <a href="Patient-ExamplefrPatient001.html">Pierre Durand</a></p><p><b>effective</b>: 2024-10-15</p><p><b>value</b>: 0.96 g/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codeg/L = 'g/L')</span></p><h3>ReferenceRanges</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Low</b></td><td><b>High</b></td></tr><tr><td style="display: none">*</td><td>0.5 g/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codeg/L = 'g/L')</span></td><td>1.5 g/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codeg/L = 'g/L')</span></td></tr></table></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Observation_cholesterol-trigly-example"> </a><p class="res-header-id"><b>Generated Narrative: Observation cholesterol-trigly-example</b></p><a name="cholesterol-trigly-example"> </a><a name="hccholesterol-trigly-example"> </a><a name="cholesterol-trigly-example-fr"> </a><p><b>status</b>: Final</p><p><b>code</b>: <span title="Codes:{http://loinc.org 2571-8}">LDL Cholesterol</span></p><p><b>subject</b>: <a href="Patient-ExamplefrPatient001.html">Pierre Durand</a></p><p><b>effective</b>: 2024-10-15</p><p><b>value</b>: 5.6 mmol/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codemmol/L = 'mmol/L')</span></p><h3>ReferenceRanges</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Low</b></td><td><b>High</b></td></tr><tr><td style="display: none">*</td><td>2.8 mmol/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codemmol/L = 'mmol/L')</span></td><td>21.1 mmol/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codemmol/L = 'mmol/L')</span></td></tr></table></div>
         </text>
         <status value="final"/>
         <code>
@@ -116,23 +116,23 @@
         </subject>
         <effectiveDateTime value="2024-10-15"/>
         <valueQuantity>
-          <value value="0.96"/>
-          <unit value="g/L"/>
+          <value value="5.6"/>
+          <unit value="mmol/L"/>
           <system value="http://unitsofmeasure.org"/>
-          <code value="g/L"/>
+          <code value="mmol/L"/>
         </valueQuantity>
         <referenceRange>
           <low>
-            <value value="0.5"/>
-            <unit value="g/L"/>
+            <value value="2.8"/>
+            <unit value="mmol/L"/>
             <system value="http://unitsofmeasure.org"/>
-            <code value="g/L"/>
+            <code value="mmol/L"/>
           </low>
           <high>
-            <value value="1.5"/>
-            <unit value="g/L"/>
+            <value value="21.1"/>
+            <unit value="mmol/L"/>
             <system value="http://unitsofmeasure.org"/>
-            <code value="g/L"/>
+            <code value="mmol/L"/>
           </high>
         </referenceRange>
       </Observation>
@@ -151,7 +151,7 @@
           <profile value="https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-observation-cholesterol-total"/>
         </meta>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Observation_cholesterol-total-example"> </a><p class="res-header-id"><b>Generated Narrative: Observation cholesterol-total-example</b></p><a name="cholesterol-total-example"> </a><a name="hccholesterol-total-example"> </a><a name="cholesterol-total-example-fr"> </a><p><b>status</b>: Final</p><p><b>code</b>: <span title="Codes:{http://loinc.org 2093-3}">LDL Cholesterol</span></p><p><b>subject</b>: <a href="Patient-ExamplefrPatient001.html">Pierre Durand</a></p><p><b>effective</b>: 2024-10-15</p><p><b>value</b>: 2.1 g/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codeg/L = 'g/L')</span></p><h3>ReferenceRanges</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Low</b></td><td><b>High</b></td></tr><tr><td style="display: none">*</td><td>0.5 g/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codeg/L = 'g/L')</span></td><td>2 g/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codeg/L = 'g/L')</span></td></tr></table></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Observation_cholesterol-total-example"> </a><p class="res-header-id"><b>Generated Narrative: Observation cholesterol-total-example</b></p><a name="cholesterol-total-example"> </a><a name="hccholesterol-total-example"> </a><a name="cholesterol-total-example-fr"> </a><p><b>status</b>: Final</p><p><b>code</b>: <span title="Codes:{http://loinc.org 2093-3}">LDL Cholesterol</span></p><p><b>subject</b>: <a href="Patient-ExamplefrPatient001.html">Pierre Durand</a></p><p><b>effective</b>: 2024-10-15</p><p><b>value</b>: 0.4 mmol/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codemmol/L = 'mmol/L')</span></p><h3>ReferenceRanges</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Low</b></td><td><b>High</b></td></tr><tr><td style="display: none">*</td><td>2.8 mmol/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codemmol/L = 'mmol/L')</span></td><td>11.1 mmol/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codemmol/L = 'mmol/L')</span></td></tr></table></div>
         </text>
         <status value="final"/>
         <code>
@@ -168,23 +168,23 @@
         </subject>
         <effectiveDateTime value="2024-10-15"/>
         <valueQuantity>
-          <value value="2.1"/>
-          <unit value="g/L"/>
+          <value value="0.4"/>
+          <unit value="mmol/L"/>
           <system value="http://unitsofmeasure.org"/>
-          <code value="g/L"/>
+          <code value="mmol/L"/>
         </valueQuantity>
         <referenceRange>
           <low>
-            <value value="0.5"/>
-            <unit value="g/L"/>
+            <value value="2.8"/>
+            <unit value="mmol/L"/>
             <system value="http://unitsofmeasure.org"/>
-            <code value="g/L"/>
+            <code value="mmol/L"/>
           </low>
           <high>
-            <value value="2"/>
-            <unit value="g/L"/>
+            <value value="11.1"/>
+            <unit value="mmol/L"/>
             <system value="http://unitsofmeasure.org"/>
-            <code value="g/L"/>
+            <code value="mmol/L"/>
           </high>
         </referenceRange>
       </Observation>
@@ -203,7 +203,7 @@
           <profile value="https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-cholesterol-diagnostic-report"/>
         </meta>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="DiagnosticReport_cholesterol-dr"> </a><p class="res-header-id"><b>Generated Narrative: DiagnosticReport cholesterol-dr</b></p><a name="cholesterol-dr"> </a><a name="hccholesterol-dr"> </a><a name="cholesterol-dr-fr"> </a><h2><span title="Codes:{http://loinc.org 57698-3}">Lipid panel with direct LDL - Serum or Plasma</span> </h2><table class="grid"/><p><b>Report Details</b></p><table class="grid"><tr><td><b>Code</b></td><td><b>Value</b></td><td><b>Reference Range</b></td><td><b>Flags</b></td><td><b>When For</b></td></tr><tr><td><a href="Observation-cholesterol-total-example.html"><span title="Codes:{http://loinc.org 2093-3}">LDL Cholesterol</span></a></td><td>2.1 g/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codeg/L = 'g/L')</span></td><td>0.5 g/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codeg/L = 'g/L')</span> - 2 g/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codeg/L = 'g/L')</span></td><td>Final</td><td>2024-10-15</td></tr><tr><td><a href="Observation-cholesterol-hdl-example.html"><span title="Codes:{http://loinc.org 2085-9}">HDL Cholesterol</span></a></td><td>0.52 g/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codeg/L = 'g/L')</span></td><td>&gt;0.55 g/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codeg/L = 'g/L')</span></td><td>Final</td><td>2024-10-15</td></tr><tr><td><a href="Observation-cholesterol-ldl-example.html"><span title="Codes:{http://loinc.org 2089-1}">LDL Cholesterol</span></a></td><td>1.39 g/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codeg/L = 'g/L')</span></td><td/><td>Final</td><td>2024-10-15</td></tr><tr><td><a href="Observation-cholesterol-trigly-example.html"><span title="Codes:{http://loinc.org 2571-8}">LDL Cholesterol</span></a></td><td>0.96 g/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codeg/L = 'g/L')</span></td><td>0.5 g/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codeg/L = 'g/L')</span> - 1.5 g/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codeg/L = 'g/L')</span></td><td>Final</td><td>2024-10-15</td></tr></table></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="DiagnosticReport_cholesterol-dr"> </a><p class="res-header-id"><b>Generated Narrative: DiagnosticReport cholesterol-dr</b></p><a name="cholesterol-dr"> </a><a name="hccholesterol-dr"> </a><a name="cholesterol-dr-fr"> </a><h2><span title="Codes:{http://loinc.org 57698-3}">Lipid panel with direct LDL - Serum or Plasma</span> </h2><table class="grid"/><p><b>Report Details</b></p><table class="grid"><tr><td><b>Code</b></td><td><b>Value</b></td><td><b>Reference Range</b></td><td><b>Flags</b></td><td><b>When For</b></td></tr><tr><td><a href="Observation-cholesterol-total-example.html"><span title="Codes:{http://loinc.org 2093-3}">LDL Cholesterol</span></a></td><td>0.4 mmol/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codemmol/L = 'mmol/L')</span></td><td>2.8 mmol/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codemmol/L = 'mmol/L')</span> - 11.1 mmol/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codemmol/L = 'mmol/L')</span></td><td>Final</td><td>2024-10-15</td></tr><tr><td><a href="Observation-cholesterol-hdl-example.html"><span title="Codes:{http://loinc.org 2085-9}">HDL Cholesterol</span></a></td><td>2.8 mmol/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codemmol/L = 'mmol/L')</span></td><td>&gt;3.1 mmol/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codemmol/L = 'mmol/L')</span></td><td>Final</td><td>2024-10-15</td></tr><tr><td><a href="Observation-cholesterol-ldl-example.html"><span title="Codes:{http://loinc.org 2089-1}">LDL Cholesterol</span></a></td><td>7.8 mmol/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codemmol/L = 'mmol/L')</span></td><td/><td>Final</td><td>2024-10-15</td></tr><tr><td><a href="Observation-cholesterol-trigly-example.html"><span title="Codes:{http://loinc.org 2571-8}">LDL Cholesterol</span></a></td><td>5.6 mmol/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codemmol/L = 'mmol/L')</span></td><td>2.8 mmol/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codemmol/L = 'mmol/L')</span> - 21.1 mmol/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codemmol/L = 'mmol/L')</span></td><td>Final</td><td>2024-10-15</td></tr></table></div>
         </text>
         <status value="final"/>
         <code>

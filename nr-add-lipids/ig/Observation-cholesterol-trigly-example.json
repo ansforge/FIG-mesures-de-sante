@@ -6,7 +6,7 @@
   },
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation cholesterol-trigly-example</b></p><a name=\"cholesterol-trigly-example\"> </a><a name=\"hccholesterol-trigly-example\"> </a><a name=\"cholesterol-trigly-example-fr\"> </a><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 2571-8}\">LDL Cholesterol</span></p><p><b>subject</b>: <a href=\"Patient-ExamplefrPatient001.html\">Pierre Durand</a></p><p><b>effective</b>: 2024-10-15</p><p><b>value</b>: 0.96 g/L<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codeg/L = 'g/L')</span></p><h3>ReferenceRanges</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Low</b></td><td><b>High</b></td></tr><tr><td style=\"display: none\">*</td><td>0.5 g/L<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codeg/L = 'g/L')</span></td><td>1.5 g/L<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codeg/L = 'g/L')</span></td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation cholesterol-trigly-example</b></p><a name=\"cholesterol-trigly-example\"> </a><a name=\"hccholesterol-trigly-example\"> </a><a name=\"cholesterol-trigly-example-fr\"> </a><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 2571-8}\">LDL Cholesterol</span></p><p><b>subject</b>: <a href=\"Patient-ExamplefrPatient001.html\">Pierre Durand</a></p><p><b>effective</b>: 2024-10-15</p><p><b>value</b>: 5.6 mmol/L<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemmol/L = 'mmol/L')</span></p><h3>ReferenceRanges</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Low</b></td><td><b>High</b></td></tr><tr><td style=\"display: none\">*</td><td>2.8 mmol/L<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemmol/L = 'mmol/L')</span></td><td>21.1 mmol/L<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemmol/L = 'mmol/L')</span></td></tr></table></div>"
   },
   "status" : "final",
   "code" : {
@@ -23,23 +23,23 @@
   },
   "effectiveDateTime" : "2024-10-15",
   "valueQuantity" : {
-    "value" : 0.96,
-    "unit" : "g/L",
+    "value" : 5.6,
+    "unit" : "mmol/L",
     "system" : "http://unitsofmeasure.org",
-    "code" : "g/L"
+    "code" : "mmol/L"
   },
   "referenceRange" : [{
     "low" : {
-      "value" : 0.5,
-      "unit" : "g/L",
+      "value" : 2.8,
+      "unit" : "mmol/L",
       "system" : "http://unitsofmeasure.org",
-      "code" : "g/L"
+      "code" : "mmol/L"
     },
     "high" : {
-      "value" : 1.5,
-      "unit" : "g/L",
+      "value" : 21.1,
+      "unit" : "mmol/L",
       "system" : "http://unitsofmeasure.org",
-      "code" : "g/L"
+      "code" : "mmol/L"
     }
   }]
 }

@@ -5245,7 +5245,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "mesures-observation-cholesterol-hdl","Observation.value[x].unit","Observation.value[x].unit","","","",1,1,"","","Y","string {[]} {[]}
-","Unit representation","A human-readable form of the unit.","Note that FHIR strings SHALL NOT exceed 1MB in size","There are many representations for units of measure and in many contexts, particular representations are fixed and required. I.e. mcg for micrograms.","","","","<valueString xmlns=""http://hl7.org/fhir"" value=""g/L""/>","","","",,,,,"",,,,"Quantity.unit",0,1,"ele-1
+","Unit representation","A human-readable form of the unit.","Note that FHIR strings SHALL NOT exceed 1MB in size","There are many representations for units of measure and in many contexts, particular representations are fixed and required. I.e. mcg for micrograms.","","","","<valueString xmlns=""http://hl7.org/fhir"" value=""mmol/L""/>","","","",,,,,"",,,,"Quantity.unit",0,1,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "mesures-observation-cholesterol-hdl","Observation.value[x].system","Observation.value[x].system","","","",0,1,"","","Y","uri {[]} {[]}
@@ -5253,7 +5253,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 qty-3","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "mesures-observation-cholesterol-hdl","Observation.value[x].code","Observation.value[x].code","","","",1,1,"","","Y","code {[]} {[]}
-","Coded form of the unit","A computer processable form of the unit in some unit representation system.","The preferred system is UCUM, but SNOMED CT can also be used (for customary units) or ISO 4217 for currency.  The context of use may additionally require a code from a particular system.","Need a computable form of the unit that is fixed across all forms. UCUM provides this for quantities, but SNOMED CT provides many units of interest.","","","","<valueCode xmlns=""http://hl7.org/fhir"" value=""g/L""/>","","","",,,,,"",,,,"Quantity.code",0,1,"ele-1
+","Coded form of the unit","A computer processable form of the unit in some unit representation system.","The preferred system is UCUM, but SNOMED CT can also be used (for customary units) or ISO 4217 for currency.  The context of use may additionally require a code from a particular system.","Need a computable form of the unit that is fixed across all forms. UCUM provides this for quantities, but SNOMED CT provides many units of interest.","","","","<valueCode xmlns=""http://hl7.org/fhir"" value=""mmol/L""/>","","","",,,,,"",,,,"Quantity.code",0,1,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "mesures-observation-cholesterol-hdl","Observation.dataAbsentReason","Observation.dataAbsentReason","","","",0,1,"","","","CodeableConcept {[]} {[]}
@@ -5544,7 +5544,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "mesures-observation-cholesterol-ldl","Observation.value[x].unit","Observation.value[x].unit","","","",1,1,"","","Y","string {[]} {[]}
-","Unit representation","A human-readable form of the unit.","Note that FHIR strings SHALL NOT exceed 1MB in size","There are many representations for units of measure and in many contexts, particular representations are fixed and required. I.e. mcg for micrograms.","","","","<valueString xmlns=""http://hl7.org/fhir"" value=""g/L""/>","","","",,,,,"",,,,"Quantity.unit",0,1,"ele-1
+","Unit representation","A human-readable form of the unit.","Note that FHIR strings SHALL NOT exceed 1MB in size","There are many representations for units of measure and in many contexts, particular representations are fixed and required. I.e. mcg for micrograms.","","","","<valueString xmlns=""http://hl7.org/fhir"" value=""mmol/L""/>","","","",,,,,"",,,,"Quantity.unit",0,1,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "mesures-observation-cholesterol-ldl","Observation.value[x].system","Observation.value[x].system","","","",0,1,"","","Y","uri {[]} {[]}
@@ -5552,7 +5552,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 qty-3","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "mesures-observation-cholesterol-ldl","Observation.value[x].code","Observation.value[x].code","","","",1,1,"","","Y","code {[]} {[]}
-","Coded form of the unit","A computer processable form of the unit in some unit representation system.","The preferred system is UCUM, but SNOMED CT can also be used (for customary units) or ISO 4217 for currency.  The context of use may additionally require a code from a particular system.","Need a computable form of the unit that is fixed across all forms. UCUM provides this for quantities, but SNOMED CT provides many units of interest.","","","","<valueCode xmlns=""http://hl7.org/fhir"" value=""g/L""/>","","","",,,,,"",,,,"Quantity.code",0,1,"ele-1
+","Coded form of the unit","A computer processable form of the unit in some unit representation system.","The preferred system is UCUM, but SNOMED CT can also be used (for customary units) or ISO 4217 for currency.  The context of use may additionally require a code from a particular system.","Need a computable form of the unit that is fixed across all forms. UCUM provides this for quantities, but SNOMED CT provides many units of interest.","","","","<valueCode xmlns=""http://hl7.org/fhir"" value=""mmol/L""/>","","","",,,,,"",,,,"Quantity.code",0,1,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "mesures-observation-cholesterol-ldl","Observation.dataAbsentReason","Observation.dataAbsentReason","","","",0,1,"","","","CodeableConcept {[]} {[]}
@@ -5843,7 +5843,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "mesures-observation-cholesterol-total","Observation.value[x].unit","Observation.value[x].unit","","","",1,1,"","","Y","string {[]} {[]}
-","Unit representation","A human-readable form of the unit.","Note that FHIR strings SHALL NOT exceed 1MB in size","There are many representations for units of measure and in many contexts, particular representations are fixed and required. I.e. mcg for micrograms.","","","","<valueString xmlns=""http://hl7.org/fhir"" value=""g/L""/>","","","",,,,,"",,,,"Quantity.unit",0,1,"ele-1
+","Unit representation","A human-readable form of the unit.","Note that FHIR strings SHALL NOT exceed 1MB in size","There are many representations for units of measure and in many contexts, particular representations are fixed and required. I.e. mcg for micrograms.","","","","<valueString xmlns=""http://hl7.org/fhir"" value=""mmol/L""/>","","","",,,,,"",,,,"Quantity.unit",0,1,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "mesures-observation-cholesterol-total","Observation.value[x].system","Observation.value[x].system","","","",0,1,"","","Y","uri {[]} {[]}
@@ -5851,7 +5851,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 qty-3","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "mesures-observation-cholesterol-total","Observation.value[x].code","Observation.value[x].code","","","",1,1,"","","Y","code {[]} {[]}
-","Coded form of the unit","A computer processable form of the unit in some unit representation system.","The preferred system is UCUM, but SNOMED CT can also be used (for customary units) or ISO 4217 for currency.  The context of use may additionally require a code from a particular system.","Need a computable form of the unit that is fixed across all forms. UCUM provides this for quantities, but SNOMED CT provides many units of interest.","","","","<valueCode xmlns=""http://hl7.org/fhir"" value=""g/L""/>","","","",,,,,"",,,,"Quantity.code",0,1,"ele-1
+","Coded form of the unit","A computer processable form of the unit in some unit representation system.","The preferred system is UCUM, but SNOMED CT can also be used (for customary units) or ISO 4217 for currency.  The context of use may additionally require a code from a particular system.","Need a computable form of the unit that is fixed across all forms. UCUM provides this for quantities, but SNOMED CT provides many units of interest.","","","","<valueCode xmlns=""http://hl7.org/fhir"" value=""mmol/L""/>","","","",,,,,"",,,,"Quantity.code",0,1,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "mesures-observation-cholesterol-total","Observation.dataAbsentReason","Observation.dataAbsentReason","","","",0,1,"","","","CodeableConcept {[]} {[]}
@@ -6142,7 +6142,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "mesures-observation-cholesterol-trigly","Observation.value[x].unit","Observation.value[x].unit","","","",1,1,"","","Y","string {[]} {[]}
-","Unit representation","A human-readable form of the unit.","Note that FHIR strings SHALL NOT exceed 1MB in size","There are many representations for units of measure and in many contexts, particular representations are fixed and required. I.e. mcg for micrograms.","","","","<valueString xmlns=""http://hl7.org/fhir"" value=""g/L""/>","","","",,,,,"",,,,"Quantity.unit",0,1,"ele-1
+","Unit representation","A human-readable form of the unit.","Note that FHIR strings SHALL NOT exceed 1MB in size","There are many representations for units of measure and in many contexts, particular representations are fixed and required. I.e. mcg for micrograms.","","","","<valueString xmlns=""http://hl7.org/fhir"" value=""mmol/L""/>","","","",,,,,"",,,,"Quantity.unit",0,1,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "mesures-observation-cholesterol-trigly","Observation.value[x].system","Observation.value[x].system","","","",0,1,"","","Y","uri {[]} {[]}
@@ -6150,7 +6150,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 qty-3","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "mesures-observation-cholesterol-trigly","Observation.value[x].code","Observation.value[x].code","","","",1,1,"","","Y","code {[]} {[]}
-","Coded form of the unit","A computer processable form of the unit in some unit representation system.","The preferred system is UCUM, but SNOMED CT can also be used (for customary units) or ISO 4217 for currency.  The context of use may additionally require a code from a particular system.","Need a computable form of the unit that is fixed across all forms. UCUM provides this for quantities, but SNOMED CT provides many units of interest.","","","","<valueCode xmlns=""http://hl7.org/fhir"" value=""g/L""/>","","","",,,,,"",,,,"Quantity.code",0,1,"ele-1
+","Coded form of the unit","A computer processable form of the unit in some unit representation system.","The preferred system is UCUM, but SNOMED CT can also be used (for customary units) or ISO 4217 for currency.  The context of use may additionally require a code from a particular system.","Need a computable form of the unit that is fixed across all forms. UCUM provides this for quantities, but SNOMED CT provides many units of interest.","","","","<valueCode xmlns=""http://hl7.org/fhir"" value=""mmol/L""/>","","","",,,,,"",,,,"Quantity.code",0,1,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "mesures-observation-cholesterol-trigly","Observation.dataAbsentReason","Observation.dataAbsentReason","","","",0,1,"","","","CodeableConcept {[]} {[]}
