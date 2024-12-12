@@ -3,7 +3,7 @@ Mesures : Validation Results
 
 err = 11, warn = 41, info = 22
 IG Publisher Version: 1.8.1
-Generated Thu Dec 12 13:24:05 UTC 2024. FHIR version 4.0.1 for ans.fhir.fr.mesures#3.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/mesures)
+Generated Thu Dec 12 13:25:33 UTC 2024. FHIR version 4.0.1 for ans.fhir.fr.mesures#3.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/mesures)
  Build Errors : 10 / 28 / 0
  /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Bundle-bundle-example : 0 / 3 / 10
  /home/runner/work/IG-fhir-mesures-de-sante/IG-fhir-mesures-de-sante/igSource/fsh-generated/resources/Device-phd-74E8FFFEFF051C00 : 0 / 0 / 5
