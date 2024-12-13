@@ -10,7 +10,7 @@
   "name" : "Mesures",
   "title" : "Guide d'implémentation FHIR - Mesures de santé",
   "status" : "active",
-  "date" : "2024-12-13T13:36:55+00:00",
+  "date" : "2024-12-13T15:58:46+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -86,7 +86,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "final-text"
+        "valueString" : "ci-build"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -376,7 +376,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "final-text"
+        "valueString" : "ci-build"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
