@@ -100,10 +100,10 @@
       "sources" : ["1.2.250.1.213.1.1.5.603"],
       "uses" : {
       },
-      "StructureDefinition-mesures-observation-glucose.html" : "Glycémie",
       "StructureDefinition-mesures-fr-observation-bp.html" : "Pression Artérielle",
       "StructureDefinition-mesures-fr-observation-bmi.html" : "Indice de Masse Corporelle",
-      "StructureDefinition-mesures-fr-observation-heartrate.html" : "Fréquence Cardiaque"
+      "StructureDefinition-mesures-fr-observation-heartrate.html" : "Fréquence Cardiaque",
+      "StructureDefinition-mesures-observation-glucose.html" : "Glycémie"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J149-BodySiteBP-ENS/FHIR/JDV-J149-BodySiteBP-ENS",
