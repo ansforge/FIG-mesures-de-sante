@@ -1,49 +1,49 @@
-Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	translate	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
-/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.mesures.json	17476	-	0	0	0	0	0	0	5	347	0	0	0	0	0	0	0	0	0	0	32	150	147	0	0	0	5	0	0
-fsh-generated/resources/Bundle-bundle-example-body-weight.json	3448	22	0	0	0	1	23	0	0	1318	0	0	0	0	0	0	0	1	0	0	8	23	483	0	0	0	0	0	0
-fsh-generated/resources/Bundle-bundle-example-lipids.json	6666	22	0	0	0	0	20	0	1	211	0	0	0	0	0	0	0	0	0	0	8	42	228	0	0	0	0	0	0
-fsh-generated/resources/Device-phd-74E8FFFEFF051C00.json	3916	19	0	0	0	0	0	0	1	7	0	0	0	0	0	0	0	0	0	0	8	30	11	0	0	0	0	0	0
-fsh-generated/resources/DiagnosticReport-cholesterol-dr.json	731	20	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	8	19	11	0	0	0	0	0	0
-fsh-generated/resources/Observation-ExampleMesFrObservationBP001.json	2655	18	0	0	0	0	0	0	0	390	0	0	0	0	0	0	0	0	0	0	7	18	17	0	0	0	0	0	0
-fsh-generated/resources/Observation-ExampleMesFrObservationBmi001.json	1064	19	0	0	0	0	0	0	0	386	0	0	0	0	0	0	0	0	0	0	5	11	14	0	0	0	0	0	0
-fsh-generated/resources/Observation-ExampleMesFrObservationBodyHeight001.json	823	18	0	0	0	0	0	0	0	379	0	0	0	0	0	0	0	0	0	0	5	11	12	0	0	0	0	0	0
-fsh-generated/resources/Observation-ExampleMesFrObservationBodyTemperature001.json	858	17	0	0	0	0	0	0	0	381	0	0	0	0	0	0	0	0	0	0	5	11	8	0	0	0	0	0	0
-fsh-generated/resources/Observation-ExampleMesFrObservationBodyWeight001.json	1205	20	0	0	0	0	0	0	1	196	0	0	0	0	0	0	0	0	0	0	6	12	7	0	0	0	0	0	0
-fsh-generated/resources/Observation-ExampleMesFrObservationHeartrate001.json	860	18	0	0	0	0	0	0	0	386	0	0	0	0	0	0	0	0	0	0	5	15	8	0	0	0	0	0	0
-fsh-generated/resources/Observation-ExampleMesFrOxygenSat.json	865	17	0	0	0	0	0	0	0	207	0	0	0	0	0	0	0	0	0	0	6	12	8	0	0	0	0	0	0
-fsh-generated/resources/Observation-ExampleMesFrRespRate.json	809	17	0	0	0	0	0	0	0	199	0	0	0	0	0	0	0	0	0	0	5	11	7	0	0	0	0	0	0
-fsh-generated/resources/Observation-ExampleMesObservationGlucose001.json	2214	21	0	0	0	0	0	0	0	201	0	0	0	0	0	0	0	0	0	0	4	17	9	0	0	0	0	0	1
-fsh-generated/resources/Observation-ExampleMesObservationHeadCircumference001.json	837	17	1	0	0	0	0	0	0	193	0	0	0	0	0	0	0	0	0	0	5	11	7	0	0	0	0	0	0
-fsh-generated/resources/Observation-ExampleMesObservationPainSeverity001.json	1037	20	0	0	0	0	0	0	0	406	0	0	0	0	0	0	0	0	0	0	4	12	7	0	0	0	0	0	0
-fsh-generated/resources/Observation-ExampleMesObservationStepsByDay001.json	1054	18	0	0	0	0	0	0	0	391	0	0	0	0	0	0	0	0	0	0	4	11	13	0	0	0	0	0	0
-fsh-generated/resources/Observation-ExampleObservationWaistCircumference001.json	1057	18	0	0	0	0	0	0	0	199	0	0	0	0	0	0	0	0	0	0	4	12	14	0	0	0	0	0	0
-fsh-generated/resources/Observation-cholesterol-hdl-example.json	870	20	0	1	0	0	0	0	1	3	0	0	0	0	0	0	0	0	0	0	4	12	8	0	0	0	0	0	0
-fsh-generated/resources/Observation-cholesterol-ldl-example.json	688	28	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	16	9	0	0	0	0	0	0
-fsh-generated/resources/Observation-cholesterol-total-example.json	1020	28	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	4	12	8	0	0	0	0	0	0
-fsh-generated/resources/Observation-cholesterol-trigly-example.json	1022	31	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	4	12	8	0	0	0	0	0	0
-fsh-generated/resources/Patient-ExamplefrPatient001.json	1062	28	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	5	11	13	0	0	0	0	0	0
-fsh-generated/resources/Practitioner-ExampleFrPractitionner001.json	627	28	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	4	10	8	0	0	0	0	0	0
-fsh-generated/resources/StructureDefinition-mesures-bundle-flux-alimentation-cholesterol.json	6211	29	0	0	0	0	0	396	0	72	0	0	1	0	0	0	0	3	0	0	1	1048	3226	0	0	0	17	1	3
-fsh-generated/resources/StructureDefinition-mesures-bundle-flux-alimentation.json	4243	27	0	0	0	0	0	643	0	38	0	0	0	0	0	0	0	1	0	0	0	516	1901	0	0	0	8	0	1
-fsh-generated/resources/StructureDefinition-mesures-cholesterol-diagnostic-report.json	3276	22	1	0	0	0	0	45	0	68	0	0	0	0	0	0	0	1	0	0	0	288	596	0	0	0	7	0	0
-fsh-generated/resources/StructureDefinition-mesures-fr-observation-bmi.json	2795	22	0	0	0	0	0	66	0	118	0	0	0	0	0	0	0	1	0	0	1	603	1032	0	0	0	14	0	1
-fsh-generated/resources/StructureDefinition-mesures-fr-observation-body-temperature.json	4342	22	0	0	0	0	0	63	0	1232	0	0	1	0	0	0	0	1	0	0	1	586	899	0	1	0	12	0	1
-fsh-generated/resources/StructureDefinition-mesures-fr-observation-body-weight.json	3588	22	0	0	0	0	0	60	1	41	0	0	0	0	0	0	0	1	0	0	1	479	836	0	0	0	11	0	1
-fsh-generated/resources/StructureDefinition-mesures-fr-observation-bodyheight.json	3973	22	0	0	0	0	0	66	0	66	0	0	0	0	0	0	0	1	0	0	1	478	757	0	0	0	9	1	0
-fsh-generated/resources/StructureDefinition-mesures-fr-observation-bp.json	5168	21	0	0	0	0	0	75	0	73	0	0	0	0	0	0	0	2	0	0	0	802	1354	0	0	0	17	0	2
-fsh-generated/resources/StructureDefinition-mesures-fr-observation-heartrate.json	4737	21	0	0	0	0	0	59	0	57	0	0	1	0	0	0	0	1	0	0	1	553	995	0	0	0	12	0	1
-fsh-generated/resources/StructureDefinition-mesures-fr-observation-oxygen-sat.json	2829	22	0	0	0	0	0	55	0	59	0	0	0	0	0	0	0	1	0	0	1	483	770	0	0	0	9	0	0
-fsh-generated/resources/StructureDefinition-mesures-fr-observation-resp-rate.json	2254	21	1	0	0	0	0	92	0	35	0	0	0	0	0	0	0	1	0	0	0	405	641	0	0	0	9	1	1
-fsh-generated/resources/StructureDefinition-mesures-moment-of-measurement.json	1758	21	0	0	0	0	0	35	0	30	0	0	0	0	0	0	0	0	0	0	1	99	112	0	0	0	2	0	0
-fsh-generated/resources/StructureDefinition-mesures-number-of-days.json	1697	21	0	0	0	0	0	33	0	25	0	0	0	0	0	0	0	0	0	0	1	52	81	0	0	1	1	0	0
-fsh-generated/resources/StructureDefinition-mesures-observation-cholesterol-hdl.json	3491	21	0	0	0	0	0	39	0	68	0	0	0	0	0	0	0	1	0	0	0	421	358	0	0	0	8	0	1
-fsh-generated/resources/StructureDefinition-mesures-observation-cholesterol-ldl.json	3491	21	0	0	0	0	0	48	0	43	0	0	0	0	0	0	0	1	0	0	0	415	335	0	0	0	8	0	0
-fsh-generated/resources/StructureDefinition-mesures-observation-cholesterol-total.json	3369	21	0	0	0	0	0	51	0	59	0	0	1	0	0	0	0	1	0	0	1	410	399	0	0	0	9	0	1
-fsh-generated/resources/StructureDefinition-mesures-observation-cholesterol-trigly.json	3389	22	0	0	0	0	0	50	0	36	0	0	0	0	0	0	0	0	0	0	0	410	429	0	0	0	8	0	1
-fsh-generated/resources/StructureDefinition-mesures-observation-glucose.json	8777	21	1	0	0	0	0	66	0	87	0	0	0	0	0	0	0	2	0	0	1	696	567	0	0	0	14	0	1
-fsh-generated/resources/StructureDefinition-mesures-observation-head-circumference.json	5126	22	0	0	0	0	0	53	0	71	0	0	0	0	0	0	0	1	0	0	1	482	392	0	0	0	10	0	0
-fsh-generated/resources/StructureDefinition-mesures-observation-pain-severity.json	4980	21	0	0	0	0	0	88	0	68	0	0	1	0	0	0	0	1	0	0	1	538	535	0	0	0	11	0	1
-fsh-generated/resources/StructureDefinition-mesures-observation-steps-by-day.json	5863	22	0	0	0	0	0	55	0	64	0	0	0	0	0	0	0	1	0	0	1	535	434	0	0	0	11	0	1
-fsh-generated/resources/StructureDefinition-mesures-observation-waist-circumference.json	5328	22	0	0	0	0	0	33	0	104	0	0	0	0	0	0	0	1	0	0	1	520	428	0	0	0	11	1	1
-fsh-generated/resources/StructureDefinition-mesures-reason-for-measurement.json	1383	21	0	0	0	0	0	22	0	26	0	0	0	0	0	0	0	0	0	0	1	49	98	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-method-glucose-vs.json	597	22	0	0	0	0	0	0	0	78	0	0	0	0	0	0	0	0	0	0	6	12	5979	0	0	0	1	0	0
+Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.mesures.json	17400	-	0	0	0	0	0	0	4	208	0	0	0	0	0	0	0	0	0	0	135	195	0	0	0	4	0	1
+fsh-generated/resources/Bundle-bundle-example-body-weight.json	3448	7	0	0	0	0	18	0	0	848	0	0	0	0	0	0	0	1	0	0	27	343	0	0	0	0	0	0
+fsh-generated/resources/Bundle-bundle-example-lipids.json	6666	7	0	0	0	0	6	0	1	113	0	0	0	0	0	0	0	0	0	0	48	145	0	0	0	0	0	0
+fsh-generated/resources/Device-phd-74E8FFFEFF051C00.json	3916	6	0	0	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0	26	19	0	0	0	0	0	0
+fsh-generated/resources/DiagnosticReport-cholesterol-dr.json	731	4	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	23	20	0	0	0	0	0	1
+fsh-generated/resources/Observation-ExampleMesFrObservationBP001.json	2655	5	0	0	0	0	0	0	1	212	0	0	0	0	0	0	0	0	0	0	20	19	0	0	0	0	0	0
+fsh-generated/resources/Observation-ExampleMesFrObservationBmi001.json	1064	5	0	0	0	0	0	0	0	215	0	0	0	0	0	0	0	0	0	0	12	18	0	0	0	0	0	0
+fsh-generated/resources/Observation-ExampleMesFrObservationBodyHeight001.json	823	4	0	0	0	0	0	0	0	200	0	0	0	0	0	0	0	0	0	0	11	17	0	0	0	0	0	0
+fsh-generated/resources/Observation-ExampleMesFrObservationBodyTemperature001.json	858	5	0	0	0	0	0	0	0	218	0	0	0	0	0	0	0	0	0	0	10	16	0	0	0	0	0	0
+fsh-generated/resources/Observation-ExampleMesFrObservationBodyWeight001.json	1205	4	0	0	0	0	0	0	0	102	0	0	0	0	0	0	0	0	0	0	13	17	0	0	0	0	0	0
+fsh-generated/resources/Observation-ExampleMesFrObservationHeartrate001.json	860	5	1	0	0	0	0	0	0	209	0	0	0	0	0	0	0	0	0	0	10	15	0	0	0	0	0	0
+fsh-generated/resources/Observation-ExampleMesFrOxygenSat.json	865	4	0	0	0	0	0	0	0	106	0	0	0	0	0	0	0	0	0	0	11	12	0	0	0	0	0	0
+fsh-generated/resources/Observation-ExampleMesFrRespRate.json	809	4	0	0	0	0	0	0	0	100	0	0	0	0	0	0	0	0	0	0	10	9	0	0	0	0	0	0
+fsh-generated/resources/Observation-ExampleMesObservationGlucose001.json	2214	5	0	0	0	0	0	0	1	109	0	0	0	0	0	0	0	0	0	0	16	9	0	0	0	0	0	0
+fsh-generated/resources/Observation-ExampleMesObservationHeadCircumference001.json	837	5	0	0	0	0	0	0	0	100	0	0	0	0	0	0	0	0	0	0	11	9	0	0	0	0	0	0
+fsh-generated/resources/Observation-ExampleMesObservationPainSeverity001.json	1037	4	0	0	0	0	0	0	0	210	0	0	0	0	0	0	0	0	0	0	12	9	0	0	0	0	0	0
+fsh-generated/resources/Observation-ExampleMesObservationStepsByDay001.json	1054	5	0	0	0	0	0	0	0	208	0	0	0	0	0	0	0	0	0	0	11	8	0	0	0	0	0	0
+fsh-generated/resources/Observation-ExampleObservationWaistCircumference001.json	1057	5	0	0	0	0	0	0	0	102	0	0	0	0	0	0	0	0	0	0	11	9	0	0	0	0	0	0
+fsh-generated/resources/Observation-cholesterol-hdl-example.json	870	4	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	13	8	0	0	0	0	0	0
+fsh-generated/resources/Observation-cholesterol-ldl-example.json	688	4	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	10	8	0	0	0	0	0	0
+fsh-generated/resources/Observation-cholesterol-total-example.json	1020	4	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	13	9	0	0	0	0	0	0
+fsh-generated/resources/Observation-cholesterol-trigly-example.json	1022	4	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	12	8	0	0	0	0	0	0
+fsh-generated/resources/Patient-ExamplefrPatient001.json	1062	5	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	12	15	0	0	0	0	0	0
+fsh-generated/resources/Practitioner-ExampleFrPractitionner001.json	627	4	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	10	10	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-mesures-bundle-flux-alimentation-cholesterol.json	6211	6	0	0	0	0	0	331	1	80	0	0	1	0	0	0	0	3	0	0	982	2924	0	0	0	19	0	3
+fsh-generated/resources/StructureDefinition-mesures-bundle-flux-alimentation.json	4243	5	0	0	0	0	0	747	0	37	0	0	0	0	0	0	0	1	0	0	521	1787	0	0	0	9	0	1
+fsh-generated/resources/StructureDefinition-mesures-cholesterol-diagnostic-report.json	3276	5	0	0	0	0	0	35	0	57	0	0	0	0	0	0	0	0	0	0	296	619	0	0	0	5	1	0
+fsh-generated/resources/StructureDefinition-mesures-fr-observation-bmi.json	2795	5	1	0	0	0	0	53	0	57	0	0	0	0	0	0	0	1	0	0	566	813	0	0	0	10	0	1
+fsh-generated/resources/StructureDefinition-mesures-fr-observation-body-temperature.json	4342	5	0	0	0	0	0	38	0	1065	0	0	1	0	0	0	0	1	0	0	539	946	0	0	0	12	0	1
+fsh-generated/resources/StructureDefinition-mesures-fr-observation-body-weight.json	3588	5	0	0	0	0	0	34	0	25	0	0	0	0	0	0	0	1	0	0	517	839	0	0	0	10	0	1
+fsh-generated/resources/StructureDefinition-mesures-fr-observation-bodyheight.json	3973	5	0	0	0	0	0	35	0	22	0	0	0	0	0	0	0	1	0	0	502	803	0	0	0	11	0	1
+fsh-generated/resources/StructureDefinition-mesures-fr-observation-bp.json	5168	5	0	0	0	0	0	39	0	32	0	0	0	0	0	0	0	2	0	0	849	1054	0	0	0	18	1	2
+fsh-generated/resources/StructureDefinition-mesures-fr-observation-heartrate.json	4737	5	0	0	0	0	0	19	0	24	0	0	1	0	0	0	0	1	0	0	572	925	0	0	0	12	0	1
+fsh-generated/resources/StructureDefinition-mesures-fr-observation-oxygen-sat.json	2829	4	0	0	0	0	0	20	0	20	0	0	0	0	0	0	0	1	0	0	487	770	0	0	0	10	0	1
+fsh-generated/resources/StructureDefinition-mesures-fr-observation-resp-rate.json	2254	4	0	0	0	0	0	41	0	20	0	0	0	0	0	0	0	1	0	0	415	710	0	0	0	9	0	1
+fsh-generated/resources/StructureDefinition-mesures-moment-of-measurement.json	1758	5	0	0	0	0	0	9	0	8	0	0	0	0	0	0	0	0	0	0	103	123	0	0	0	2	0	0
+fsh-generated/resources/StructureDefinition-mesures-number-of-days.json	1697	4	0	0	0	0	0	5	0	6	0	0	0	0	0	0	0	0	0	0	52	84	0	0	0	1	0	0
+fsh-generated/resources/StructureDefinition-mesures-observation-cholesterol-hdl.json	3491	5	1	0	0	0	0	24	0	18	0	0	0	0	0	0	0	1	0	0	421	338	0	0	0	9	1	1
+fsh-generated/resources/StructureDefinition-mesures-observation-cholesterol-ldl.json	3491	5	0	0	0	0	0	24	0	17	0	0	0	0	0	0	0	1	0	0	424	379	0	0	0	9	0	1
+fsh-generated/resources/StructureDefinition-mesures-observation-cholesterol-total.json	3369	5	0	0	0	0	0	24	0	22	0	0	0	0	0	0	0	1	0	0	416	458	0	0	0	8	0	0
+fsh-generated/resources/StructureDefinition-mesures-observation-cholesterol-trigly.json	3389	5	0	0	0	0	0	26	0	20	0	0	0	0	0	0	0	0	0	0	417	322	0	0	0	9	0	1
+fsh-generated/resources/StructureDefinition-mesures-observation-glucose.json	8777	6	0	0	0	0	0	26	0	49	0	0	1	0	0	0	0	2	0	0	711	580	0	0	0	23	0	2
+fsh-generated/resources/StructureDefinition-mesures-observation-head-circumference.json	5126	5	1	0	0	0	0	15	0	27	0	0	0	0	0	0	0	1	0	0	489	421	0	1	0	14	0	1
+fsh-generated/resources/StructureDefinition-mesures-observation-pain-severity.json	4980	5	0	0	0	0	0	21	0	23	0	0	0	0	0	0	0	1	0	0	550	489	0	0	0	16	0	1
+fsh-generated/resources/StructureDefinition-mesures-observation-steps-by-day.json	5863	5	0	0	0	0	0	32	0	25	0	0	0	0	0	0	0	1	0	0	551	446	0	0	0	13	0	1
+fsh-generated/resources/StructureDefinition-mesures-observation-waist-circumference.json	5328	5	0	0	0	0	0	51	1	71	0	0	0	0	0	0	0	1	0	0	530	441	0	0	0	14	0	1
+fsh-generated/resources/StructureDefinition-mesures-reason-for-measurement.json	1383	4	0	0	0	0	0	4	0	10	0	0	0	0	0	0	0	0	0	0	49	88	0	0	0	2	0	0
+fsh-generated/resources/ValueSet-method-glucose-vs.json	597	5	0	0	0	0	0	0	0	81	0	0	0	0	0	0	0	0	0	0	12	5447	0	0	0	0	0	0

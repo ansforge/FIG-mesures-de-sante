@@ -6,7 +6,7 @@
     <profile value="https://interop.esante.gouv.fr/ig/fhir/mesures/StructureDefinition/mesures-observation-cholesterol-ldl"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Observation cholesterol-ldl-example</b></p><a name="cholesterol-ldl-example"> </a><a name="hccholesterol-ldl-example"> </a><a name="cholesterol-ldl-example-fr"> </a><p><b>status</b>: Final</p><p><b>code</b>: <span title="Codes:{http://loinc.org 2089-1}">LDL Cholesterol</span></p><p><b>subject</b>: <a href="Patient-ExamplefrPatient001.html">Pierre Durand</a></p><p><b>effective</b>: 2024-10-15</p><p><b>value</b>: 7.8 mmol/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codemmol/L = 'mmol/L')</span></p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Observation cholesterol-ldl-example</b></p><a name="cholesterol-ldl-example"> </a><a name="hccholesterol-ldl-example"> </a><a name="cholesterol-ldl-example-fr-FR"> </a><p><b>status</b>: Final</p><p><b>code</b>: <span title="Codes:{http://loinc.org 2089-1}">LDL Cholesterol</span></p><p><b>subject</b>: <a href="Patient-ExamplefrPatient001.html">Pierre Durand</a></p><p><b>effective</b>: 2024-10-15</p><p><b>value</b>: 7.8 mmol/L<span style="background: LightGoldenRodYellow"> (Details: UCUM  codemmol/L = 'mmol/L')</span></p></div>
   </text>
   <status value="final"/>
   <code>
