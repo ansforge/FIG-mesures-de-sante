@@ -30,9 +30,6 @@ package IG #DDDDDD{
              Observation.dataAbsentReason.coding.code => [1..None]
              Observation.interpretation => [None..None]
              Observation.device => [None..None]
-             Observation.referenceRange.appliesTo => [None..None]
-             Observation.referenceRange.appliesTo.coding.system => [1..None]
-             Observation.referenceRange.appliesTo.coding.code => [1..None]
         } 
 
         class MesFrObservationBodyTemperature{
@@ -95,9 +92,6 @@ package IG #DDDDDD{
              Observation.bodySite.coding.code => [1..None]
              Observation.method => [None..None]
              Observation.device => [None..None]
-             Observation.referenceRange.appliesTo => [None..None]
-             Observation.referenceRange.appliesTo.coding.system => [1..None]
-             Observation.referenceRange.appliesTo.coding.code => [1..None]
         } 
 
         class MesFrObservationHeartrate{
@@ -111,9 +105,6 @@ package IG #DDDDDD{
              Observation.interpretation => [None..None]
              Observation.method => [None..None]
              Observation.device => [None..None]
-             Observation.referenceRange.appliesTo => [None..None]
-             Observation.referenceRange.appliesTo.coding.system => [1..None]
-             Observation.referenceRange.appliesTo.coding.code => [1..None]
         } 
 
         class MesFrObservationOxygenSat{
@@ -163,9 +154,6 @@ package IG #DDDDDD{
              Observation.dataAbsentReason.coding.code => [1..None]
              Observation.method => [None..None]
              Observation.device => [None..None]
-             Observation.referenceRange.appliesTo => [None..None]
-             Observation.referenceRange.appliesTo.coding.system => [1..None]
-             Observation.referenceRange.appliesTo.coding.code => [1..None]
         } 
 
         class MesObservationHeadCircumference{
